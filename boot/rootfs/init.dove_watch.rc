@@ -1,0 +1,33 @@
+
+
+import /init.dove.rc
+
+on boot
+
+    chown system system /sys/class/tp-upgrade/device/tpfwupgrade
+	chmod 0666 /sys/class/tp-upgrade/device/tpfwupgrade
+	
+	chown system system /sys/class/tp-upgrade/device/tpinfor
+	chmod 0666 /sys/class/tp-upgrade/device/tpinfor
+
+	chown system system /sys/class/tp-upgrade/device/fwuptool
+	chmod 0666 /sys/class/tp-upgrade/device/fwuptool
+
+	chown system system /sys/class/leds/led-torch/brightness
+	chmod 0666  /sys/class/leds/flash/brightness
+	chmod 0666  /sys/class/leds/led-torch/brightness
+#on fs
+#    chmod 0644 /custom/ro_config.prop
+#    chmod 0644 /custom/persist_config.prop
+
+on post-fs
+	
+	mkdir /data/customex 0755 system system
+	mkdir /data/customex/custom_logofs 0755 system system
+	mkdir /data/customex/custom_logofs/movies 0755 system system
+	mkdir /data/clock_resource 0777 system system
+	
+service customex /system/bin/customex
+	class main
+	user root
+	oneshot	

@@ -1,0 +1,12 @@
+kernel=kernel
+ramdisk=ramdisk
+page_size=2048
+kernel_size=20195840
+ramdisk_size=6462953
+base_addr=0x10000000
+kernel_offset=0x00008000
+ramdisk_offset=0x01000000
+tags_offset=0x00000100
+dtbo_offset=0xf0000000
+cmd_line='androidboot.hardware=dove_watch firmware_class.path=/vendor/firmware loglevel=0 no_console_suspend buildvariant=user'
+board=""
