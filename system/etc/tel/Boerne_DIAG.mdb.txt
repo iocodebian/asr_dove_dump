@@ -1,0 +1,1267 @@
+DbVersion
+1550529346
+<end>
+EnumVals
+5,0,1,0,Audio,ACM,Audio_debug_send_myself, void Audio_debug_send_myself ( void * data)
+6,1,1,0,SYSTEM,PROD,AT_SER, void AT_SER ( void)
+6,2,1,0,VALI_IF,ATCMD_IF,SendATCmd, void SendATCmd ( char * Cmd)
+6,3,1,0,VALI_IF,ATCMD_IF,SendATCmdChars, void SendATCmdChars ( char * Cmd)
+6,4,1,0,VALI_IF,ATCMD_IF,StartATCmdIF, void StartATCmdIF ()
+6,5,1,0,VALI_IF,ATCMD_IF,StopATCmdIF, void StopATCmdIF ()
+6,6,1,0,VALI_IF,MISC_IF,SendSystem, void SendSystem ( char * Cmd)
+6,7,1,0,TELTRACE,CTRL,StartLogcatDiagLogging, void StartLogcatDiagLogging ( void * p)
+6,8,1,0,TELTRACE,CTRL,StopLogcatDiagLogging, void StopLogcatDiagLogging ( void * p)
+5,9,1,0,Audio,ACM,debug_always_replay, void debug_always_replay ( void * data)
+6,10,1,0,Diag,Utils,StartGpsToDiag, void DiagUtilsStartGpsToDiag ( void * data , int len)
+6,11,1,0,Diag,Utils,StopGpsToDiag, void DiagUtilsStopGpsToDiag ()
+6,12,1,0,Diag,comUtil,ModemReset, void ModemReset ( void * data , UINT32 len)
+6,13,1,0,Diag,comUtil,ModemSwitch, void ModemSwitch ( void * data , UINT32 len)
+5,14,1,0,Audio,ACM,Audio_printTest, void Audio_printTest ( void)
+6,15,1,0,Diag,Utils,CPFilterAdd, void CPFilterAdd ( void * pvInAddStruct)
+6,16,1,0,Diag,Utils,CPFilterDel, void CPFilterDel ( void * pvInFilterName)
+6,17,1,0,Diag,Utils,CPFilterGet, void CPFilterGet ( void * pvInFilterName)
+6,18,1,0,Diag,Utils,CPFilterGetList, void CPFilterGetList ()
+6,19,1,0,Diag,Utils,StartSDlog, void DiagUtilsStartSDlog ( void * data , UINT32 len)
+6,20,1,0,Diag,Utils,StopSDlog, void DiagUtilsStopSDlog ( void * data , UINT32 len)
+6,21,1,0,VALI_IF,TCMD_IF,StartTcmdIF, void StartTcmdIF ()
+6,22,1,0,VALI_IF,TCMD_IF,StopTcmdIF, void StopTcmdIF ()
+6,23,1,0,VALI_IF,TCMD_IF,SendTcmd, void SendTcmd ( char * cmd)
+6,24,1,0,Diag,Utils,IsProduction, void DiagUtilsIsProduction ( void * data , UINT32 len)
+7,25,1,0,HW_PLAT,REG,COMMAND, void PHY_SetGetRegister ( void * data)
+5,26,1,0,Audio,ACM,Audio_Calibration_get, int Audio_Calibration_get ( void * data)
+5,27,1,0,Audio,ACM,Audio_Calibration_test, int Audio_Calibration_test ( void)
+5,28,1,0,Audio,ACM,Audio_Calibration_CMD, void Audio_Calibration_CMD ( void * data)
+5,29,1,0,Audio,ACM,Audio_Calibration_send, int Audio_Calibration_send ( void * data)
+5,30,1,0,Audio,ACM,audio_calibration_server, void audio_calibration_server ( void)
+5,2016,1,0,Diag,Utils,battery_calibration, void battery_calibration ( void * CaliInputStruct)
+5,2017,1,0,Diag,Utils,GetVersionDiag, void _GetVersionDiag ( void)
+5,2018,1,0,Diag,Utils,ReadRTC, void _ReadRTC ( void)
+5,2019,1,0,Diag,Utils,SetRTC, void _SetRTC ( void * pDateAmdTime)
+5,2020,1,0,Diag,Utils,OutMsgBodyLimit, UINT32 diagGetOutMsgBodyLimit ( void)
+5,2021,1,0,EE_HANDLER,EE,EE_Test_Assert, void EeHandlerTestAssert ( void)
+5,2022,1,0,EE_HANDLER,EE,EE_Test_data_abort, void EeHandlerTestDataAbortExcep ( void)
+5,2023,1,0,FDI,Transport,ExtendedMode, void _ExtendetMode ()
+5,2024,1,0,FDI,Transport,FchangeMode, void _FChangeMode ( void * stInChMode)
+5,2025,1,0,FDI,Transport,Fclose, void _Fclose ( void * fileID)
+5,2026,1,0,FDI,Transport,Fopen, void _Fopen ( void * fInOpenStruct)
+5,2027,1,0,FDI,Transport,Format_Flash, void _Format ( void)
+5,2028,1,0,FDI,Transport,Fread, void _Fread ( void * pReadStruct)
+5,2029,1,0,Audio,ACM,GetAudioNVMPath, void GetAudioNVMPath ( void)
+5,2030,1,0,FDI,Transport,Fseek, void _Fseek ( void * stFSeek)
+5,2031,1,0,FDI,Transport,FStatus, void _FStatus ( void * fileName)
+5,2032,1,0,FDI,Transport,Fwrite, void _Fwrite ( void * pWriteStruct)
+5,2033,1,0,FDI,Transport,MkDir, void _MkDir ( void * MakeDirStruct)
+5,2034,1,0,FDI,Transport,GetFdiFdvAvailableSpace, void _GetFdiFdvAvailableSpace ( void * volName)
+5,2035,1,0,FDI,Transport,GetFdiFdvSize, void _GetFdiFdvSize ()
+5,2036,1,0,FDI,Transport,GetFdiVersion, void _GetFdiVersion ()
+5,2037,1,0,FDI,Transport,GetFdiVolumes, void _GetFdiVolumes ()
+5,2038,1,0,FDI,Transport,GetFileNameList, void _GetFileNameList ( void * wildcard)
+5,2039,1,0,FDI,Transport,GetMaxFileNameLen, void _GetMaxFileNameLength ()
+5,2040,1,0,FDI,Transport,GetNVMPath, void GetNVMPath ( void)
+5,2041,1,0,Audio,ACM,CreateDefaultNvm, void ACMCreateDefaultNvm ()
+5,2042,1,0,VALI_IF,MISC_IF,ResetTarget, void ResetTarget ()
+5,2043,1,0,FDI,Transport,MkDir, void _MkDir ( void * MakeDirStruct)
+5,2044,1,0,FDI,Transport,Remove_File, void _Remove ( void * fileName)
+5,2045,1,0,FDI,Transport,RenameFile, void _RenameFile ( void * pRenameStruct)
+1,1008,1,0,VALI_IF,ATCMD_IF,TestATCmdIF, void Atcmd_HW_test ( void * data)
+<end>
+EnumVals
+0,0,0,0,PRINTF,PRINTF,PRINTF,diagPrintf("%s")
+2,4,0,0,SW_PLAT,DIAG,ERROR_PRINTFTYPE,diagTextPrintf("DIAG - problem in diagPrintfthe - Report Param Info -> Type is wrong ");
+2,5,0,0,SW_PLAT,DIAG,PRINTF_ERROR_IN_PARAMS_NUMBER,diagTextPrintf("DIAG - problem in diagPrintf - the Report Params number is wrong , API called is printf - but the code is for another API ");
+3,3,0,0,SW_PLAT,DIAG,COMMANDID_WRONG,diagPrintf("DIAG - command received with ID out of range: %d ",fID);
+5,66,0,0,Audio,ACM,Audio_debug_send_myself,diagPrintf("debug_send_self_report = %d ",debug_send_self_report);
+5,55,0,0,Audio,ACM,debug_always_replay,diagPrintf("debug_get_report_need_replay = %d ",debug_get_report_need_replay);
+5,54,0,0,Audio,ACM,Audio_Calibration_CMD_data,diagStructPrintf("",(void*)data,size);
+5,64,0,0,Audio,ACM,print_using_socket_type,diagPrintf("AUDIO_SOCKET_TYPE = %d , SOCK_STREAM = %d , SOCK_SEQPACKET = %d ",AUDIO_SOCKET_TYPE,1,5);
+5,63,0,0,Audio,ACM,print_get_msg_head,diagPrintf("cmd = 0x%lx , index = 0x%lx , len = 0x%lx , ",pMsg->cmd,pMsg->index,pMsg->len);
+5,60,0,0,Audio,ACM,Audio_Calibration_get_msg,diagStructPrintf("",(void*)buf,size);
+5,70,0,0,Audio,ACM,print_report_msg_head,diagPrintf("cmd = 0x%lx , index = 0x%lx , len = 0x%lx , ",pMsg->cmd,pMsg->index,pMsg->len);
+5,71,0,0,Audio,ACM,Audio_Calibration_report_msg,diagStructPrintf("",(void*)buf,size);
+5,12,0,0,Audio,ACM,audio_msg_communicate0,diagPrintf("msg = 0x%lx , needGet = %d ",msg,needGet);
+5,72,0,0,Audio,ACM,audio_msg_communicate,diagPrintf("msg_len = 0x%lx , sizeof ( AUDIO_CALIBRATION_MSG ) = 0x%lx ",msg_len,sizeof(AUDIO_CALIBRATION_MSG));
+5,73,0,0,Audio,ACM,audio_msg_communicate_error1,diagPrintf("fd = %d , errno = %d ",fd,(*__errno()));
+5,74,0,0,Audio,ACM,audio_msg_communicate_error2,diagPrintf("fd = %d , ret = %d , errno = %d ",fd,ret,(*__errno()));
+5,75,0,0,Audio,ACM,Audio_Calibration_send_msg,diagStructPrintf("",(void*)msg,msg_len);
+5,76,0,0,Audio,ACM,audio_msg_communicate_error3,diagPrintf("byte = %d , errno = %d ",byte,(*__errno()));
+5,77,0,0,Audio,ACM,audio_msg_communicate_get_byte,diagPrintf("byte = %d ",byte);
+5,78,0,0,Audio,ACM,audio_msg_communicate_error4,diagPrintf("byte = %d , errno = %d ",byte,(*__errno()));
+5,79,0,0,Audio,ACM,Audio_printTest,diagPrintf("Audio_printTest ");
+5,21,0,0,Audio,ACM,thread_loop_audio_socket_error,diagPrintf("listenfd = %d , errno = %d ",listenfd,(*__errno()));
+5,22,0,0,Audio,ACM,thread_loop_audio_pid,diagPrintf("pid = %d ",pid);
+5,23,0,0,Audio,ACM,thread_loop_audio_bind_error,diagPrintf("Fail to bind listen socket , ret = %d , errno = %d ",ret,(*__errno()));
+5,24,0,0,Audio,ACM,thread_loop_audio_listen_error,diagPrintf("ret = %d , errno = %d ",ret,(*__errno()));
+5,80,0,0,Audio,ACM,thread_loop_audio_accept,diagPrintf("accept , listenfd = %d ",listenfd);
+5,88,0,0,Audio,ACM,thread_loop_audio_get_client,diagPrintf("clientfd = %d ",clientfd);
+5,89,0,0,Audio,ACM,thread_loop_audio_accept_error,diagPrintf("accept error , clientfd = %d , errno = %d ",clientfd,(*__errno()));
+5,90,0,0,Audio,ACM,thread_loop_audio_read_cnt,diagPrintf("nRead = %d ",nRead);
+5,91,0,0,Audio,ACM,thread_loop_audio_write_error,diagPrintf("nWrite = %d , errno = %d ",nWrite,(*__errno()));
+5,82,0,0,Audio,ACM,thread_loop_audio_read_error,diagPrintf("clientfd = %d , errno = %d ",clientfd,(*__errno()));
+5,81,0,0,Audio,ACM,audio_calibration_server_start,diagPrintf("audio_server_status = %d ",audio_server_status);
+5,83,0,0,Audio,ACM,audio_calibration_server_start_2,diagPrintf("server_init_commit ");
+2,6,0,0,SW_PLAT,DIAG,RX_SERVICEID_WRONG,diagPrintf("DIAG - msg received with wrong RX service ID , the serviceID is %d ",serviceID);
+2,11,0,0,VALI_IF,ATCMD_IF,ATOUT,diagPrintf("%s ",buffer_out);
+6,48,0,0,VALI_IF,TCMD_IF,CONNECTFAIL,diagPrintf("Failed to connect to tcmd server ");
+6,47,0,0,VALI_IF,TCMD_IF,TCMDOUT,diagPrintf("%s ",buffer);
+2,1,0,0,Diag,Utils,Print_RTC,diagPrintf("%s ",sCalanderTime);
+2,2,0,0,Diag,Utils,PrintRTC_Failure,diagPrintf("Failed to read RTC ");
+2,8,0,0,VALI_IF,ATCMD_IF,ALREADYRUNNING,diagPrintf("Error - > Already Running! ");
+2,13,0,0,VALI_IF,ATCMD_IF,STOPIFNOTSTARTED,diagPrintf("Interface was not started yet ");
+2,9,0,0,VALI_IF,ATCMD_IF,ATCMDIFNOTSTARTEDINSENDAT,diagPrintf("Received AT Command but interface not started ");
+2,10,0,0,VALI_IF,ATCMD_IF,ATCMDIFNOTSTARTEDINSENDATCHAR,diagPrintf("Received AT Command but interface not started ");
+2,14,0,0,VALI_IF,MISC_IF,ATCMDSYSTEM,diagPrintf("%s ",buf);
+6,49,0,0,VALI_IF,TCMD_IF,ALREADYRUNNING,diagPrintf("Error - > Already Running! ");
+6,50,0,0,VALI_IF,TCMD_IF,STOPIFNOTSTARTED,diagPrintf("Interface was not started ");
+6,51,0,0,VALI_IF,TCMD_IF,TCMDIFNOTSTARTED,diagPrintf("TCMD interface not started ");
+6,84,0,0,TELTRACE,TTGEN,TTGENMSG,diagPrintf("%s ",msg);
+6,85,0,0,TELTRACE,MAIN,UNKNOWN,diagPrintf("%s ",output);
+6,86,0,0,TELTRACE,MAIN,DEFAULT,diagPrintf("%s ",output);
+6,87,0,0,TELTRACE,MAIN,VERBOSE,diagPrintf("%s ",output);
+2,17,0,0,TELTRACE,MAIN,DEBUG,diagPrintf("%s ",output);
+6,67,0,0,TELTRACE,MAIN,INFO,diagPrintf("%s ",output);
+6,68,0,0,TELTRACE,MAIN,WARN,diagPrintf("%s ",output);
+2,16,0,0,TELTRACE,MAIN,ERROR,diagPrintf("%s ",output);
+2,15,0,0,TELTRACE,MAIN,FATAL,diagPrintf("%s ",output);
+6,100,0,0,TELTRACE,MAIN,SILENT,diagPrintf("%s ",output);
+6,57,0,0,TELTRACE,RADIO,UNKNOWN,diagPrintf("%s ",output);
+6,58,0,0,TELTRACE,RADIO,DEFAULT,diagPrintf("%s ",output);
+6,59,0,0,TELTRACE,RADIO,VERBOSE,diagPrintf("%s ",output);
+2,20,0,0,TELTRACE,RADIO,DEBUG,diagPrintf("%s ",output);
+6,61,0,0,TELTRACE,RADIO,INFO,diagPrintf("%s ",output);
+6,62,0,0,TELTRACE,RADIO,WARN,diagPrintf("%s ",output);
+2,19,0,0,TELTRACE,RADIO,ERROR,diagPrintf("%s ",output);
+2,18,0,0,TELTRACE,RADIO,FATAL,diagPrintf("%s ",output);
+6,65,0,0,TELTRACE,RADIO,SILENT,diagPrintf("%s ",output);
+2,7,0,0,SYSTEM,PROD,AT_SER_OK,diagPrintf("OK ");
+6,52,0,0,Diag,Utils,StartSDlog_OK,diagPrintf("SD log started ");
+6,53,0,0,Diag,Utils,StopSDlog_OK,diagPrintf("SD log stopped ");
+6,69,0,0,Diag,Utils,IsProduction,diagPrintf("%d ",ret);
+6,25,0,0,Diag,Utils,PrintGpsToDiag_Error,diagPrintf("PrintGpsToDiag: Failed to receive bytes from server , errno:%d , bytes:%d ",err,bytes);
+6,26,0,0,Diag,Utils,StopGpsToDiag_forceStop,diagPrintf("StopGpsToDiag: force to stop , OK! ");
+6,27,0,0,Diag,Utils,PrintGpsToDiag,diagPrintf("%s ",buffer);
+6,28,0,0,Diag,Utils,StartGpsToDiag_AlreadyRun,diagPrintf("StartGpsToDiag: Error - - > Already Running! ");
+6,29,0,0,Diag,Utils,StartGpsToDiag_ConnFail,diagPrintf("StartGpsToDiag: Open connection failed! ");
+6,30,0,0,Diag,Utils,StartGpsToDiag_ParaInvalid,diagPrintf("StartGpsToDiag: Invalid parameter , data length should be 1 DWORD! ");
+6,31,0,0,Diag,Utils,StartGpsToDiag,diagPrintf("StartGpsToDiag: OK! ");
+6,32,0,0,Diag,Utils,StartGpsToDiag_sendfail,diagPrintf("StartGpsToDiag: start command sent failed! Please try again. ");
+6,33,0,0,Diag,Utils,StopGpsToDiag_AlreadyStop,diagPrintf("StopGpsToDiag: Error - - > Already Stop! ");
+6,34,0,0,Diag,Utils,StopGpsToDiag,diagPrintf("StopGpsToDiag: OK! ");
+6,35,0,0,Diag,Utils,StopGpsToDiag_SendFail,diagPrintf("StopGpsToDiag: stop command sent failed! Please try again. ");
+6,41,0,0,Diag,Utils,CPFilterAdd_OK,diagPrintf("CPFilterAdd OK ");
+6,40,0,0,Diag,Utils,CPFilterAdd_Error1,diagPrintf("Error , %s ",err);
+6,42,0,0,Diag,Utils,CPFilterDel_OK,diagPrintf("OK , %s ",(char*)pvInFilterName);
+6,43,0,0,Diag,Utils,CPFilterDel_Error1,diagPrintf("ERROR: %s ",strerror(err));
+6,44,0,0,Diag,Utils,CPFilterGet_Filter,diagStructPrintf("OK , %S{CpDiagFilter}",&filter,sizeof(filter));
+6,45,0,0,Diag,Utils,CPFilterGet_Error1,diagPrintf("ERROR: %s ",strerror(ret));
+6,46,0,0,Diag,Utils,CPFilterGetList_List,diagStructPrintf("OK , %S{CpDiagFilterList}",&list,sizeof(list));
+6,36,0,0,Diag,comUtil,ModemReset_OK,diagPrintf("ModemReset OK ");
+6,37,0,0,Diag,comUtil,ModemReset_Error,diagPrintf("ModemReset Failed ");
+6,38,0,0,Diag,comUtil,ModemSwitch_OK,diagPrintf("ModemSwitch OK ");
+6,39,0,0,Diag,comUtil,ModemSwitch_Error,diagPrintf("ModemSwitch Failed ");
+7,92,0,0,HW_PLAT,REG,Open_I2C_Bus_Error,diagPrintf("Error: Could not open file ` / dev / i2c - %d ' or ` / dev / i2c / %d ' : %s ",i2cbus,i2cbus,strerror(2));
+7,93,0,0,HW_PLAT,REG,Open_I2C_Dev_Error,diagPrintf("Error: Could not open file ` / dev / socdebugger ' or ` / dev / socdebugger ' : %s ",strerror(2));
+7,94,0,0,HW_PLAT,REG,Check_Funcs_Error,diagPrintf("Error: Could not get the adapter functionality matrix: %s ",strerror((*__errno())));
+7,95,0,0,HW_PLAT,REG,Set_Slave_Addr_Error,diagPrintf("Error: Could not set address to 0x%lx: %s ",address,strerror((*__errno())));
+7,96,0,0,HW_PLAT,REG,AUDIO_PHY_SetGetRegister_Info,diagPrintf("opcode:0x%x , length:0x%x , bus_id:0x%lx , i2c_addr:0x%lx , reg_number:0x%lx ",reg.header.opcode,reg.header.length,reg.header.bus_id,reg.header.i2c_addr,reg.header.reg_number);
+7,97,0,0,HW_PLAT,REG,AUDIO_PHY_SetGetRegister_Parameter_Error,diagPrintf("PHY_SetGetRegister Input Parameters Illegal ");
+7,98,0,0,HW_PLAT,REG,AUDIO_PHY_SetGetRegister_WriteBus_Error,diagPrintf("Error: Write to addr:0x%lx with value:0x%lx failed ",reg.body[i].addr,reg.body[i].value);
+7,99,0,0,HW_PLAT,REG,AUDIO_PHY_SetGetRegister_WriteDev_Error,diagPrintf("Error: Write to addr:0x%lx with value:0x%lx failed ",reg.body[i].addr,reg.body[i].value);
+7,56,0,0,HW_PLAT,REG,MESSAGE,diagStructPrintf("",(void*)&reg,sizeof(AC_Register_Header)+sizeof(AC_Register_Body)*reg.header.reg_number);
+11,2035,0,0,FDI,Transport,F_Get_NVM_Path,diagStructPrintf("%S{NVMPathStruct}",(void*)&path,sizeof(NVMPathStruct));
+11,2036,0,0,FDI,Transport,F_Get_NVM_Path_Error,diagPrintf("Get NVM Path error ");
+11,2022,0,0,Diag,Utils,MaxOutMsgBodySize,diagPrintf("diag ( target ) to ACAT: %ld ",msgBodySize);
+11,2039,0,0,FDI,Transport,F_Open_Return_FileID,diagStructPrintf("%S{FOpenReturnStruct}",(void*)&retOpenStruct,sizeof(FOpenReturnStruct));
+11,2038,0,0,FDI,Transport,F_Open_Error,diagPrintf("fopen %s error ",fOpenInSt->fileName);
+11,2034,0,0,FDI,Transport,F_Close_Success,diagPrintf("File ( ID: %lu ) was succesfully closed ",hFileID);
+11,2033,0,0,FDI,Transport,F_Close_Error,diagPrintf("File ( ID: %lu ) close error ",hFileID);
+11,2040,0,0,FDI,Transport,F_Read_Bad_Input,diagPrintf("Number of packets to read exceeded the maximal number ( %d > %d ) ",numBytesToRead,diagGetOutMsgBodyLimit());
+11,2043,0,0,FDI,Transport,F_Read_Packet,diagStructPrintf("%S{ReadReturnStruct}",(void*)pRetReadBuf,nReadBufAllocSize);
+11,2041,0,0,FDI,Transport,F_Read_Error,diagPrintf("File read error ( ID: %lu ) ",hFileID);
+11,2042,0,0,FDI,Transport,F_Read_Malloc_Error,diagPrintf("Malloc in Fread failed ");
+11,2050,0,0,FDI,Transport,F_Write_Success,diagPrintf("The Packet was written successfully ( packet size %d ) ",numBytesToWrite);
+11,2049,0,0,FDI,Transport,F_Write_Error,diagPrintf("File write error ( ID: %lu ) ",pws->fileID);
+11,2058,0,0,FDI,Transport,Format_Error,diagPrintf("Flash format is NOT supported ");
+11,2071,0,0,FDI,Transport,Remove_Success,diagPrintf("The file was successfully deleted ");
+11,2070,0,0,FDI,Transport,Remove_Error,diagPrintf("An error occurred while deleting file ");
+11,2057,0,0,FDI,Transport,FName_LIST_NOTEXISTS,diagPrintf("Currently there are no files on flash matching wildcard - %s ",(char*)wildcard);
+11,2037,0,0,FDI,Transport,F_NameList_Packet,diagStructPrintf("%S{FNamesReturnStruct}",(void*)&retFNamesStruct,sizeof(FNamesReturnStruct));
+11,2046,0,0,FDI,Transport,F_Rename_Succes,diagPrintf("The file was successfully renamed to %s ",pRenameSt->fNewName);
+11,2045,0,0,FDI,Transport,F_Rename_Error,diagPrintf("Error occured while trying to change file name ");
+11,2048,0,0,FDI,Transport,F_Status_Success,diagPrintf("( %d ) ",fStatus);
+11,2047,0,0,FDI,Transport,F_Status_Error,diagPrintf("An error occurred while checking the file status ");
+11,2032,0,0,FDI,Transport,F_ChangeMode_Success,diagPrintf("mode of %s was successfully changed ",fileName);
+11,2031,0,0,FDI,Transport,F_ChangeMode_Error,diagPrintf("An error occurred while changing file [ %s ] to mode %lu ",fileName,newMode);
+11,2060,0,0,FDI,Transport,Fseek_Success,diagPrintf("File ( ID: %lu ) indicator was offset by %lu from %lu ",fdvSeek->fileID,fdvSeek->offset,fdvSeek->whereFrom);
+11,2059,0,0,FDI,Transport,Fseek_Error,diagPrintf("Error occured while trying to seek within file ( ID: %lu ) ",fdvSeek->fileID);
+11,2067,0,0,FDI,Transport,MaxFileNameLen,diagPrintf("%d ",256);
+11,2055,0,0,FDI,Transport,FdvSize,diagStructPrintf("%S{FdvSizeStruct}",(void*)&fdvSize,sizeof(FdvSizeStruct));
+11,2056,0,0,FDI,Transport,FdvSize_Error,diagPrintf("Error: cannot get NVM size ");
+11,2053,0,0,FDI,Transport,FdvAvailableSize,diagStructPrintf("%S{FdvAvailableSpaceStruct}",(void*)&fdvSize,sizeof(FdvAvailableSpaceStruct));
+11,2054,0,0,FDI,Transport,FdvAvailableSize_Error,diagPrintf("Error: cannot get available NVM space ");
+11,2051,0,0,FDI,Transport,FDI71,diagPrintf("FDI 71 ");
+11,2052,0,0,FDI,Transport,FDI721,diagPrintf("Aug06:upgrade to FDI721 ");
+11,2069,0,0,FDI,Transport,mkdir_Success,diagPrintf("Make Directory: %s ",MakeDirSt->dirName);
+11,2068,0,0,FDI,Transport,mkdir_Error,diagPrintf("mkdir %s error ",MakeDirSt->dirName);
+11,2073,0,0,FDI,Transport,Rmdir_Success,diagPrintf("Remove Directory: %s ",RemoveDirSt->dirName);
+11,2072,0,0,FDI,Transport,Rmdir_Error,diagPrintf("rmdir: %s error ",RemoveDirSt->dirName);
+11,2061,0,0,FDI,Transport,GetFdiVolumes_List,diagStructPrintf("%S{FdvVolumesStruct}",(void*)&retFdvVolumesStruct,sizeof(FdvVolumesStruct));
+11,2030,0,0,FDI,Transport,ExtendetMode,diagPrintf("FDI7 Extendet Mode is ON ");
+11,2026,0,0,Diag,Utils,SetRTC_Failure,diagPrintf("RTC set failed , check the input parameter validity. ");
+11,2027,0,0,Diag,Utils,SetRTC_Success,diagPrintf("RTC was successfully set. ");
+11,2023,0,0,Diag,Utils,ReadRTC_Calendar,diagStructPrintf("The CalendarTime is %S{RTC_CalendarTime}",(void*)&Ctime,sizeof(RTC_CalendarTime));
+11,2025,0,0,Diag,Utils,ReadRTC_Success,diagPrintf("%s ",sCalanderTime);
+11,2024,0,0,Diag,Utils,ReadRTC_Failure,diagPrintf("Failed to read RTC ");
+11,2028,0,0,Diag,Utils,SWVersion,diagPrintf("Tavor Linux V6.6 ");
+11,2080,0,0,VALI_IF,MISC_IF,RESET_IF_Info,diagPrintf("Reset... ");
+11,2079,0,0,VALI_IF,MISC_IF,RESET_IF_Fail,diagPrintf("Reset failed. ");
+11,2081,0,0,VALI_IF,MISC_IF,RESET_IF_Timeout,diagPrintf("Reset timeout. ");
+11,2018,0,0,Diag,Utils,battery_cali_ok,diagPrintf("OK ");
+11,2017,0,0,Diag,Utils,battery_cali_error,diagPrintf("ERROR ");
+11,2016,0,0,Diag,Utils,battery_cali_debug,diagPrintf("%s ",buf);
+11,2019,0,0,Diag,Utils,battery_calibration,diagStructPrintf("DIAG: calibration_return%S{CaliReturnStruct}",((void*)&TrimValue),sizeof(CaliReturnStruct));
+11,2021,0,0,Diag,Utils,bettery_calibration_vbat,diagPrintf("DIAG: battery calibration_vbat: %d ",calibration_vbat);
+11,2020,0,0,Diag,Utils,battery_calibration_ibat,diagPrintf("DIAG: battery calibration_ibat: %d ",calibration_ibat);
+5,2044,0,0,Audio,ACM,F_Get_NVM_Path,diagPrintf("%s ",nvm_root_dir);
+1,1008,0,0,VALI_IF,ATCMD,ATCMDTEST,diagPrintf("Atcmd_HW_test ");
+<end>
+Parameters
+OSType,Linux
+<end>
+MonitorParams
+<end>
+nvm
+DiagLoggerDefs,,,,,0,0,,
+DiagLoggerDefs,,bEnabled,BOOL,unsigned char,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+DiagLoggerDefs,,eProtocolType,enum,ProtocolType,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+DiagLoggerDefs,,nMaxDataPerTrace,UINT16,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+CpDiagFilterList,,,,,0,0,,
+CpDiagFilterList,,structVersion,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+CpDiagFilterList,,arraySize,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+CpDiagFilterList,,filterListNum,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+CpDiagFilterList,,defaultFilterIndex,INT32,signed long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+CpDiagFilterList,,szFilterName,char,char,16,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+CpDiagFilterList,,szFilterName,char,char,36,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+CpDiagFilterList,,reserved,char,char,172,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+CpDiagFilterList,,checksum,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+CpDiagFilter,,,,,0,0,,
+CpDiagFilter,,structVersion,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+CpDiagFilter,,szFilterName,char,char,36,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+CpDiagFilter,,isDefaultFilter,UINT8,unsigned char,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+CpDiagFilter,,isCat123DisableAll,UINT8,unsigned char,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+CpDiagFilter,,isGkiDisableAll,UINT8,unsigned char,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+CpDiagFilter,,isDspDisableAll,UINT8,unsigned char,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+CpDiagFilter,,isCat123FilterExisted,UINT8,unsigned char,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+CpDiagFilter,,isGkiFilterExisted,UINT8,unsigned char,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+CpDiagFilter,,isDspFilterExisted,UINT8,unsigned char,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+CpDiagFilter,,reserved2,UINT8,unsigned char,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+CpDiagFilter,,reserved1,UINT8,unsigned char,8,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+CpDiagFilter,,cat123Filter,UINT8,unsigned char,3012,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+CpDiagFilter,,checksum,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+AUDCODEC_GainIn,,,,,0,0,,
+AUDCODEC_GainIn,,ADC_AnaGain,enum,AUDCODEC_ADC_ANAGAIN,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+AUDCODEC_GainIn,,ADC_DigGain,enum,AUDCODEC_ADC_DIGGAIN,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+AUDCODEC_GainOut,,,,,0,0,,
+AUDCODEC_GainOut,,DAC_DigGain,enum,AUDCODEC_DAC_DIGGAIN,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+AUDCODEC_GainOut,,DAC_AnaGain,enum,AUDCODEC_DAC_ANAGAIN,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+AUDCODEC_GainOut,,RCV_Gain,enum,AUDCODEC_RCV_GAIN,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+AUDCODEC_GainOut,,ClassG_Mode,enum,AUDCODEC_CLASSG_MODE,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+NVM_FILE_INFO,,,,,0,0,,
+NVM_FILE_INFO,,file_name,char,char,67,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+NVM_FILE_INFO,,time,INT32,signed long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+NVM_FILE_INFO,,date,INT32,signed long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+NVM_FILE_INFO,,size,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+NVM_FILE_INFO,,data_id,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+NVM_FILE_INFO,,dir_id,INT32,signed long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+NVM_FILE_INFO,,plr_date,INT32,signed long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+NVM_FILE_FIND_FIRST_RESPONSE_STRUCT,,,,,0,0,,
+NVM_FILE_FIND_FIRST_RESPONSE_STRUCT,,op_code,NVM_OP_CODE,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+NVM_FILE_INFO,NVM_FILE_FIND_FIRST_RESPONSE_STRUCT,,,fileParms,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+NVM_FILE_FIND_FIRST_RESPONSE_STRUCT,,error_code,NVM_STATUS_T,NVM_STATUS_T,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+NVM_FILE_FIND_NEXT_RESPONSE_STRUCT,,,,,0,0,,
+NVM_FILE_FIND_NEXT_RESPONSE_STRUCT,,op_code,NVM_OP_CODE,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+NVM_FILE_INFO,NVM_FILE_FIND_NEXT_RESPONSE_STRUCT,,,fileParms,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+NVM_FILE_FIND_NEXT_RESPONSE_STRUCT,,error_code,NVM_STATUS_T,NVM_STATUS_T,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+RTC_GET_RESPONSE_STRUCT,,,,,0,0,,
+RTC_GET_RESPONSE_STRUCT,,op_code,NVM_OP_CODE,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+RTC_GET_RESPONSE_STRUCT,,error_code,NVM_STATUS_T,NVM_STATUS_T,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+RTC_GET_RESPONSE_STRUCT,,second,UINT8,unsigned char,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+RTC_GET_RESPONSE_STRUCT,,minute,UINT8,unsigned char,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+RTC_GET_RESPONSE_STRUCT,,hour,UINT8,unsigned char,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+RTC_GET_RESPONSE_STRUCT,,day,UINT8,unsigned char,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+RTC_GET_RESPONSE_STRUCT,,month,UINT8,unsigned char,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+RTC_GET_RESPONSE_STRUCT,,year,UINT16,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+EE_RegInfo_Data_t,,,,,0,0,,
+EE_RegInfo_Data_t,,r0,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+EE_RegInfo_Data_t,,r1,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+EE_RegInfo_Data_t,,r2,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+EE_RegInfo_Data_t,,r3,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+EE_RegInfo_Data_t,,r4,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+EE_RegInfo_Data_t,,r5,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+EE_RegInfo_Data_t,,r6,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+EE_RegInfo_Data_t,,r7,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+EE_RegInfo_Data_t,,r8,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+EE_RegInfo_Data_t,,r9,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+EE_RegInfo_Data_t,,r10,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+EE_RegInfo_Data_t,,r11,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+EE_RegInfo_Data_t,,r12,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+EE_RegInfo_Data_t,,SP,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+EE_RegInfo_Data_t,,LR,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+EE_RegInfo_Data_t,,PC,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+EE_RegInfo_Data_t,,cpsr,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+EE_RegInfo_Data_t,,FSR,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+EE_RegInfo_Data_t,,FAR_R,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+EE_RegInfo_Data_t,,PMU_reg,enum,EE_PMU_t,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+EE_XscGasketRegs,,,,,0,0,,
+EE_XscGasketRegs,,_PESR,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+EE_XscGasketRegs,,_XESR,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+EE_XscGasketRegs,,_PEAR,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+EE_XscGasketRegs,,_FEAR,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+EE_XscGasketRegs,,_SEAR,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+EE_XscGasketRegs,,_GEAR,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+RTC_CalendarTime,,,,,0,0,,
+RTC_CalendarTime,,second,UINT8,unsigned char,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+RTC_CalendarTime,,minute,UINT8,unsigned char,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+RTC_CalendarTime,,hour,UINT8,unsigned char,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+RTC_CalendarTime,,day,UINT8,unsigned char,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+RTC_CalendarTime,,month,UINT8,unsigned char,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+RTC_CalendarTime,,year,UINT16,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+EE_Entry_t,,,,,0,0,,
+EE_Entry_t,,fileWriteOffset,UINT16,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+EE_Entry_t,,type,enum,EE_entry_t,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+RTC_CalendarTime,EE_Entry_t,,,dateAndTime,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+EE_Entry_t,,desc,char,char,100,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+EE_RegInfo_Data_t,EE_Entry_t,,,RegInfo,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+EE_Entry_t,,contextBufferType,enum,EE_ContextDataType_t,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+EE_Entry_t,,contextBuffer,UINT8,unsigned char,512,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+EE_Entry_t,,CHKPT0,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+EE_Entry_t,,CHKPT1,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+EE_Entry_t,,taskName,char,char,10,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+EE_Entry_t,,taskStackStart,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+EE_Entry_t,,taskStackEnd,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+EE_XscGasketRegs,EE_Entry_t,,,xscaleGasketRegs,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+EE_Entry_t,,warningCntr,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_HLPFParam,,,,,0,0,,
+ACM_HLPFParam,,A_Coefficient,signed,signed short,3,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_HLPFParam,,B_Coefficient,signed,signed short,3,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_HLPFParam,,description,unsigned,unsigned char,28,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_VolumeMapParam,,,,,0,0,,
+ACM_VolumeMapParam,,Volume,unsigned,unsigned char,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_VolumeMapParam,,Offset,unsigned,unsigned char,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_VolumeMapParam,,description,unsigned,unsigned char,28,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_Configuration,,,,,0,0,,
+ACM_Configuration,,CP_Send_Confirm,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_Configuration,,Always_Print_PCM,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_Configuration,,Customize_GSSP,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_Configuration,,description,unsigned,unsigned char,28,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+GSSP_Configuration,,,,,0,0,,
+GSSP_Configuration,,shift,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+GSSP_Configuration,,SSCR0_HIGH,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+GSSP_Configuration,,SSCR0_LOW,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+GSSP_Configuration,,SSCR1_HIGH,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+GSSP_Configuration,,SSCR1_LOW,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+GSSP_Configuration,,SSTSA_LOW,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+GSSP_Configuration,,SSRSA_LOW,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+GSSP_Configuration,,SSPSP_HIGH,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+GSSP_Configuration,,SSPSP_LOW,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+GSSP_Configuration,,SSACD_LOW,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+GSSP_Configuration,,SSACDD_HIGH,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+GSSP_Configuration,,SSACDD_LOW,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+GSSP_Configuration,,description,unsigned,unsigned char,28,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_EqParam,,,,,0,0,,
+ACM_EqParam,,params,unsigned,unsigned short,31,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_EqParam,,description,unsigned,unsigned char,28,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_NRES_T,,,,,0,0,,
+ACM_NRES_T,,adaptEnable,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_NRES_T,,nonLinearModel,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_NRES_T,,betaFest,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_NRES_T,,betaBrutal,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_NRES_T,,betaDT,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_NRES_T,,gammaDT,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_NRES_T,,vmThresDT,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_NRES_T,,burst,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_NRES_T,,hang,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_NRES_T,,cnGain,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_NRES_T,,cnFloor,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_NRES_T,,cnHighFreqBoost,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_NRES_T,,vmThresMus,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_NRES_T,,maxAdaptStep,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_NRES_T,,slowAdaptWeight,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_NRES_T,,initPeriod,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_NRES_T,,initAdaptDelay,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_NRES_T,,gainSmoothAttack,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_NRES_T,,outputGain,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_NRES_T,,musGainThres,unsigned,unsigned short,2,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_NRES_T,,musGainFloor,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_NRES_T,,refresFactor,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_NRES_T,,InitialW,unsigned,unsigned short,22,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_NSParam,,,,,0,0,,
+ACM_NSParam,,MaxSupression,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_NSParam,,MaxNoiseLevel,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_NSParam,,tceThreshForVadEXP,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_NSParam,,NoiseLevelInc,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_NSParam,,NoiseLevelDec,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_NSParam,,cnCeil,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_NSParam,,updateNoiseMatrix,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_NSParam,,Refvadhang,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_NRES_T,ACM_NSParam,,,NRES_Parameters,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_NSParam,,description,unsigned,unsigned char,28,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_DualMicParam,,,,,0,0,,
+ACM_DualMicParam,,DmSubEnergyDb,signed,signed short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_DualMicParam,,DmNs_PeakAtten,signed,signed short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_DualMicParam,,DmNresAtten_Factor,signed,signed short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_DualMicParam,,DmNoise_BalanceShift,signed,signed short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_DualMicParam,,DmVoise_BalanceShift,signed,signed short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_DualMicParam,,reserved1,signed,signed short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_DualMicParam,,reserved2,signed,signed short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_DualMicParam,,reserved3,signed,signed short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_DualMicParam,,MicR_Gain,signed,signed short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_DualMicParam,,Bottom_Noise,signed,signed short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_DualMicParam,,AdaptSlowDown,signed,signed short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_DualMicParam,,PeakThreshExp,signed,signed short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_DualMicParam,,mu,signed,signed short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_DualMicParam,,AmbientNoiseDiff,signed,signed short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_DualMicParam,,reserved4,signed,signed short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_DualMicParam,,reserved5,signed,signed short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_DualMicParam,,filter,signed,signed short,16,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_DualMicParam,,params,signed,signed short,28,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_DualMicParam,,description,unsigned,unsigned char,28,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_ECParam,,,,,0,0,,
+ACM_ECParam,,EcMode,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_ECParam,,EcSampleDelay,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_ECParam,,adaptSlowDown,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_ECParam,,numOfTaps,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_ECParam,,qFir,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_ECParam,,Reserved,unsigned,unsigned short,4,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_ECParam,,description,unsigned,unsigned char,28,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_AVCParam,,,,,0,0,,
+ACM_AVCParam,,MaxAGCGain,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_AVCParam,,MinEnvelope,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_AVCParam,,level1,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_AVCParam,,BoostEnable,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_AVCParam,,MaxRMS,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_AVCParam,,Init_Duration,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_AVCParam,,PeakIncrease,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_AVCParam,,PeakDecrease,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_AVCParam,,IncrementRms,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_AVCParam,,BoostGain,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_AVCParam,,BoostRelease,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_AVCParam,,BNoiseGain,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_AVCParam,,drcOperationMode,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_AVCParam,,drcRelease,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_AVCParam,,drcLookAhead,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_AVCParam,,MaxDRCGain,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_AVCParam,,drcPeakLevelGain,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_AVCParam,,drcNoiseLevelGain,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_AVCParam,,drcNoiseLevel,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_AVCParam,,DrcPeakRange,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_AVCParam,,RxReserved0,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_AVCParam,,RxReserved1,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_AVCParam,,RxReserved2,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_AVCParam,,description,unsigned,unsigned char,28,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_CTMParam,,,,,0,0,,
+ACM_CTMParam,,baudotRate,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_CTMParam,,baudotInterface,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_CTMParam,,forceNegotiationIsOn,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_CTMParam,,disableNegotiation,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_CTMParam,,disableVcoOrHco,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_CTMParam,,volumeDifferenceIndex,signed,signed short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_MSAHandle,,,,,0,0,,
+ACM_MSAHandle,,device,enum,ACM_AudioDevice,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_MSAHandle,,direction,enum,ACM_PathDirection,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_MSAHandle,,commPcmFormat,enum,ACM_CommPcmFormat,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_MSAHandle,,eqParamIndex,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_MSAHandle,,nsParamIndex,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_MSAHandle,,ecParamIndex,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_MSAHandle,,avcParamIndex,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_MSAHandle,,sideToneGain,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_MSAHandle,,HPFParamIndex,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_MSAHandle,,LPFParamIndex,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_MSAHandle,,extAecParamIndex,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_MSAHandle,,DualMicParamIndex,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_MSAHandle,,eqParamWbAmrIndex,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_MSAHandle,,nsParamWbAmrIndex,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_MSAHandle,,ecParamWbAmrIndex,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_MSAHandle,,avcParamWbAmrIndex,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_MSAHandle,,sideToneWbAmrGain,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_MSAHandle,,HPFParamWbAmrIndex,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_MSAHandle,,LPFParamWbAmrIndex,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_MSAHandle,,extAecParamWbAmrIndex,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_MSAHandle,,DualMicParamWbAmrIndex,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_MSAHandle,,ctmParamIndex,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_MSAHandle,,miscParamIndex,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_MSAHandle,,miscParamWbAmrIndex,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_MSAHandle,,misc3ParamIndex,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_MSAHandle,,misc4ParamIndex,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_MSAHandle,,appliance,enum,ACM_Appliance,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_MSAHandle,,description,unsigned,unsigned char,28,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_EqParam,,,,,0,0,,
+_ACM_EqParam,,params,unsigned,unsigned short,31,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_NSParam,,,,,0,0,,
+_ACM_NSParam,,MaxSupression,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_NSParam,,MaxNoiseLevel,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_NSParam,,tceThreshForVadEXP,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_NSParam,,NoiseLevelInc,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_NSParam,,NoiseLevelDec,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_NSParam,,cnCeil,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_NSParam,,updateNoiseMatrix,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_NSParam,,Refvadhang,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ACM_NRES_T,_ACM_NSParam,,,NRES_Parameters,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_DualMicParam,,,,,0,0,,
+_ACM_DualMicParam,,DmSubEnergyDb,signed,signed short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_DualMicParam,,DmNs_PeakAtten,signed,signed short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_DualMicParam,,DmNresAtten_Factor,signed,signed short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_DualMicParam,,DmNoise_BalanceShift,signed,signed short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_DualMicParam,,DmVoise_BalanceShift,signed,signed short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_DualMicParam,,reserved1,signed,signed short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_DualMicParam,,reserved2,signed,signed short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_DualMicParam,,reserved3,signed,signed short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_DualMicParam,,MicR_Gain,signed,signed short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_DualMicParam,,Bottom_Noise,signed,signed short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_DualMicParam,,AdaptSlowDown,signed,signed short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_DualMicParam,,PeakThreshExp,signed,signed short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_DualMicParam,,mu,signed,signed short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_DualMicParam,,AmbientNoiseDiff,signed,signed short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_DualMicParam,,reserved4,signed,signed short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_DualMicParam,,reserved5,signed,signed short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_DualMicParam,,filter,signed,signed short,16,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_DualMicParam,,params,signed,signed short,28,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_ECParam,,,,,0,0,,
+_ACM_ECParam,,EcMode,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_ECParam,,EcSampleDelay,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_ECParam,,adaptSlowDown,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_ECParam,,numOfTaps,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_ECParam,,qFir,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_ECParam,,Reserved,unsigned,unsigned short,4,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_AVCParam,,,,,0,0,,
+_ACM_AVCParam,,MaxAGCGain,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_AVCParam,,MinEnvelope,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_AVCParam,,level1,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_AVCParam,,BoostEnable,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_AVCParam,,MaxRMS,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_AVCParam,,Init_Duration,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_AVCParam,,PeakIncrease,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_AVCParam,,PeakDecrease,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_AVCParam,,IncrementRms,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_AVCParam,,BoostGain,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_AVCParam,,BoostRelease,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_AVCParam,,BNoiseGain,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_AVCParam,,drcOperationMode,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_AVCParam,,drcRelease,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_AVCParam,,drcLookAhead,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_AVCParam,,MaxDRCGain,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_AVCParam,,drcPeakLevelGain,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_AVCParam,,drcNoiseLevelGain,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_AVCParam,,drcNoiseLevel,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_AVCParam,,DrcPeakRange,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_AVCParam,,RxReserved0,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_AVCParam,,RxReserved1,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_AVCParam,,RxReserved2,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_CTMParam,,,,,0,0,,
+_ACM_CTMParam,,baudotRate,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_CTMParam,,baudotInterface,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_CTMParam,,forceNegotiationIsOn,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_CTMParam,,disableNegotiation,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_CTMParam,,disableVcoOrHco,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_CTMParam,,volumeDifferenceIndex,signed,signed short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_HLPFParam,,,,,0,0,,
+_ACM_HLPFParam,,A_Coefficient,signed,signed short,3,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_HLPFParam,,B_Coefficient,signed,signed short,3,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_MISCParamTx,,,,,0,0,,
+_ACM_MISCParamTx,,LoopbackDelay,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_MISCParamTx,,parameters,short,short,31,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_MISCParamRx,,,,,0,0,,
+_ACM_MISCParamRx,,parameters,short,short,32,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_SspAudioConfiguration,,,,,0,0,,
+_ACM_SspAudioConfiguration,,shift,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_SspAudioConfiguration,,SSCR0_HIGH,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_SspAudioConfiguration,,SSCR0_LOW,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_SspAudioConfiguration,,SSCR1_HIGH,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_SspAudioConfiguration,,SSCR1_LOW,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_SspAudioConfiguration,,SSTSA_LOW,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_SspAudioConfiguration,,SSRSA_LOW,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_SspAudioConfiguration,,SSPSP_HIGH,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_SspAudioConfiguration,,SSPSP_LOW,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_SspAudioConfiguration,,SSACD_LOW,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_SspAudioConfiguration,,SSACDD_HIGH,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_SspAudioConfiguration,,SSACDD_LOW,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_SspAudioConfiguration,,devicePort,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_SspAudioConfiguration,,SSP_Rate,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_SspAudioConfiguration,,SSP_Mode,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_SspAudioConfiguration,,Dual_Mic,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+InPath_Structure,,,,,0,0,,
+InPath_Structure,,HPF,enum,ACM_Module_Switcher,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_HLPFParam,InPath_Structure,,,HPF_Para,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_HLPFParam,InPath_Structure,,,HPF_Para_HD,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+InPath_Structure,,LPF,enum,ACM_Module_Switcher,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_HLPFParam,InPath_Structure,,,LPF_Para,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_HLPFParam,InPath_Structure,,,LPF_Para_HD,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+InPath_Structure,,EC,enum,ACM_Module_Switcher,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_ECParam,InPath_Structure,,,EC_Para,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_ECParam,InPath_Structure,,,EC_Para_HD,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+InPath_Structure,,NS,enum,ACM_Module_Switcher,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_NSParam,InPath_Structure,,,NS_Para,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_NSParam,InPath_Structure,,,NS_Para_HD,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+InPath_Structure,,EQ,enum,ACM_Module_Switcher,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_EqParam,InPath_Structure,,,EQ_Para,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_EqParam,InPath_Structure,,,EQ_Para_HD,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+InPath_Structure,,AGC,enum,ACM_Module_Switcher,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_AVCParam,InPath_Structure,,,AGC_Para,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_AVCParam,InPath_Structure,,,AGC_Para_HD,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+InPath_Structure,,CTM,enum,ACM_Module_Switcher,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_CTMParam,InPath_Structure,,,CTM_Para,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_CTMParam,InPath_Structure,,,CTM_Para_HD,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+InPath_Structure,,DualMic,enum,ACM_Module_Switcher,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_DualMicParam,InPath_Structure,,,DualMic_Para,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_DualMicParam,InPath_Structure,,,DualMic_Para_HD,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+InPath_Structure,,MISC,enum,ACM_Module_Switcher,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_MISCParamTx,InPath_Structure,,,MISC_Para,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_MISCParamTx,InPath_Structure,,,MISC_Para_HD,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+OutPath_Structure,,,,,0,0,,
+OutPath_Structure,,HPF,enum,ACM_Module_Switcher,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_HLPFParam,OutPath_Structure,,,HPF_Para,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_HLPFParam,OutPath_Structure,,,HPF_Para_HD,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+OutPath_Structure,,LPF,enum,ACM_Module_Switcher,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_HLPFParam,OutPath_Structure,,,LPF_Para,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_HLPFParam,OutPath_Structure,,,LPF_Para_HD,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+OutPath_Structure,,AVC,enum,ACM_Module_Switcher,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_AVCParam,OutPath_Structure,,,avc_para,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_AVCParam,OutPath_Structure,,,avc_para_HD,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+OutPath_Structure,,NS,enum,ACM_Module_Switcher,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_NSParam,OutPath_Structure,,,NS_Para,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_NSParam,OutPath_Structure,,,NS_Para_HD,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+OutPath_Structure,,EQ,enum,ACM_Module_Switcher,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_EqParam,OutPath_Structure,,,EQ_Para,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_EqParam,OutPath_Structure,,,EQ_Para_HD,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+OutPath_Structure,,CTM,enum,ACM_Module_Switcher,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_CTMParam,OutPath_Structure,,,CTM_Para,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_CTMParam,OutPath_Structure,,,CTM_Para_HD,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+OutPath_Structure,,MISC,enum,ACM_Module_Switcher,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_MISCParamRx,OutPath_Structure,,,MISC_Para,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_MISCParamRx,OutPath_Structure,,,MISC_Para_HD,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+OutPath_Structure,,sideTone,enum,ACM_Module_Switcher,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+OutPath_Structure,,sideTone_Gain,UINT16,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+OutPath_Structure,,sideTone_Gain_HD,UINT16,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+OutPath_Structure,,resv,UINT8,unsigned char,396,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+AudioNvm,,,,,0,0,,
+AudioNvm,,profile_id,enum,AUDIO_PROFILE_ID,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+AudioNvm,,description,char,char,32,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+_ACM_SspAudioConfiguration,AudioNvm,,,ssp_para,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+InPath_Structure,AudioNvm,,,in_para,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+OutPath_Structure,AudioNvm,,,out_para,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+InputStruct,,,,,0,0,,
+InputStruct,,cmd,unsigned,unsigned char,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+InputStruct,,data,short,short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+CaliReturnStruct,,,,,0,0,,
+CaliReturnStruct,,d4,unsigned,unsigned char,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+CaliReturnStruct,,d5,unsigned,unsigned char,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+CaliReturnStruct,,d7,unsigned,unsigned char,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+CaliReturnStruct,,offset_ibat,signed,signed short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+CaliReturnStruct,,offset_vbat,signed,signed short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+CaliReturnStruct,,slope_low,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+CaliReturnStruct,,slope_high,unsigned,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+NVMPathStruct,,,,,0,0,,
+NVMPathStruct,,pathName,char,char,256,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+FOpenInputStruct,,,,,0,0,,
+FOpenInputStruct,,fileName,char,char,256,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+FOpenInputStruct,,mode,char,char,256,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+FOpenReturnStruct,,,,,0,0,,
+FOpenReturnStruct,,fileID,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+FOpenReturnStruct,,fileName,char,char,256,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+WriteInputStruct,,,,,0,0,,
+WriteInputStruct,,fileID,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+WriteInputStruct,,PacketSize,UINT16,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+WriteInputStruct,,writeBuf,char,char,1024,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ReadInputStruct,,,,,0,0,,
+ReadInputStruct,,fileID,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ReadInputStruct,,bufferSize,UINT16,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ReadReturnStruct,,,,,0,0,,
+ReadReturnStruct,,PacketOK,UINT16,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ReadReturnStruct,,LastPacket,UINT16,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ReadReturnStruct,,PacketSize,UINT16,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ReadReturnStruct,,readBuf,char,char,1024,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+FNamesReturnStruct,,,,,0,0,,
+FNamesReturnStruct,,fInfoList,char,char,1024,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+FNamesReturnStruct,,fListLen,UINT16,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+FNamesReturnStruct,,LastPacket,UINT8,unsigned char,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+RenameInputStruct,,,,,0,0,,
+RenameInputStruct,,fOldName,char,char,256,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+RenameInputStruct,,fNewName,char,char,256,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ChangModeStruct,,,,,0,0,,
+ChangModeStruct,,fileName,char,char,256,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+ChangModeStruct,,newMode,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+FSeekStruct,,,,,0,0,,
+FSeekStruct,,fileID,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+FSeekStruct,,offset,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+FSeekStruct,,whereFrom,int,long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+FdvSizeStruct,,,,,0,0,,
+FdvSizeStruct,,fdvSize,unsigned,unsigned long long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+FdvAvailableSpaceStruct,,,,,0,0,,
+FdvAvailableSpaceStruct,,fdvAvailableSpace,UINT32,unsigned long,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+RmDirStruct,,,,,0,0,,
+RmDirStruct,,dirName,char,char,256,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+MkDirStruct,,,,,0,0,,
+MkDirStruct,,dirName,char,char,256,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+MkDirStruct,,mode,UINT16,unsigned short,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+FdvVolumesStruct,,,,,0,0,,
+FdvVolumesStruct,,ffs_num_volumes,UINT8,unsigned char,1,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+FdvVolumesStruct,,volumes,char,char,6,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+FdvVolumesStruct,,volumes,char,char,10,0,,@ITEM_MODE@@ITEM_UNIT@@ITEM_DEPENDENCY@
+<end>
+EnumsTitle
+<end>
+Enums
+ProtocolType,PROTOCOL_TYPE_0,0,
+ProtocolType,MAX_PROTOCOL_TYPES,1,
+COMDEV_NAME,DIAG_COMMDEV_EXT,0,
+COMDEV_NAME,DIAG_COMMDEV_INT,1,
+COMDEV_NAME,DIAG_COMMDEV_CMI,2,
+COMDEV_NAME,DIAG_COMMDEV_CMI1,2,
+COMDEV_NAME,DIAG_COMMDEV_CMI2,3,
+COMDEV_NAME,DIAG_COMMDEV_CMI3,4,
+COMDEV_NAME,DIAG_COMMDEV_CMI4,5,
+COMDEV_NAME,DIAG_COMMDEV_CMI5,6,
+COMDEV_NAME,DIAG_COMMDEV_RX_MAX,6,
+COMDEV_NAME,DIAG_COMMDEV_NODEVICE,239,
+COMDEV_NAME,DIAG_COMMDEV_DUMMY,536870911,
+AUDCODEC_ADC_ANAGAIN,AUDCODEC_ADC_ANAGAIN_M6dB,0,
+AUDCODEC_ADC_ANAGAIN,AUDCODEC_ADC_ANAGAIN_M3dB,1,
+AUDCODEC_ADC_ANAGAIN,AUDCODEC_ADC_ANAGAIN_0dB,2,
+AUDCODEC_ADC_ANAGAIN,AUDCODEC_ADC_ANAGAIN_3dB,3,
+AUDCODEC_ADC_ANAGAIN,AUDCODEC_ADC_ANAGAIN_6dB,4,
+AUDCODEC_ADC_ANAGAIN,AUDCODEC_ADC_ANAGAIN_9dB,5,
+AUDCODEC_ADC_ANAGAIN,AUDCODEC_ADC_ANAGAIN_12dB,6,
+AUDCODEC_ADC_ANAGAIN,AUDCODEC_ADC_ANAGAIN_15dB,7,
+AUDCODEC_ADC_ANAGAIN,AUDCODEC_ADC_ANAGAIN_18dB,8,
+AUDCODEC_ADC_ANAGAIN,AUDCODEC_ADC_ANAGAIN_20dB,9,
+AUDCODEC_ADC_ANAGAIN,AUDCODEC_ADC_ANAGAIN_CNT,10,
+AUDIO_SOFT_VOLUME,AUDIO_SOFT_VOLUME_0db,4096,
+AUDIO_SOFT_VOLUME,AUDIO_SOFT_VOLUME_M1db,3650,
+AUDIO_SOFT_VOLUME,AUDIO_SOFT_VOLUME_M2db,3253,
+AUDIO_SOFT_VOLUME,AUDIO_SOFT_VOLUME_M3db,2899,
+AUDIO_SOFT_VOLUME,AUDIO_SOFT_VOLUME_M4db,2584,
+AUDIO_SOFT_VOLUME,AUDIO_SOFT_VOLUME_M5db,2303,
+AUDIO_SOFT_VOLUME,AUDIO_SOFT_VOLUME_M6db,2052,
+AUDIO_SOFT_VOLUME,AUDIO_SOFT_VOLUME_M7db,1829,
+AUDIO_SOFT_VOLUME,AUDIO_SOFT_VOLUME_M8db,1630,
+AUDIO_SOFT_VOLUME,AUDIO_SOFT_VOLUME_M9db,1453,
+AUDIO_SOFT_VOLUME,AUDIO_SOFT_VOLUME_M10db,1295,
+AUDIO_SOFT_VOLUME,AUDIO_SOFT_VOLUME_M11db,1154,
+AUDIO_SOFT_VOLUME,AUDIO_SOFT_VOLUME_M12db,1028,
+AUDIO_SOFT_VOLUME,AUDIO_SOFT_VOLUME_M13db,916,
+AUDIO_SOFT_VOLUME,AUDIO_SOFT_VOLUME_M14db,817,
+AUDIO_SOFT_VOLUME,AUDIO_SOFT_VOLUME_M15db,728,
+AUDIO_SOFT_VOLUME,AUDIO_SOFT_VOLUME_M16db,649,
+AUDIO_SOFT_VOLUME,AUDIO_SOFT_VOLUME_M17db,578,
+AUDIO_SOFT_VOLUME,AUDIO_SOFT_VOLUME_M18db,515,
+AUDIO_SOFT_VOLUME,AUDIO_SOFT_VOLUME_M19db,459,
+AUDIO_SOFT_VOLUME,AUDIO_SOFT_VOLUME_M20db,409,
+AUDIO_SOFT_VOLUME,AUDIO_SOFT_VOLUME_M21db,365,
+AUDIO_SOFT_VOLUME,AUDIO_SOFT_VOLUME_M22db,325,
+AUDIO_SOFT_VOLUME,AUDIO_SOFT_VOLUME_M23db,289,
+AUDIO_SOFT_VOLUME,AUDIO_SOFT_VOLUME_M24db,258,
+AUDIO_SOFT_VOLUME,AUDIO_SOFT_VOLUME_M25db,230,
+AUDIO_SOFT_VOLUME,AUDIO_SOFT_VOLUME_M26db,205,
+AUDIO_SOFT_VOLUME,AUDIO_SOFT_VOLUME_M27db,182,
+AUDIO_SOFT_VOLUME,AUDIO_SOFT_VOLUME_M28db,163,
+AUDIO_SOFT_VOLUME,AUDIO_SOFT_VOLUME_M29db,145,
+AUDIO_SOFT_VOLUME,AUDIO_SOFT_VOLUME_M30db,129,
+AUDIO_SOFT_VOLUME,AUDIO_SOFT_VOLUME_M31db,115,
+AUDCODEC_ADC_DIGGAIN,AUDCODEC_ADC_DIGGAIN_BYPASS_M24dB,0,
+AUDCODEC_ADC_DIGGAIN,AUDCODEC_ADC_DIGGAIN_M24dB,1,
+AUDCODEC_ADC_DIGGAIN,AUDCODEC_ADC_DIGGAIN_M18dB,2,
+AUDCODEC_ADC_DIGGAIN,AUDCODEC_ADC_DIGGAIN_M14dB,3,
+AUDCODEC_ADC_DIGGAIN,AUDCODEC_ADC_DIGGAIN_M12dB,4,
+AUDCODEC_ADC_DIGGAIN,AUDCODEC_ADC_DIGGAIN_M10dB,5,
+AUDCODEC_ADC_DIGGAIN,AUDCODEC_ADC_DIGGAIN_M8dB,6,
+AUDCODEC_ADC_DIGGAIN,AUDCODEC_ADC_DIGGAIN_M7dB,7,
+AUDCODEC_ADC_DIGGAIN,AUDCODEC_ADC_DIGGAIN_M6dB,8,
+AUDCODEC_ADC_DIGGAIN,AUDCODEC_ADC_DIGGAIN_M5dB,9,
+AUDCODEC_ADC_DIGGAIN,AUDCODEC_ADC_DIGGAIN_M4dB,10,
+AUDCODEC_ADC_DIGGAIN,AUDCODEC_ADC_DIGGAIN_M3dB,11,
+AUDCODEC_ADC_DIGGAIN,AUDCODEC_ADC_DIGGAIN_M2dB,12,
+AUDCODEC_ADC_DIGGAIN,AUDCODEC_ADC_DIGGAIN_M1dB,14,
+AUDCODEC_ADC_DIGGAIN,AUDCODEC_ADC_DIGGAIN_0dB,16,
+AUDCODEC_ADC_DIGGAIN,AUDCODEC_ADC_DIGGAIN_1dB,18,
+AUDCODEC_ADC_DIGGAIN,AUDCODEC_ADC_DIGGAIN_2dB,20,
+AUDCODEC_ADC_DIGGAIN,AUDCODEC_ADC_DIGGAIN_3dB,23,
+AUDCODEC_ADC_DIGGAIN,AUDCODEC_ADC_DIGGAIN_4dB,25,
+AUDCODEC_ADC_DIGGAIN,AUDCODEC_ADC_DIGGAIN_5dB,28,
+AUDCODEC_ADC_DIGGAIN,AUDCODEC_ADC_DIGGAIN_6dB,31,
+AUDCODEC_ADC_DIGGAIN,AUDCODEC_ADC_DIGGAIN_CNT,32,
+AUDCODEC_DAC_ANAGAIN,AUDCODEC_DAC_ANAGAIN_6dB,0,
+AUDCODEC_DAC_ANAGAIN,AUDCODEC_DAC_ANAGAIN_3dB,1,
+AUDCODEC_DAC_ANAGAIN,AUDCODEC_DAC_ANAGAIN_0dB,2,
+AUDCODEC_DAC_ANAGAIN,AUDCODEC_DAC_ANAGAIN_M3dB,3,
+AUDCODEC_DAC_ANAGAIN,AUDCODEC_DAC_ANAGAIN_M6dB,4,
+AUDCODEC_DAC_ANAGAIN,AUDCODEC_DAC_ANAGAIN_CNT,5,
+AUDCODEC_DAC_DIGGAIN,AUDCODEC_DAC_DIGGAIN_BYPASS_0dB,0,
+AUDCODEC_DAC_DIGGAIN,AUDCODEC_DAC_DIGGAIN_M24dB,1,
+AUDCODEC_DAC_DIGGAIN,AUDCODEC_DAC_DIGGAIN_M18dB,2,
+AUDCODEC_DAC_DIGGAIN,AUDCODEC_DAC_DIGGAIN_M14dB,3,
+AUDCODEC_DAC_DIGGAIN,AUDCODEC_DAC_DIGGAIN_M12dB,4,
+AUDCODEC_DAC_DIGGAIN,AUDCODEC_DAC_DIGGAIN_M10dB,5,
+AUDCODEC_DAC_DIGGAIN,AUDCODEC_DAC_DIGGAIN_M8dB,6,
+AUDCODEC_DAC_DIGGAIN,AUDCODEC_DAC_DIGGAIN_M7dB,7,
+AUDCODEC_DAC_DIGGAIN,AUDCODEC_DAC_DIGGAIN_M6dB,8,
+AUDCODEC_DAC_DIGGAIN,AUDCODEC_DAC_DIGGAIN_M5dB,9,
+AUDCODEC_DAC_DIGGAIN,AUDCODEC_DAC_DIGGAIN_M4dB,10,
+AUDCODEC_DAC_DIGGAIN,AUDCODEC_DAC_DIGGAIN_M3dB,11,
+AUDCODEC_DAC_DIGGAIN,AUDCODEC_DAC_DIGGAIN_M2dB,12,
+AUDCODEC_DAC_DIGGAIN,AUDCODEC_DAC_DIGGAIN_M1dB,14,
+AUDCODEC_DAC_DIGGAIN,AUDCODEC_DAC_DIGGAIN_0dB,16,
+AUDCODEC_DAC_DIGGAIN,AUDCODEC_DAC_DIGGAIN_1dB,18,
+AUDCODEC_DAC_DIGGAIN,AUDCODEC_DAC_DIGGAIN_2dB,20,
+AUDCODEC_DAC_DIGGAIN,AUDCODEC_DAC_DIGGAIN_3dB,23,
+AUDCODEC_DAC_DIGGAIN,AUDCODEC_DAC_DIGGAIN_4dB,25,
+AUDCODEC_DAC_DIGGAIN,AUDCODEC_DAC_DIGGAIN_5dB,28,
+AUDCODEC_DAC_DIGGAIN,AUDCODEC_DAC_DIGGAIN_6dB,32,
+AUDCODEC_DAC_DIGGAIN,AUDCODEC_DAC_DIGGAIN_7dB,36,
+AUDCODEC_DAC_DIGGAIN,AUDCODEC_DAC_DIGGAIN_8dB,40,
+AUDCODEC_DAC_DIGGAIN,AUDCODEC_DAC_DIGGAIN_9dB,45,
+AUDCODEC_DAC_DIGGAIN,AUDCODEC_DAC_DIGGAIN_10dB,51,
+AUDCODEC_DAC_DIGGAIN,AUDCODEC_DAC_DIGGAIN_11dB,57,
+AUDCODEC_DAC_DIGGAIN,AUDCODEC_DAC_DIGGAIN_12dB,64,
+AUDCODEC_DAC_DIGGAIN,AUDCODEC_DAC_DIGGAIN_13dB,71,
+AUDCODEC_DAC_DIGGAIN,AUDCODEC_DAC_DIGGAIN_14dB,80,
+AUDCODEC_DAC_DIGGAIN,AUDCODEC_DAC_DIGGAIN_15dB,90,
+AUDCODEC_DAC_DIGGAIN,AUDCODEC_DAC_DIGGAIN_16dB,101,
+AUDCODEC_DAC_DIGGAIN,AUDCODEC_DAC_DIGGAIN_17dB,113,
+AUDCODEC_DAC_DIGGAIN,AUDCODEC_DAC_DIGGAIN_18dB,127,
+AUDCODEC_DAC_DIGGAIN,AUDCODEC_DAC_DIGGAIN_19dB,143,
+AUDCODEC_DAC_DIGGAIN,AUDCODEC_DAC_DIGGAIN_20dB,160,
+AUDCODEC_DAC_DIGGAIN,AUDCODEC_DAC_DIGGAIN_21dB,180,
+AUDCODEC_DAC_DIGGAIN,AUDCODEC_DAC_DIGGAIN_22dB,201,
+AUDCODEC_DAC_DIGGAIN,AUDCODEC_DAC_DIGGAIN_23dB,226,
+AUDCODEC_DAC_DIGGAIN,AUDCODEC_DAC_DIGGAIN_24dB,254,
+AUDCODEC_DAC_DIGGAIN,AUDCODEC_DAC_DIGGAIN_CNT,255,
+AUDCODEC_SIDETONE_GAIN,AUDCODEC_SIDETONE_GAIN_BYPASSS,0,
+AUDCODEC_SIDETONE_GAIN,AUDCODEC_SIDETONE_GAIN_M48dB,1,
+AUDCODEC_SIDETONE_GAIN,AUDCODEC_SIDETONE_GAIN_M42dB,2,
+AUDCODEC_SIDETONE_GAIN,AUDCODEC_SIDETONE_GAIN_M38dB,3,
+AUDCODEC_SIDETONE_GAIN,AUDCODEC_SIDETONE_GAIN_M36dB,4,
+AUDCODEC_SIDETONE_GAIN,AUDCODEC_SIDETONE_GAIN_M34dB,5,
+AUDCODEC_SIDETONE_GAIN,AUDCODEC_SIDETONE_GAIN_M32dB,6,
+AUDCODEC_SIDETONE_GAIN,AUDCODEC_SIDETONE_GAIN_M30dB,8,
+AUDCODEC_SIDETONE_GAIN,AUDCODEC_SIDETONE_GAIN_M28dB,10,
+AUDCODEC_SIDETONE_GAIN,AUDCODEC_SIDETONE_GAIN_M26dB,13,
+AUDCODEC_SIDETONE_GAIN,AUDCODEC_SIDETONE_GAIN_M24dB,16,
+AUDCODEC_SIDETONE_GAIN,AUDCODEC_SIDETONE_GAIN_M22dB,20,
+AUDCODEC_SIDETONE_GAIN,AUDCODEC_SIDETONE_GAIN_M20dB,26,
+AUDCODEC_SIDETONE_GAIN,AUDCODEC_SIDETONE_GAIN_M18dB,32,
+AUDCODEC_SIDETONE_GAIN,AUDCODEC_SIDETONE_GAIN_M16dB,41,
+AUDCODEC_SIDETONE_GAIN,AUDCODEC_SIDETONE_GAIN_M14dB,51,
+AUDCODEC_SIDETONE_GAIN,AUDCODEC_SIDETONE_GAIN_M12dB,64,
+AUDCODEC_SIDETONE_GAIN,AUDCODEC_SIDETONE_GAIN_M10dB,81,
+AUDCODEC_SIDETONE_GAIN,AUDCODEC_SIDETONE_GAIN_M9dB,91,
+AUDCODEC_SIDETONE_GAIN,AUDCODEC_SIDETONE_GAIN_M8dB,102,
+AUDCODEC_SIDETONE_GAIN,AUDCODEC_SIDETONE_GAIN_M7dB,114,
+AUDCODEC_SIDETONE_GAIN,AUDCODEC_SIDETONE_GAIN_M6dB,128,
+AUDCODEC_SIDETONE_GAIN,AUDCODEC_SIDETONE_GAIN_M5dB,144,
+AUDCODEC_SIDETONE_GAIN,AUDCODEC_SIDETONE_GAIN_M4dB,161,
+AUDCODEC_SIDETONE_GAIN,AUDCODEC_SIDETONE_GAIN_M3dB,181,
+AUDCODEC_SIDETONE_GAIN,AUDCODEC_SIDETONE_GAIN_M2dB,203,
+AUDCODEC_SIDETONE_GAIN,AUDCODEC_SIDETONE_GAIN_M1dB,228,
+AUDCODEC_SIDETONE_GAIN,AUDCODEC_SIDETONE_GAIN_0dB,255,
+AUDCODEC_SIDETONE_GAIN,AUDCODEC_SIDETONE_GAIN_CNT,256,
+AUDCODEC_RCV_GAIN,AUDCODEC_RCV_GAIN_0dB,2,
+AUDCODEC_RCV_GAIN,AUDCODEC_RCV_GAIN_3dB,3,
+AUDCODEC_RCV_GAIN,AUDCODEC_RCV_GAIN_6dB,4,
+AUDCODEC_RCV_GAIN,AUDCODEC_RCV_GAIN_CNT,5,
+AUDCODEC_CLASSG_MODE,AUDCODEC_CLASSG_MODE_1P8V,0,
+AUDCODEC_CLASSG_MODE,AUDCODEC_CLASSG_MODE_0P9V,1,
+AUDCODEC_CLASSG_MODE,AUDCODEC_CLASSG_MODE_CNT,2,
+EE_entry_t,EE_SYS_RESET_EN,0,
+EE_entry_t,EE_ASSERT_EN,1,
+EE_entry_t,EE_EXCEPTION_EN,2,
+EE_entry_t,EE_WARNING_EN,3,
+EE_entry_t,EE_NUM_ENTRY_TYPES,4,
+EE_entry_t,EE_SYS_RESET,300,
+EE_entry_t,EE_ASSERT,350,
+EE_entry_t,EE_EXCEPTION,450,
+EE_entry_t,EE_WARNING,550,
+EE_ExceptionType_t,EEE_DataAbort,0,
+EE_ExceptionType_t,EEE_PrefetchAbort,1,
+EE_ExceptionType_t,EEE_FatalError,2,
+EE_ExceptionType_t,EEE_SWInterrupt,3,
+EE_ExceptionType_t,EEE_UndefInst,4,
+EE_ExceptionType_t,EEE_ReservedInt,5,
+EE_PMU_t,EE_NO_RESET_SOURCE,0,
+EE_PMU_t,EE_POWER_ON_RESET,1,
+EE_PMU_t,EE_EXT_MASTER_RESET,2,
+EE_PMU_t,EE_WDT_RESET,3,
+EE_ContextType_t,EE_CT_None,0,
+EE_ContextType_t,EE_CT_ExecTrace,1,
+EE_ContextType_t,EE_CT_StackDump,2,
+EE_ContextDataType_t,EE_CDT_None,0,
+EE_ContextDataType_t,EE_CDT_ExecTrace,1,
+EE_ContextDataType_t,EE_CDT_StackDump,2,
+EE_ContextDataType_t,EE_CDT_UserDefined,16,
+ACM_AudioMute,ACM_MUTE_OFF,0,
+ACM_AudioMute,ACM_MUTE_ON,1,
+ACM_AudioMute,ACM_AUDIO_MUTE_ENUM_32_BIT,2147483647,
+ACM_MSA_ECMODE,ACM_MSA_HANDSET,0,
+ACM_MSA_ECMODE,ACM_MSA_BT,1,
+ACM_MSA_ECMODE,ACM_MSA_SP,2,
+ACM_MSA_ECMODE,ACM_MSA_HEADSET,3,
+ACM_MSA_ECMODE,ACM_MSA_HANDSET_LOOP,4,
+ACM_MSA_ECMODE,ACM_MSA_BT_LOOP,5,
+ACM_MSA_ECMODE,ACM_MSA_SP_LOOP,6,
+ACM_MSA_ECMODE,ACM_MSA_HEADSET_LOOP,7,
+ACM_MSA_ECMODE,ACM_MSA_HANDSET_DUALMIC,8,
+ACM_MSA_ECMODE,ACM_MSA_SP_DUALMIC,9,
+ACM_MSA_ECMODE,ACM_NUM_OF_MSA_ECMODE,10,
+ACM_MSA_ECMODE,ACM_MSA_ECMODE_ENUM_32_BIT,2147483647,
+ACM_EXTENT_ID,AUDIO_ACM_START_ID,100,
+ACM_EXTENT_ID,AUDIO_REGCPNT_ID,101,
+ACM_EXTENT_ID,AUDIO_REGCPNT_CONFIRM,102,
+ACM_EXTENT_ID,AUDIO_ENABLEHWCPNT_ID,103,
+ACM_EXTENT_ID,AUDIO_ENABLEHWCPNT_CONFIRM,104,
+ACM_EXTENT_ID,AUDIO_DISABLEHWCPNT_ID,105,
+ACM_EXTENT_ID,AUDIO_DISABLEHWCPNT_CONFIRM,106,
+ACM_EXTENT_ID,AUDIO_SETCPNTVOL_ID,107,
+ACM_EXTENT_ID,AUDIO_SETCPNTVOL_CONFIRM,108,
+ACM_EXTENT_ID,AUDIO_HWCPNTMUTE_ID,109,
+ACM_EXTENT_ID,AUDIO_HWCPNTMUTE_CONFIRM,110,
+ACM_EXTENT_ID,AUDIO_STREAMINDICATE_ID,111,
+ACM_EXTENT_ID,AUDIO_STREAMRESPONSE,112,
+ACM_EXTENT_ID,AUDIO_ENABLEOUTSTREAM_ID,113,
+ACM_EXTENT_ID,AUDIO_ENABLEOUTSTREAM_CONFIRM,114,
+ACM_EXTENT_ID,AUDIO_DISABLEOUTSTREAM_ID,115,
+ACM_EXTENT_ID,AUDIO_DISABLEOUTSTREAM_CONFIRM,116,
+ACM_EXTENT_ID,AUDIO_ENABLEINSTREAM_ID,117,
+ACM_EXTENT_ID,AUDIO_ENABLEINSTREAM_CONFIRM,118,
+ACM_EXTENT_ID,AUDIO_DISABLEINSTREAM_ID,119,
+ACM_EXTENT_ID,AUDIO_DISABLEINSTREAM_CONFIRM,120,
+ACM_EXTENT_ID,AUDIO_CONVERSATIONSTART_ID,121,
+ACM_EXTENT_ID,AUDIO_CONVERSATIONSTOP_ID,122,
+ACM_EXTENT_ID,AUDIO_SETMSASETTING_ID,123,
+ACM_EXTENT_ID,AUDIO_GETMSASETTING_ID,124,
+ACM_EXTENT_ID,AUDIO_SYNC_CODEC_ID,125,
+ACM_EXTENT_ID,AUDIO_DTMFDETECT_ID,126,
+ACM_EXTENT_ID,AUDIO_DTMFDETECTED_ID,127,
+ACM_EXTENT_ID,AUDIO_ENABLESPEECHLOGGING_ID,128,
+ACM_EXTENT_ID,AUDIO_DISABLESPEECHLOGGING_ID,129,
+ACM_EXTENT_ID,AUDIO_TXSPEECHDATA_ID,130,
+ACM_EXTENT_ID,AUDIO_RXSPEECHDATA_ID,131,
+ACM_EXTENT_ID,AUDIO_SETMSAGAIN_ID,132,
+ACM_EXTENT_ID,AUDIO_SETMSAGAIN_CONFIRM,133,
+ACM_EXTENT_ID,AUDIO_SETEQSETTING_ID,134,
+ACM_EXTENT_ID,AUDIO_SETEQSETTING_CONFIRM,135,
+ACM_ReturnCode,ACM_RC_OK,1,
+ACM_ReturnCode,ACM_RC_DEVICE_ALREADY_ENABLED,2,
+ACM_ReturnCode,ACM_RC_DEVICE_ALREADY_DISABLED,3,
+ACM_ReturnCode,ACM_RC_NO_MUTE_CHANGE_NEEDED,4,
+ACM_ReturnCode,ACM_RC_INVALID_VOLUME_CHANGE,5,
+ACM_ReturnCode,ACM_RC_DEVICE_NOT_FOUND,6,
+ACM_ReturnCode,ACM_RC_BUFFER_GET_FUNC_INVALID,7,
+ACM_ReturnCode,ACM_RC_STREAM_OUT_NOT_PERFORMED,8,
+ACM_ReturnCode,ACM_RC_STREAM_IN_NOT_PERFORMED,9,
+ACM_ReturnCode,ACM_RC_STREAM_OUT_TO_BE_STOPPED_NOT_ACTIVE,10,
+ACM_ReturnCode,ACM_RC_STREAM_IN_TO_BE_STOPPED_NOT_ACTIVE,11,
+ACM_ReturnCode,ACM_RC_I2S_INVALID_DATA_POINTER,12,
+ACM_ReturnCode,ACM_RC_I2S_INVALID_DATA_SIZE,13,
+ACM_ReturnCode,ACM_RC_I2S_INVALID_NOTIFICATION_THRESHOLD,14,
+ACM_ReturnCode,ACM_RC_I2S_MESSAGE_QUEUE_IS_FULL,15,
+ACM_ReturnCode,ACM_RC_MEMORY_ALREADY_INITIALISED,16,
+ACM_ReturnCode,ACM_RC_NEED_DISABLE_PATH,17,
+ACM_ReturnCode,ACM_RC_MALLOC_ERROR,18,
+ACM_ReturnCode,ACM_RC_ENUM_32_BIT,2147483647,
+ACM_AudioFormat,ACM_MSA_PCM,0,
+ACM_AudioFormat,ACM_XSCALE_PCM,1,
+ACM_AudioFormat,ACM_I2S,2,
+ACM_AudioFormat,ACM_AUDIO_DATA,3,
+ACM_AudioFormat,ACM_AUX_FM,4,
+ACM_AudioFormat,ACM_AUX_HW_MIDI,5,
+ACM_AudioFormat,ACM_AUX_APP,6,
+ACM_AudioFormat,ACM_NO_FORMAT,7,
+ACM_AudioFormat,ACM_NUM_OF_AUDIO_FORMATS,7,
+ACM_AudioFormat,ACM_AUDIO_FORMAT_ENUM_32_BIT,2147483647,
+ACM_AudioDevice,ACM_MAIN_SPEAKER,0,
+ACM_AudioDevice,ACM_AUX_SPEAKER,1,
+ACM_AudioDevice,ACM_HEADSET_SPEAKER,2,
+ACM_AudioDevice,ACM_MONO_LEFT_SPEAKER,3,
+ACM_AudioDevice,ACM_MONO_RIGHT_SPEAKER,4,
+ACM_AudioDevice,ACM_BUZZER,5,
+ACM_AudioDevice,ACM_MIC,6,
+ACM_AudioDevice,ACM_MIC_DIFF,7,
+ACM_AudioDevice,ACM_AUX_MIC,8,
+ACM_AudioDevice,ACM_AUX_MIC_DIFF,9,
+ACM_AudioDevice,ACM_BLUETOOTH_SPEAKER,10,
+ACM_AudioDevice,ACM_BLUETOOTH_MIC,11,
+ACM_AudioDevice,ACM_DAI_OUT,12,
+ACM_AudioDevice,ACM_DAI_IN,13,
+ACM_AudioDevice,ACM_CAR_KIT_SPEAKER,14,
+ACM_AudioDevice,ACM_CAR_KIT_MIC,15,
+ACM_AudioDevice,ACM_INPUT_DEVICE_8,16,
+ACM_AudioDevice,ACM_HEADSET_MIC,17,
+ACM_AudioDevice,ACM_MIC_EC,18,
+ACM_AudioDevice,ACM_AUX_MIC_EC,19,
+ACM_AudioDevice,ACM_HEADSET_MIC_EC,20,
+ACM_AudioDevice,ACM_MIC_LOOP_SPEAKER,21,
+ACM_AudioDevice,ACM_MIC_LOOP_EARPIECE,22,
+ACM_AudioDevice,ACM_HEADSET_MIC_LOOP,23,
+ACM_AudioDevice,ACM_TTY_IN_45,24,
+ACM_AudioDevice,ACM_INPUT_DEVICE_10,24,
+ACM_AudioDevice,ACM_TTY_IN_50,25,
+ACM_AudioDevice,ACM_INPUT_DEVICE_11,25,
+ACM_AudioDevice,ACM_INPUT_DEVICE_12,26,
+ACM_AudioDevice,ACM_INPUT_DEVICE_13,27,
+ACM_AudioDevice,ACM_INPUT_DEVICE_14,28,
+ACM_AudioDevice,ACM_INPUT_DEVICE_15,29,
+ACM_AudioDevice,ACM_INPUT_DEVICE_16,30,
+ACM_AudioDevice,ACM_INPUT_DEVICE_17,31,
+ACM_AudioDevice,ACM_INPUT_DEVICE_18,32,
+ACM_AudioDevice,ACM_INPUT_DEVICE_19,33,
+ACM_AudioDevice,ACM_INPUT_DEVICE_20,34,
+ACM_AudioDevice,ACM_INPUT_TEST_DEVICE,34,
+ACM_AudioDevice,ACM_INPUT_DEVICE_21,35,
+ACM_AudioDevice,ACM_LINE_OUT,35,
+ACM_AudioDevice,ACM_INPUT_DEVICE_22,36,
+ACM_AudioDevice,ACM_INPUT_DEVICE_23,37,
+ACM_AudioDevice,ACM_INPUT_DEVICE_24,38,
+ACM_AudioDevice,ACM_INPUT_DEVICE_25,39,
+ACM_AudioDevice,ACM_INPUT_DEVICE_26,40,
+ACM_AudioDevice,ACM_INPUT_DEVICE_27,41,
+ACM_AudioDevice,ACM_TTY_OUT_45,42,
+ACM_AudioDevice,ACM_OUTPUT_DEVICE_10,42,
+ACM_AudioDevice,ACM_TTY_OUT_50,43,
+ACM_AudioDevice,ACM_OUTPUT_DEVICE_11,43,
+ACM_AudioDevice,ACM_OUTPUT_DEVICE_12,44,
+ACM_AudioDevice,ACM_OUTPUT_DEVICE_13,45,
+ACM_AudioDevice,ACM_OUTPUT_DEVICE_14,46,
+ACM_AudioDevice,ACM_OUTPUT_DEVICE_15,47,
+ACM_AudioDevice,ACM_OUTPUT_DEVICE_16,48,
+ACM_AudioDevice,ACM_OUTPUT_DEVICE_17,49,
+ACM_AudioDevice,ACM_OUTPUT_DEVICE_18,50,
+ACM_AudioDevice,ACM_OUTPUT_DEVICE_19,51,
+ACM_AudioDevice,ACM_OUTPUT_DEVICE_20,52,
+ACM_AudioDevice,ACM_OUTPUT_TEST_DEVICE,52,
+ACM_AudioDevice,ACM_OUTPUT_DEVICE_21,53,
+ACM_AudioDevice,ACM_OUTPUT_DEVICE_22,54,
+ACM_AudioDevice,ACM_OUTPUT_DEVICE_23,55,
+ACM_AudioDevice,ACM_OUTPUT_DEVICE_24,56,
+ACM_AudioDevice,ACM_OUTPUT_DEVICE_25,57,
+ACM_AudioDevice,ACM_OUTPUT_DEVICE_26,58,
+ACM_AudioDevice,ACM_OUTPUT_DEVICE_27,59,
+ACM_AudioDevice,ACM_OUTPUT_DEVICE_28,60,
+ACM_AudioDevice,ACM_OUTPUT_DEVICE_29,61,
+ACM_AudioDevice,ACM_WB_BLUETOOTH_SPEAKER,62,
+ACM_AudioDevice,ACM_WB_BLUETOOTH_MIC,63,
+ACM_AudioDevice,ACM_WB_BLUETOOTH_NREC_SPEAKER,64,
+ACM_AudioDevice,ACM_WB_BLUETOOTH_NREC_MIC,65,
+ACM_AudioDevice,ACM_HEADPHONE_SPEAKER,66,
+ACM_AudioDevice,ACM_HEADPHONE_MIC,67,
+ACM_AudioDevice,ACM_EXTRA_VOLUME_MAIN_SPEAKER,68,
+ACM_AudioDevice,ACM_EXTRA_VOLUME_MIC,69,
+ACM_AudioDevice,ACM_EXTRA_VOLUME_AUX_SPEAKER,70,
+ACM_AudioDevice,ACM_EXTRA_VOLUME_AUX_MIC,71,
+ACM_AudioDevice,ACM_BLUETOOTH6_SPEAKER,72,
+ACM_AudioDevice,ACM_BLUETOOTH6_MIC,73,
+ACM_AudioDevice,ACM_BLUETOOTH7_SPEAKER,74,
+ACM_AudioDevice,ACM_BLUETOOTH7_MIC,75,
+ACM_AudioDevice,ACM_BLUETOOTH8_SPEAKER,76,
+ACM_AudioDevice,ACM_BLUETOOTH8_MIC,77,
+ACM_AudioDevice,ACM_BLUETOOTH_NREC_SPEAKER,78,
+ACM_AudioDevice,ACM_BLUETOOTH_NREC_MIC,79,
+ACM_AudioDevice,ACM_MAIN_SPEAKER__LOOP,80,
+ACM_AudioDevice,ACM_AUX_SPEAKER__LOOP,81,
+ACM_AudioDevice,ACM_HEADSET_SPEAKER__LOOP,82,
+ACM_AudioDevice,ACM_MIC__LOOP,83,
+ACM_AudioDevice,ACM_AUX_MIC__LOOP,84,
+ACM_AudioDevice,ACM_HEADSET_MIC__LOOP,85,
+ACM_AudioDevice,ACM_BLUETOOTH_SPEAKER__LOOP,86,
+ACM_AudioDevice,ACM_BLUETOOTH_MIC__LOOP,87,
+ACM_AudioDevice,ACM_MAIN_SPEAKER_DUALMIC,88,
+ACM_AudioDevice,ACM_AUX_SPEAKER_DUALMIC,89,
+ACM_AudioDevice,ACM_HEADSET_SPEAKER_DUALMIC,90,
+ACM_AudioDevice,ACM_BLUETOOTH_SPEAKER_DUALMIC,91,
+ACM_AudioDevice,ACM_BLUETOOTH_NREC_SPEAKER_DUALMIC,92,
+ACM_AudioDevice,ACM_MIC_DUALMIC,93,
+ACM_AudioDevice,ACM_AUX_MIC_DUALMIC,94,
+ACM_AudioDevice,ACM_HEADSET_MIC_DUALMIC,95,
+ACM_AudioDevice,ACM_BLUETOOTH_MIC_DUALMIC,96,
+ACM_AudioDevice,ACM_BLUETOOTH_NREC_MIC_DUALMIC,97,
+ACM_AudioDevice,ACM_MAIN_SPEAKER_VT,98,
+ACM_AudioDevice,ACM_AUX_SPEAKER_VT,99,
+ACM_AudioDevice,ACM_HEADSET_SPEAKER_VT,100,
+ACM_AudioDevice,ACM_BLUETOOTH_SPEAKER_VT,101,
+ACM_AudioDevice,ACM_BLUETOOTH_NREC_SPEAKER_VT,102,
+ACM_AudioDevice,ACM_MIC_VT,103,
+ACM_AudioDevice,ACM_AUX_MIC_VT,104,
+ACM_AudioDevice,ACM_HEADSET_MIC_VT,105,
+ACM_AudioDevice,ACM_BLUETOOTH_MIC_VT,106,
+ACM_AudioDevice,ACM_BLUETOOTH_NREC_MIC_VT,107,
+ACM_AudioDevice,ACM_MAIN_SPEAKER_VT_DUALMIC,108,
+ACM_AudioDevice,ACM_AUX_SPEAKER_VT_DUALMIC,109,
+ACM_AudioDevice,ACM_HEADSET_SPEAKER_VT_DUALMIC,110,
+ACM_AudioDevice,ACM_BLUETOOTH_SPEAKER_VT_DUALMIC,111,
+ACM_AudioDevice,ACM_BLUETOOTH_NREC_SPEAKER_VT_DUALMIC,112,
+ACM_AudioDevice,ACM_MIC_VT_DUALMIC,113,
+ACM_AudioDevice,ACM_AUX_MIC_VT_DUALMIC,114,
+ACM_AudioDevice,ACM_HEADSET_MIC_VT_DUALMIC,115,
+ACM_AudioDevice,ACM_BLUETOOTH_MIC_VT_DUALMIC,116,
+ACM_AudioDevice,ACM_BLUETOOTH_NREC_MIC_VT_DUALMIC,117,
+ACM_AudioDevice,ACM_MAIN_SPEAKER_VOIP,118,
+ACM_AudioDevice,ACM_AUX_SPEAKER_VOIP,119,
+ACM_AudioDevice,ACM_HEADSET_SPEAKER_VOIP,120,
+ACM_AudioDevice,ACM_BLUETOOTH_SPEAKER_VOIP,121,
+ACM_AudioDevice,ACM_BLUETOOTH_NREC_SPEAKER_VOIP,122,
+ACM_AudioDevice,ACM_BLUETOOTH_SPEAKER_VOIP_WB,123,
+ACM_AudioDevice,ACM_BLUETOOTH_NREC_SPEAKER_VOIP_WB,124,
+ACM_AudioDevice,ACM_MIC_VOIP,125,
+ACM_AudioDevice,ACM_AUX_MIC_VOIP,126,
+ACM_AudioDevice,ACM_HEADSET_MIC_VOIP,127,
+ACM_AudioDevice,ACM_BLUETOOTH_MIC_VOIP,128,
+ACM_AudioDevice,ACM_BLUETOOTH_NREC_MIC_VOIP,129,
+ACM_AudioDevice,ACM_BLUETOOTH_MIC_VOIP_WB,130,
+ACM_AudioDevice,ACM_BLUETOOTH_NREC_MIC_VOIP_WB,131,
+ACM_AudioDevice,ACM_MAIN_SPEAKER_VOIP_DUALMIC,132,
+ACM_AudioDevice,ACM_AUX_SPEAKER_VOIP_DUALMIC,133,
+ACM_AudioDevice,ACM_HEADSET_SPEAKER_VOIP_DUALMIC,134,
+ACM_AudioDevice,ACM_MIC_VOIP_DUALMIC,135,
+ACM_AudioDevice,ACM_AUX_MIC_VOIP_DUALMIC,136,
+ACM_AudioDevice,ACM_HEADSET_MIC_VOIP_DUALMIC,137,
+ACM_AudioDevice,ACM_MAIN_SPEAKER__LOOP2,138,
+ACM_AudioDevice,ACM_AUX_SPEAKER__LOOP2,139,
+ACM_AudioDevice,ACM_HEADSET_SPEAKER__LOOP2,140,
+ACM_AudioDevice,ACM_MIC__LOOP2,141,
+ACM_AudioDevice,ACM_AUX_MIC__LOOP2,142,
+ACM_AudioDevice,ACM_HEADSET_MIC__LOOP2,143,
+ACM_AudioDevice,ACM_BLUETOOTH_SPEAKER__LOOP2,144,
+ACM_AudioDevice,ACM_BLUETOOTH_MIC__LOOP2,145,
+ACM_AudioDevice,ACM_NUM_OF_AUDIO_DEVICES,146,
+ACM_AudioDevice,ACM_NOT_CONNECTED,2147483647,
+ACM_AudioDevice,ACM_AUDIO_DEVICE_ENUM_32_BIT,2147483647,
+ACM_FormatSupported,ACM_FORMAT_NOT_SUPPORTED,0,
+ACM_FormatSupported,ACM_FORMAT_SUPPORTED,1,
+ACM_FormatSupported,ACM_FORMAT_SUPPORTED_ENUM_32_BIT,2147483647,
+ACM_PathDirection,ACM_PATH_IN,0,
+ACM_PathDirection,ACM_PATH_OUT,1,
+ACM_PathDirection,ACM_NUM_OF_PATHS,2,
+ACM_PathDirection,ACM_PATH_DIRECTION_ENUM_32_BIT,2147483647,
+ACM_MuteMode,ACM_MUTE_IN_MSA,0,
+ACM_MuteMode,ACM_MUTE_IN_COMPONENT,1,
+ACM_MuteMode,ACM_MUTE_IN_COMPONENT_AND_MSA,2,
+ACM_MuteMode,ACM_MUTE_MODE_ENUM_32_BIT,2147483647,
+ACM_Appliance,ACM_SPEAKER_PHONE,0,
+ACM_Appliance,ACM_HANDSET,1,
+ACM_Appliance,ACM_HEADSET,2,
+ACM_Appliance,ACM_BT_HEADSET,3,
+ACM_Appliance,ACM_CAR_KIT,4,
+ACM_Appliance,ACM_BT_SPEAKER_PHONE,5,
+ACM_Appliance,ACM_BT_CAR_KIT,6,
+ACM_Appliance,ACM_BT_HANDSET,7,
+ACM_Appliance,ACM_APPLIANCE_ENUM_32_BIT,2147483647,
+ACM_CommPcmFormat,MODEM_8_KHz,0,
+ACM_CommPcmFormat,MODEM_8_KHz_UNPACKED,1,
+ACM_CommPcmFormat,MODEM_16_KHz,2,
+ACM_CommPcmFormat,MODEM_16_KHz_UNPACKED,3,
+ACM_CommPcmFormat,MODEM_DUAL_MIC_8_KHz,4,
+ACM_CommPcmFormat,MODEM_DUAL_MIC_8_KHz_UNPACKED,5,
+ACM_CommPcmFormat,MODEM_DUAL_MIC_16_KHz,6,
+ACM_CommPcmFormat,MODEM_DUAL_MIC_16_KHz_UNPACKED,7,
+ACM_CommPcmFormat,NO_PCM_FORMAT,8,
+ACM_CommPcmFormat,NUM_OF_PCM_FORMATS,8,
+ACM_CommPcmFormat,ACM_CommPcmFormat_ENUM_32_BIT,2147483647,
+AUDIO_PROFILE_ID,VC_HANDSET,0,
+AUDIO_PROFILE_ID,VC_HANDSFREE,1,
+AUDIO_PROFILE_ID,VC_HEADSET,2,
+AUDIO_PROFILE_ID,VC_HEADPHONE,3,
+AUDIO_PROFILE_ID,VC_SPEAKERPHONE,4,
+AUDIO_PROFILE_ID,VC_BT_NB,5,
+AUDIO_PROFILE_ID,VC_BT_NREC_OFF_NB,6,
+AUDIO_PROFILE_ID,VC_STEREO_BT_NB,7,
+AUDIO_PROFILE_ID,VC_BT_WB,8,
+AUDIO_PROFILE_ID,VC_BT_NREC_OFF_WB,9,
+AUDIO_PROFILE_ID,VC_STEREO_BT_WB,10,
+AUDIO_PROFILE_ID,VC_HANDSET_EXTRAVOL_ON,11,
+AUDIO_PROFILE_ID,VC_HANDSFREE_EXTRAVOL_ON,12,
+AUDIO_PROFILE_ID,VC_HANDSET_DUALMIC,13,
+AUDIO_PROFILE_ID,VC_HEADSET_DUALMIC,14,
+AUDIO_PROFILE_ID,VC_HANDSFREE_DUALMIC,15,
+AUDIO_PROFILE_ID,VC_HANDSET_LOOP,16,
+AUDIO_PROFILE_ID,VC_HANDSFREE_LOOP,17,
+AUDIO_PROFILE_ID,VC_HEADSET_LOOP,18,
+AUDIO_PROFILE_ID,VC_HEADPHONE_LOOP,19,
+AUDIO_PROFILE_ID,VC_BT_WB_LOOP,20,
+AUDIO_PROFILE_ID,VC_HANDSET_LOOP_ENH_OFF,21,
+AUDIO_PROFILE_ID,VC_HANDSFREE_LOOP_ENH_OFF,22,
+AUDIO_PROFILE_ID,VC_HEADSET_LOOP_ENH_OFF,23,
+AUDIO_PROFILE_ID,VC_HEADPHONE_LOOP_ENH_OFF,24,
+AUDIO_PROFILE_ID,VC_BT_WB_LOOP_ENH_OFF,25,
+AUDIO_PROFILE_ID,VC_TTY,26,
+AUDIO_PROFILE_ID,VC_TTY_HCO_EARPIECE,27,
+AUDIO_PROFILE_ID,VC_TTY_HCO_SPEAKER,28,
+AUDIO_PROFILE_ID,VC_TTY_VCO_EARPIECE,29,
+AUDIO_PROFILE_ID,VC_TTY_VCO_SPEAKER,30,
+AUDIO_PROFILE_ID,VC_TTY_VCO_EARPIECE_DUALMIC,31,
+AUDIO_PROFILE_ID,VC_TTY_VCO_SPEAKER_DUALMIC,32,
+AUDIO_PROFILE_ID,VOLTE_HANDSET,33,
+AUDIO_PROFILE_ID,VOLTE_HANDSFREE,34,
+AUDIO_PROFILE_ID,VOLTE_HEADSET,35,
+AUDIO_PROFILE_ID,VOLTE_HEADPHONE,36,
+AUDIO_PROFILE_ID,VOLTE_SPEAKERPHONE,37,
+AUDIO_PROFILE_ID,VOLTE_BT_NB,38,
+AUDIO_PROFILE_ID,VOLTE_BT_NREC_OFF_NB,39,
+AUDIO_PROFILE_ID,VOLTE_STEREO_BT_NB,40,
+AUDIO_PROFILE_ID,VOLTE_BT_WB,41,
+AUDIO_PROFILE_ID,VOLTE_BT_NREC_OFF_WB,42,
+AUDIO_PROFILE_ID,VOLTE_STEREO_BT_WB,43,
+AUDIO_PROFILE_ID,VOLTE_HANDSET_EXTRAVOL_ON,44,
+AUDIO_PROFILE_ID,VOLTE_HANDSFREE_EXTRAVOL_ON,45,
+AUDIO_PROFILE_ID,VOLTE_HANDSET_DUALMIC,46,
+AUDIO_PROFILE_ID,VOLTE_HEADSET_DUALMIC,47,
+AUDIO_PROFILE_ID,VOLTE_HANDSFREE_DUALMIC,48,
+AUDIO_PROFILE_ID,VOIP_HANDSET,80,
+AUDIO_PROFILE_ID,VOIP_HANDSFREE,81,
+AUDIO_PROFILE_ID,VOIP_HEADSET,82,
+AUDIO_PROFILE_ID,VOIP_HEADPHONE,83,
+AUDIO_PROFILE_ID,VOIP_SPEAKERPHONE,84,
+AUDIO_PROFILE_ID,VOIP_BT_NB,85,
+AUDIO_PROFILE_ID,VOIP_BT_NREC_OFF_NB,86,
+AUDIO_PROFILE_ID,VOIP_STEREO_BT_NB,87,
+AUDIO_PROFILE_ID,VOIP_BT_WB,88,
+AUDIO_PROFILE_ID,VOIP_BT_NREC_OFF_WB,89,
+AUDIO_PROFILE_ID,VOIP_STEREO_BT_WB,90,
+AUDIO_PROFILE_ID,VOIP_HANDSET_EXTRAVOL_ON,91,
+AUDIO_PROFILE_ID,VOIP_HANDSFREE_EXTRAVOL_ON,92,
+AUDIO_PROFILE_ID,VOIP_HANDSET_DUALMIC,93,
+AUDIO_PROFILE_ID,VOIP_HEADSET_DUALMIC,94,
+AUDIO_PROFILE_ID,VOIP_HANDSFREE_DUALMIC,95,
+AUDIO_PROFILE_ID,VOIP_HANDSET_LOOP,96,
+AUDIO_PROFILE_ID,VOIP_HANDSFREE_LOOP,97,
+AUDIO_PROFILE_ID,VOIP_HEADSET_LOOP,98,
+AUDIO_PROFILE_ID,VOIP_BT_NB_LOOP,99,
+AUDIO_PROFILE_ID,VOIP_BT_WB_LOOP,100,
+AUDIO_PROFILE_ID,HIFI_SPEAKER,128,
+AUDIO_PROFILE_ID,HIFI_HEADSET,129,
+AUDIO_PROFILE_ID,HIFI_MIC,130,
+AUDIO_PROFILE_ID,HIFI_DUAL_MIC,131,
+AUDIO_PROFILE_ID,VT_HANDSET,160,
+AUDIO_PROFILE_ID,VT_HANDSFREE,161,
+AUDIO_PROFILE_ID,VT_HEADSET,162,
+AUDIO_PROFILE_ID,VT_HEADPHONE,163,
+AUDIO_PROFILE_ID,VT_SPEAKERPHONE,164,
+AUDIO_PROFILE_ID,VT_BT_NB,165,
+AUDIO_PROFILE_ID,VT_BT_NREC_OFF_NB,166,
+AUDIO_PROFILE_ID,VT_STEREO_BT_NB,167,
+AUDIO_PROFILE_ID,VT_BT_WB,168,
+AUDIO_PROFILE_ID,VT_BT_NREC_OFF_WB,169,
+AUDIO_PROFILE_ID,VT_STEREO_BT_WB,170,
+AUDIO_PROFILE_ID,VT_HANDSET_EXTRAVOL_ON,171,
+AUDIO_PROFILE_ID,VT_HANDSFREE_EXTRAVOL_ON,172,
+AUDIO_PROFILE_ID,VT_HANDSET_DUALMIC,173,
+AUDIO_PROFILE_ID,VT_HEADSET_DUALMIC,174,
+AUDIO_PROFILE_ID,VT_HANDSFREE_DUALMIC,175,
+AUDIO_PROFILE_ID,VT_HANDSET_LOOP,176,
+AUDIO_PROFILE_ID,VT_HANDSFREE_LOOP,177,
+AUDIO_PROFILE_ID,VT_HEADSET_LOOP,178,
+AUDIO_PROFILE_ID,VT_BT_NB_LOOP,179,
+AUDIO_PROFILE_ID,VT_BT_WB_LOOP,180,
+AUDIO_PROFILE_ID,AUDIO_PROFILE_ID_ENUM_32_BIT,2147483647,
+ACM_Module_Switcher,MODULE_OFF,0,
+ACM_Module_Switcher,MODULE_ON,1,
+ACM_Module_Switcher,ACM_Module_Switcher_ENUM_32_BIT,2147483647,
+<end>
+Unions
+<end>

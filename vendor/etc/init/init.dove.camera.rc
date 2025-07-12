@@ -1,0 +1,7 @@
+
+on post-fs-data
+    mkdir /data/vendor_de/
+    mkdir /data/vendor_de/camera
+    chown camera camera /data/vendor_de/camera
+    chmod 0775 /data/vendor_de/camera
+

@@ -1,0 +1,52 @@
+on property:vendor.thermal.link_ready=1
+    # queue the trigger to start thermal-hal and continue execute
+    # per-device thermal setup "on property:vendor.thermal.link_ready=1"
+
+    # Select power_allocator for soc_max
+    write /dev/thermal/tz-by-name/soc_max/policy power_allocator
+    # Select user_space for others
+    write /dev/thermal/tz-by-name/cpu_cluster/policy user_space
+    write /dev/thermal/tz-by-name/cpu_core/policy user_space
+    write /dev/thermal/tz-by-name/gpu/policy user_space
+    write /dev/thermal/tz-by-name/local/policy user_space
+    write /dev/thermal/tz-by-name/top/policy user_space
+    write /dev/thermal/tz-by-name/pm833-battery-temp/policy user_space
+    write /dev/thermal/tz-by-name/pm833-charger-temp/policy user_space
+    write /dev/thermal/tz-by-name/pm813-battery/policy user_space
+    write /dev/thermal/tz-by-name/pmic-temp/policy user_space
+
+    # Cooling devices:
+    # CPU freq
+    chown system system /dev/thermal/cdev-by-name/asr-cpufreq-0/cur_state
+    # GPU freq
+    chown system system /dev/thermal/cdev-by-name/asr-gpufreq-0/cur_state
+    # CP RF PA
+    chown system system /dev/thermal/cdev-by-name/asr-cp-pa-0/cur_state
+    # Charge current into battery
+    chown system system /dev/thermal/cdev-by-name/pm833-batt-in-curr/cur_state
+    chown system system /dev/thermal/cdev-by-name/pm813-batt-in-curr/cur_state
+    # DDR freq
+    chown system system /dev/thermal/cdev-by-name/thermal-devfreq-0/cur_state
+    # VPU freq
+    chown system system /dev/thermal/cdev-by-name/asr-vpu-clk/cur_state
+
+
+    # Trip points
+    chown system system /dev/thermal/tz-by-name/cpu_core/trip_point_0_temp
+    chown system system /dev/thermal/tz-by-name/cpu_core/trip_point_0_hyst
+    chown system system /dev/thermal/tz-by-name/pm833-battery-temp/trip_point_0_temp
+    chown system system /dev/thermal/tz-by-name/pm833-battery-temp/trip_point_0_type
+    chmod 0644 /dev/thermal/tz-by-name/pm833-battery-temp/trip_point_0_temp
+    chmod 0644 /dev/thermal/tz-by-name/pm833-battery-temp/trip_point_0_type
+
+    trigger enable-thermal-hal
+
+on enable-thermal-hal
+    restart vendor.thermal-hal-2-0
+
+service vendor.thermal-hal-2-0 /vendor/bin/hw/android.hardware.thermal@2.0-service.asr
+    class hal
+    user system
+    group system
+    priority -20
+    disabled

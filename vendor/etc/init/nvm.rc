@@ -1,0 +1,11 @@
+on property:init.svc.nvm=stopped
+    exec /vendor/bin/telmon nvm
+
+service nvm /vendor/bin/nvm
+    disabled
+    oneshot
+    group system
+
+service nvm-aponly /vendor/bin/nvm -A
+    disabled
+    group system

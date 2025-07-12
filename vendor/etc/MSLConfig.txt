@@ -1,0 +1,7 @@
+Version: 2
+Day: 0
+Seed_Host: agnssloc.asrmicro.com
+Seed_Port: 80
+all_in_one: 1
+USR: XinqiwlDevice
+PWD: pU145o7fTd

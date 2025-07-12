@@ -1,0 +1,478 @@
+{
+  "Nodes": [
+    {
+      "Name": "CPULittleClusterMaxFreq",
+      "Path": "/sys/devices/system/cpu/cpufreq/policy0/scaling_max_freq",
+      "Values": [
+        "9999999",
+        "409000",
+        "491000",
+        "614000",
+        "819000",
+        "1000000",
+        "1228000",
+        "1500000"
+      ],
+      "DefaultIndex": 7,
+      "ResetOnInit": false
+    },
+    {
+      "Name": "CPULittleClusterMinFreq",
+      "Path": "/sys/devices/system/cpu/cpufreq/policy0/scaling_min_freq",
+      "Values": [
+        "9999999",
+        "1500000",
+        "1228000",
+        "1000000",
+        "819000",
+        "614000",
+        "491000",
+        "409000",
+        "0"
+      ],
+      "DefaultIndex": 5,
+      "ResetOnInit": true
+    },
+    {
+      "Name": "CPUPolicy",
+      "Path": "/sys/devices/system/cpu/cpufreq/policy0/scaling_governor",
+      "Values": [
+        "schedutil",
+        "performance",
+        "userspace",
+        "ondemand",
+        "powersave",
+        "conservative"
+      ],
+      "DefaultIndex": 4,
+      "ResetOnInit": false
+    },
+    {
+      "Name": "DDRMaxFreq",
+      "Path": "/sys/class/devfreq/c0000000.ddr_fc/max_freq",
+      "Values": [
+        "999999999",
+        "100000000",
+        "133333333",
+        "200000000",
+        "400000000"
+      ],
+      "DefaultIndex": 4,
+      "ResetOnInit": false
+    },
+    {
+      "Name": "DDRMinFreq",
+      "Path": "/sys/class/devfreq/c0000000.ddr_fc/min_freq",
+      "Values": [
+        "999999999",
+        "400000000",
+        "200000000",
+        "133333333",
+        "100000000",
+        "0"
+      ],
+      "DefaultIndex": 2,
+      "ResetOnInit": true
+    },
+    {
+      "Name": "DDRPolicy",
+      "Path": "/sys/class/devfreq/c0000000.ddr_fc/governor",
+      "Values": [
+        "ddr_thpt",
+        "userspace",
+        "powersave",
+        "performance",
+        "simple_ondemand"
+      ],
+      "DefaultIndex": 2,
+      "ResetOnInit": false
+    },
+    {
+      "Name": "GPUMaxFreq",
+      "Path": "/sys/class/devfreq/c0500000.imggpu/max_freq",
+      "Values": [
+        "999999999",
+        "76800000",
+        "153600000",
+        "307200000",
+        "491520000",
+        "614400000",
+        "819200000"
+      ],
+      "DefaultIndex": 3,
+      "ResetOnInit": true
+    },
+    {
+      "Name": "GPUMinFreq",
+      "Path": "/sys/class/devfreq/c0500000.imggpu/min_freq",
+      "Values": [
+        "999999999",
+        "819200000",
+        "614400000",
+        "491520000",
+        "307200000",
+        "153600000",
+        "76800000"
+      ],
+      "DefaultIndex": 5,
+      "ResetOnInit": true
+    },
+    {
+      "Name": "VPUMaxFreq",
+      "Path": "/sys/devices/platform/soc/c0980000.linlon-v5/dvfs_max_freq",
+      "Values": [
+        "999999999",
+        "76800000",
+        "153600000",
+        "307200000",
+        "409600000",
+        "491520000",
+        "600000000",
+        "614400000",
+        "750000000",
+        "819200000"
+      ],
+      "DefaultIndex": 3,
+      "ResetOnInit": true
+    },
+    {
+      "Name": "VPUMinFreq",
+      "Path": "/sys/devices/platform/soc/c0980000.linlon-v5/dvfs_min_freq",
+      "Values": [
+        "999999999",
+        "819200000",
+        "750000000",
+        "614400000",
+        "600000000",
+        "491520000",
+        "409600000",
+        "307200000",
+        "153600000",
+        "76800000"
+      ],
+      "DefaultIndex": 8,
+      "ResetOnInit": true
+    },
+    {
+      "Name": "DPUBitClock",
+      "Path": "/sys/devices/platform/soc/soc:dpu_online2@c0340000/dpu_bitclk",
+      "Values": [
+        "999999999",
+        "250000000",
+        "153600000",
+        "98304000",
+        "81920000"
+      ],
+      "DefaultIndex": 2,
+      "ResetOnInit": true
+    }
+  ],
+  "Actions": [
+    {
+      "PowerHint": "CAMERA_LAUNCH",
+      "Node": "CPULittleClusterMinFreq",
+      "Duration": 0,
+      "Value": "409000"
+    },
+    {
+      "PowerHint": "CAMERA_LAUNCH",
+      "Node": "DDRMaxFreq",
+      "Duration": 0,
+      "Value": "200000000"
+    },
+    {
+      "PowerHint": "CAMERA_LAUNCH",
+      "Node": "VPUMaxFreq",
+      "Duration": 0,
+      "Value": "153600000"
+    },
+    {
+      "PowerHint": "CAMERA_LAUNCH",
+      "Node": "VPUMinFreq",
+      "Duration": 0,
+      "Value": "153600000"
+    },
+    {
+      "PowerHint": "CAMERA_LAUNCH",
+      "Node": "GPUMaxFreq",
+      "Duration": 0,
+      "Value": "76800000"
+    },
+    {
+      "PowerHint": "CAMERA_LAUNCH",
+      "Node": "GPUMinFreq",
+      "Duration": 0,
+      "Value": "76800000"
+    },
+    {
+      "PowerHint": "LAUNCH",
+      "Node": "CPULittleClusterMinFreq",
+      "Duration": 2000,
+      "Value": "1500000"
+    },
+    {
+      "PowerHint": "LAUNCH",
+      "Node": "DDRMinFreq",
+      "Duration": 2000,
+      "Value": "400000000"
+    },
+    {
+      "PowerHint": "2",
+      "Node": "CPULittleClusterMinFreq",
+      "Duration": 800,
+      "Value": "1500000"
+    },
+    {
+      "PowerHint": "2",
+      "Node": "DDRMinFreq",
+      "Duration": 800,
+      "Value": "400000000"
+    },
+    {
+      "PowerHint": "3",
+      "Node": "CPULittleClusterMinFreq",
+      "Duration": 500,
+      "Value": "1500000"
+    },
+    {
+      "PowerHint": "3",
+      "Node": "DDRMinFreq",
+      "Duration": 500,
+      "Value": "400000000"
+    },
+    {
+      "PowerHint": "4",
+      "Node": "CPULittleClusterMinFreq",
+      "Duration": 200,
+      "Value": "1000000"
+    },
+    {
+      "PowerHint": "4",
+      "Node": "DDRMinFreq",
+      "Duration": 200,
+      "Value": "400000000"
+    },
+    {
+      "PowerHint": "5",
+      "Node": "CPULittleClusterMinFreq",
+      "Duration": 0,
+      "Value": "1500000"
+    },
+    {
+      "PowerHint": "5",
+      "Node": "DDRMinFreq",
+      "Duration": 0,
+      "Value": "400000000"
+    },
+    {
+      "PowerHint": "6",
+      "Node": "CPULittleClusterMinFreq",
+      "Duration": 500,
+      "Value": "1228000"
+    },
+    {
+      "PowerHint": "6",
+      "Node": "DDRMinFreq",
+      "Duration": 500,
+      "Value": "400000000"
+    },
+    {
+      "PowerHint": "7",
+      "Node": "CPULittleClusterMinFreq",
+      "Duration": 10000,
+      "Value": "1500000"
+    },
+    {
+      "PowerHint": "7",
+      "Node": "DDRMinFreq",
+      "Duration": 10000,
+      "Value": "400000000"
+    },
+    {
+      "PowerHint": "7",
+      "Node": "GPUMaxFreq",
+      "Duration": 5000,
+      "Value": "307200000"
+    },
+    {
+      "PowerHint": "7",
+      "Node": "GPUMinFreq",
+      "Duration": 5000,
+      "Value": "307200000"
+    },
+    {
+      "PowerHint": "8",
+      "Node": "CPULittleClusterMinFreq",
+      "Duration": 3000,
+      "Value": "1228000"
+    },
+    {
+      "PowerHint": "8",
+      "Node": "DDRMinFreq",
+      "Duration": 3000,
+      "Value": "400000000"
+    },
+    {
+      "PowerHint": "SUSTAINED_PERFORMANCE",
+      "Node": "CPULittleClusterMinFreq",
+      "Duration": 15000,
+      "Value": "1228000"
+    },
+    {
+      "PowerHint": "10",
+      "Node": "CPULittleClusterMinFreq",
+      "Duration": 2000,
+      "Value": "1228000"
+    },
+    {
+      "PowerHint": "11",
+      "Node": "CPULittleClusterMinFreq",
+      "Duration": 200,
+      "Value": "1228000"
+    },
+    {
+      "PowerHint": "12",
+      "Node": "CPULittleClusterMinFreq",
+      "Duration": 120000,
+      "Value": "1228000"
+    },
+    {
+      "PowerHint": "13",
+      "Node": "VPUMaxFreq",
+      "Duration": 0,
+      "Value": "76800000"
+    },
+    {
+      "PowerHint": "13",
+      "Node": "VPUMinFreq",
+      "Duration": 0,
+      "Value": "76800000"
+    },
+    {
+      "PowerHint": "13",
+      "Node": "GPUMaxFreq",
+      "Duration": 0,
+      "Value": "76800000"
+    },
+    {
+      "PowerHint": "13",
+      "Node": "GPUMinFreq",
+      "Duration": 0,
+      "Value": "76800000"
+    },
+    {
+      "PowerHint": "13",
+      "Node": "DDRMinFreq",
+      "Duration": 0,
+      "Value": "200000000"
+    },
+    {
+      "PowerHint": "13",
+      "Node": "CPULittleClusterMinFreq",
+      "Duration": 0,
+      "Value": "409000"
+    },
+    {
+      "PowerHint": "13",
+      "Node": "DPUBitClock",
+      "Duration": 0,
+      "Value": "81920000"
+    },
+    {
+      "PowerHint": "14",
+      "Node": "CPULittleClusterMinFreq",
+      "Duration": 3000,
+      "Value": "1228000"
+    },
+    {
+      "PowerHint": "14",
+      "Node": "DDRMinFreq",
+      "Duration": 3000,
+      "Value": "400000000"
+    },
+    {
+      "PowerHint": "15",
+      "Node": "CPULittleClusterMinFreq",
+      "Duration": 0,
+      "Value": "1500000"
+    },
+    {
+      "PowerHint": "15",
+      "Node": "DDRMinFreq",
+      "Duration": 0,
+      "Value": "400000000"
+    },
+    {
+      "PowerHint": "15",
+      "Node": "GPUMaxFreq",
+      "Duration": 0,
+      "Value": "819200000"
+    },
+    {
+      "PowerHint": "16",
+      "Node": "CPULittleClusterMinFreq",
+      "Duration": 0,
+      "Value": "1228000"
+    },
+    {
+      "PowerHint": "16",
+      "Node": "DDRMinFreq",
+      "Duration": 0,
+      "Value": "400000000"
+    },
+    {
+      "PowerHint": "17",
+      "Node": "CPULittleClusterMinFreq",
+      "Duration": 90000,
+      "Value": "1500000"
+    },
+    {
+      "PowerHint": "17",
+      "Node": "DDRMinFreq",
+      "Duration": 90000,
+      "Value": "400000000"
+    },
+    {
+      "PowerHint": "17",
+      "Node": "GPUMaxFreq",
+      "Duration": 90000,
+      "Value": "819200000"
+    },
+    {
+      "PowerHint": "17",
+      "Node": "GPUMinFreq",
+      "Duration": 90000,
+      "Value": "614400000"
+    },
+    {
+      "PowerHint": "18",
+      "Node": "CPULittleClusterMinFreq",
+      "Duration": 10000,
+      "Value": "1228000"
+    },
+    {
+      "PowerHint": "19",
+      "Node": "CPULittleClusterMinFreq",
+      "Duration": 0,
+      "Value": "1000000"
+    },
+    {
+      "PowerHint": "20",
+      "Node": "CPULittleClusterMinFreq",
+      "Duration": 800,
+      "Value": "1500000"
+    },
+    {
+      "PowerHint": "21",
+      "Node": "CPULittleClusterMinFreq",
+      "Duration": 0,
+      "Value": "1000000"
+    },
+    {
+      "PowerHint": "22",
+      "Node": "CPULittleClusterMinFreq",
+      "Duration": 60000,
+      "Value": "1228000"
+    }
+  ]
+}

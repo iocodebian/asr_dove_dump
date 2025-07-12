@@ -1,0 +1,31 @@
+on boot
+    # Assume SMP uses shared devfreq policy for all DDR
+    chown system system /sys/class/devfreq/c0000000.ddr_fc/max_freq
+    chmod 0664 /sys/class/devfreq/c0000000.ddr_fc/max_freq
+    chown system system /sys/class/devfreq/c0000000.ddr_fc/min_freq
+    chmod 0664 /sys/class/devfreq/c0000000.ddr_fc/min_freq
+    chown system system /sys/class/devfreq/c0000000.ddr_fc/governor
+    chmod 0664 /sys/class/devfreq/c0000000.ddr_fc/governor
+
+    # Assume SMP uses shared devfreq policy for all GPU
+    chown system system /sys/class/devfreq/c0500000.imggpu/max_freq
+    chmod 0664 /sys/class/devfreq/c0500000.imggpu/max_freq
+    chown system system /sys/class/devfreq/c0500000.imggpu/min_freq
+    chmod 0664 /sys/class/devfreq/c0500000.imggpu/min_freq
+    chown system system /sys/class/devfreq/c0500000.imggpu/governor
+
+    chmod 0664 /sys/devices/system/cpu/cpufreq/policy0/scaling_governor
+    chown system system /sys/devices/system/cpu/cpufreq/policy0/scaling_governor
+    chown system system /sys/devices/platform/soc/soc:dpu_online2@c0340000/dpu_bitclk
+    chmod 0664 /sys/devices/platform/soc/soc:dpu_online2@c0340000/dpu_bitclk
+
+    chown system system /sys/devices/platform/soc/c0980000.linlon-v5/dvfs_max_freq
+    chmod 0664 /sys/devices/platform/soc/c0980000.linlon-v5/dvfs_max_freq
+
+    chown system system /sys/devices/platform/soc/c0980000.linlon-v5/dvfs_min_freq
+    chmod 0664 /sys/devices/platform/soc/c0980000.linlon-v5/dvfs_max_freq
+
+service power-hal-1-1 /vendor/bin/hw/android.hardware.power@1.1-service
+    class hal
+    user system
+    group system

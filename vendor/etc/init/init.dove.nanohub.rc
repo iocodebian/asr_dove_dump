@@ -1,0 +1,5 @@
+on post-fs-data
+    mkdir /data/vendor/sensor
+    chown root system /data/vendor/sensor
+    chmod 0770 /data/vendor/sensor
+

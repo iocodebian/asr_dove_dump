@@ -1,0 +1,25 @@
+on post-fs-data
+    mkdir /data/asrlog 0775 media_rw media_rw
+    restorecon_recursive /data/asrlog
+    mkdir /data/asrlog/boot_log 0775 media_rw media_rw
+
+on property:persist.asrlog.ramdump.type=*
+    write /sys/power/panic ${persist.asrlog.ramdump.type}
+
+on property:asrlog.onboot=true
+    #wait /data/media/0/Android
+    mkdir /data/media/0/asrlog 0775 media_rw media_rw
+    mkdir /data/media/0/asrlog/SUlog 0775 media_rw media_rw
+    mkdir /data/media/0/asrlog/SDlog 0775 media_rw media_rw
+    mkdir /data/media/0/asrlog/ramdump  0775 media_rw media_rw
+    mkdir /data/media/0/asrlog/boot_log 0775 media_rw media_rw
+
+#    symlink /data/asrlog /data/media/0/asrlog
+#    chown media_rw media_rw /data/media/0/asrlog
+#    chmod 0775 /data/media/0/asrlog
+
+#asrlog tool
+service asrlog /system/bin/asrlog
+        class main
+        user root
+

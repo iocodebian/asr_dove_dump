@@ -1,0 +1,12 @@
+service diag /vendor/bin/diag
+    disabled
+    oneshot
+    user system
+    class main
+    group system audio sdcard_rw media_rw
+
+service diag-aponly /vendor/bin/diag -A
+    disabled
+    user system
+    class main
+    group system audio sdcard_rw media_rw

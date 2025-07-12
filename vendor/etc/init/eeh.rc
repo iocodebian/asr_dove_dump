@@ -1,0 +1,4 @@
+service eeh /vendor/bin/eeh -M yes
+    disabled
+    socket seh_dumper stream 0666 root system
+    group system

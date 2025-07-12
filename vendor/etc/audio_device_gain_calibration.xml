@@ -1,0 +1,233 @@
+<?xml version="1.0"?>
+<AudioGainConfiguration>
+	<VoicePath>
+		<Setting>
+			<OutputDevice Number="1">
+				<Device>Earpiece</Device>
+			</OutputDevice>
+			<InputDevice Number="1">
+				<Device>Mic1</Device>
+			</InputDevice>
+		</Setting>
+		<AudioPath identifier="Earpiece_Mic1" component="CODEC">
+			<Earpiece>
+				<Digital ctrlname="PM860_VOL_SEL_1">177</Digital>
+				<Analog ctrlname="PM860_HP_GAIN">15</Analog>
+			</Earpiece>
+			<Mic1>
+				<Digital ctrlname="NULL">0</Digital>
+				<Analog ctrlname="PM860_ANALOG_MIC_GAIN1">34</Analog>
+			</Mic1>
+		</AudioPath>
+		<AudioPath identifier="Earpiece_Mic2" component="CODEC">
+			<Earpiece>
+				<Digital ctrlname="PM860_VOL_SEL_1">177</Digital>
+				<Analog ctrlname="PM860_HP_GAIN">15</Analog>
+			</Earpiece>
+			<Mic2>
+				<Digital ctrlname="NULL">0</Digital>
+				<Analog ctrlname="PM860_ANALOG_MIC_GAIN2">34</Analog>
+			</Mic2>
+		</AudioPath>
+		<AudioPath identifier="Earpiece_DigitalMic" component="CODEC">
+			<Earpiece>
+				<Digital ctrlname="PM860_VOL_SEL_1">177</Digital>
+				<Analog ctrlname="PM860_HP_GAIN">15</Analog>
+			</Earpiece>
+			<DigitalMic>
+				<Digital ctrlname="NULL">0</Digital>
+				<Analog ctrlname="NULL">0</Analog>
+			</DigitalMic>
+		</AudioPath>
+		<AudioPath identifier="Earpiece_Mic1_Mic2" component="CODEC">
+			<Earpiece>
+				<Digital ctrlname="PM860_VOL_SEL_1">160</Digital>
+				<Analog ctrlname="PM860_HP_GAIN">15</Analog>
+			</Earpiece>
+			<Mic1>
+				<Digital ctrlname="NULL">0</Digital>
+				<Analog ctrlname="PM860_ANALOG_MIC_GAIN1">20</Analog>
+			</Mic1>
+			<Mic2>
+				<Digital ctrlname="NULL">0</Digital>
+				<Analog ctrlname="PM860_ANALOG_MIC_GAIN2">20</Analog>
+			</Mic2>
+		</AudioPath>
+
+		<AudioPath identifier="Speaker_Mic1" component="CODEC">
+			<Speaker>
+				<Digital ctrlname="PM860_VOL_SEL_3">177</Digital>
+				<Digital ctrlname="PM860_VOL_SEL_4">177</Digital>
+				<Analog ctrlname="NULL">0</Analog>
+			</Speaker>
+			<Mic1>
+				<Digital ctrlname="NULL">0</Digital>
+				<Analog ctrlname="PM860_ANALOG_MIC_GAIN1">34</Analog>
+			</Mic1>
+		</AudioPath>
+		<AudioPath identifier="Speaker_Mic2" component="CODEC">
+			<Speaker>
+				<Digital ctrlname="PM860_VOL_SEL_3">177</Digital>
+				<Digital ctrlname="PM860_VOL_SEL_4">177</Digital>
+				<Analog ctrlname="NULL">0</Analog>
+			</Speaker>
+			<Mic2>
+				<Digital ctrlname="NULL">0</Digital>
+				<Analog ctrlname="PM860_ANALOG_MIC_GAIN2">34</Analog>
+			</Mic2>
+		</AudioPath>
+		<AudioPath identifier="Speaker_DigtialMic" component="CODEC">
+			<Speaker>
+				<Digital ctrlname="PM860_VOL_SEL_3">177</Digital>
+				<Digital ctrlname="PM860_VOL_SEL_4">177</Digital>
+				<Analog ctrlname="NULL">0</Analog>
+			</Speaker>
+			<DigitalMic>
+				<Digital ctrlname="NULL">0</Digital>
+				<Analog ctrlname="NULL">0</Analog>
+			</DigitalMic>
+		</AudioPath>
+		<AudioPath identifier="Speaker_Mic1_Mic2" component="CODEC">
+			<Speaker>
+				<Digital ctrlname="PM860_VOL_SEL_3">177</Digital>
+				<Digital ctrlname="PM860_VOL_SEL_4">177</Digital>
+				<Analog ctrlname="NULL">34</Analog>
+			</Speaker>
+			<Mic1>
+				<Digital ctrlname="NULL">0</Digital>
+				<Analog ctrlname="PM860_ANALOG_MIC_GAIN1">30</Analog>
+			</Mic1>
+			<Mic2>
+				<Digital ctrlname="NULL">0</Digital>
+				<Analog ctrlname="PM860_ANALOG_MIC_GAIN2">30</Analog>
+			</Mic2>
+		</AudioPath>
+		<AudioPath identifier="Headphone_Mic1" component="CODEC">
+			<Headphone>
+				<Digital ctrlname="PM860_VOL_SEL_1">177</Digital>
+				<Digital ctrlname="PM860_VOL_SEL_2">177</Digital>
+				<Analog ctrlname="PM860_HP_GAIN">15</Analog>
+			</Headphone>
+			<Mic1>
+				<Digital ctrlname="NULL">0</Digital>
+				<Analog ctrlname="PM860_ANALOG_MIC_GAIN1">34</Analog>
+			</Mic1>
+		</AudioPath>
+		<AudioPath identifier="Headphone_Mic2" component="CODEC">
+			<Headphone>
+				<Digital ctrlname="PM860_VOL_SEL_1">177</Digital>
+				<Digital ctrlname="PM860_VOL_SEL_2">177</Digital>
+				<Analog ctrlname="PM860_HP_GAIN">15</Analog>
+			</Headphone>
+			<Mic2>
+				<Digital ctrlname="NULL">0</Digital>
+				<Analog ctrlname="PM860_ANALOG_MIC_GAIN2">34</Analog>
+			</Mic2>
+		</AudioPath>
+		<AudioPath identifier="Headphone_DigitalMic" component="CODEC">
+			<Headphone>
+				<Digital ctrlname="PM860_VOL_SEL_1">177</Digital>
+				<Digital ctrlname="PM860_VOL_SEL_2">177</Digital>
+				<Analog ctrlname="PM860_HP_GAIN">15</Analog>
+			</Headphone>
+			<DigitalMic>
+				<Digital ctrlname="NULL">0</Digital>
+				<Analog ctrlname="NULL">0</Analog>
+			</DigitalMic>
+		</AudioPath>
+		<AudioPath identifier="Headphone_Mic1_Mic2" component="CODEC">
+			<Headphone>
+				<Digital ctrlname="PM860_VOL_SEL_1">177</Digital>
+				<Digital ctrlname="PM860_VOL_SEL_2">177</Digital>
+				<Analog ctrlname="PM860_HP_GAIN">15</Analog>
+			</Headphone>
+			<Mic1>
+				<Digital ctrlname="NULL">0</Digital>
+				<Analog ctrlname="PM860_ANALOG_MIC_GAIN1">34</Analog>
+			</Mic1>
+			<Mic2>
+				<Digital ctrlname="NULL">0</Digital>
+				<Analog ctrlname="PM860_ANALOG_MIC_GAIN2">34</Analog>
+			</Mic2>
+		</AudioPath>
+		<AudioPath identifier="Headset_HeadsetMic" component="CODEC">
+			<Headset>
+				<Digital ctrlname="PM860_VOL_SEL_1">177</Digital>
+				<Digital ctrlname="PM860_VOL_SEL_2">177</Digital>
+				<Analog ctrlname="PM860_HP_GAIN">15</Analog>
+			</Headset>
+			<HeadsetMic>
+				<Digital ctrlname="NULL">12</Digital>
+				<Analog ctrlname="PM860_ANALOG_MIC_GAIN1">34</Analog>
+				<Analog ctrlname="PM860_ANALOG_MIC_GAIN2">34</Analog>
+			</HeadsetMic>
+		</AudioPath>
+	</VoicePath>
+
+	<NormalPath>
+		<AudioPath identifier="Mic1" component="CODEC">
+			<Mic1>
+				<Digital ctrlname="NULL">0</Digital>
+				<Analog ctrlname="PM860_ANALOG_MIC_GAIN1">34</Analog>
+			</Mic1>
+		</AudioPath>
+		<AudioPath identifier="Mic2" component="CODEC">
+			<Mic2>
+				<Digital ctrlname="NULL">0</Digital>
+				<Analog ctrlname="PM860_ANALOG_MIC_GAIN2">34</Analog>
+			</Mic2>
+		</AudioPath>
+		<AudioPath identifier="DigitalMic" component="CODEC">
+			<DigitalMic>
+				<Digital ctrlname="NULL">0</Digital>
+				<Analog ctrlname="NULL">0</Analog>
+			</DigitalMic>
+		</AudioPath>
+		<AudioPath identifier="HeadsetMic" component="CODEC">
+			<HeadsetMic>
+				<Digital ctrlname="NULL">12</Digital>
+				<Analog ctrlname="PM860_ANALOG_MIC_GAIN1">34</Analog>
+				<Analog ctrlname="PM860_ANALOG_MIC_GAIN2">34</Analog>
+			</HeadsetMic>
+		</AudioPath>
+
+		<AudioPath identifier="Mic1_Mic2" component="CODEC">
+			<Mic1>
+				<Digital ctrlname="NULL">0</Digital>
+				<Analog ctrlname="PM860_ANALOG_MIC_GAIN1">20</Analog>
+			</Mic1>
+			<Mic2>
+				<Digital ctrlname="NULL">0</Digital>
+				<Analog ctrlname="PM860_ANALOG_MIC_GAIN2">20</Analog>
+			</Mic2>
+		</AudioPath>
+
+		<AudioPath identifier="Earpiece" component="CODEC">
+			<Earpiece>
+				<Digital ctrlname="PM860_VOL_SEL_1">177</Digital>
+				<Analog ctrlname="PM860_HP_GAIN">15</Analog>
+			</Earpiece>
+		</AudioPath>
+		<AudioPath identifier="Speaker" component="CODEC">
+			<Speaker>
+				<Digital ctrlname="PM860_VOL_SEL_3">177</Digital>
+				<Digital ctrlname="PM860_VOL_SEL_4">177</Digital>
+				<Analog ctrlname="NULL">0</Analog>
+			</Speaker>
+		</AudioPath>
+		<AudioPath identifier="Headphone" component="CODEC">
+			<Headphone>
+				<Digital ctrlname="PM860_VOL_SEL_1">177</Digital>
+				<Digital ctrlname="PM860_VOL_SEL_2">177</Digital>
+				<Analog ctrlname="PM860_HP_GAIN">15</Analog>
+			</Headphone>
+		</AudioPath>
+		<AudioPath identifier="Headset" component="CODEC">
+			<Headset>
+				<Digital ctrlname="PM860_VOL_SEL_1">177</Digital>
+				<Digital ctrlname="PM860_VOL_SEL_2">177</Digital>
+				<Analog ctrlname="PM860_HP_GAIN">15</Analog>
+			</Headset>
+		</AudioPath>
+	</NormalPath>
+</AudioGainConfiguration>

@@ -1,0 +1,6 @@
+
+# ASR extended extractors syscalls
+readlinkat: 1
+pread64: 1
+gettimeofday: 1
+mremap: 1

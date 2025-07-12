@@ -1,0 +1,54 @@
+#!/system/bin/sh
+
+
+# Hardware intends to sample vibrator output through NTC ADC under ATA test.
+adc_node=/sys/devices/platform/soc/d4000000.apb/d4018800.i2c/i2c-3/3-0010/adc_temp
+
+vib_main()
+{
+    if [ $1 = "on" ]
+    then
+        echo "open vib now !"
+        echo 1 > /sys/class/leds/vibrator/state
+        echo 3000 > /sys/class/leds/vibrator/duration
+        echo 1 > /sys/class/leds/vibrator/activate
+        if [ $? -ne 0 ]; then
+            exit 1
+        fi
+
+        usleep 300000
+
+        vib_val=`cat $adc_node`
+        echo "vib_val=$vib_val"
+        if [ $vib_val -gt 500 ]
+        then
+            echo "open vib, val is OK !"
+            exit 0
+        else
+            echo "open vib, val is wrong !"
+            exit 1
+        fi
+    else
+        echo "close vib now !"
+        echo 0 > /sys/class/leds/vibrator/activate
+        if [ $? -ne 0 ]; then
+            exit 1
+        fi
+
+        usleep 300000
+
+        vib_val=`cat $adc_node`
+        echo "vib_val=$vib_val"
+        if [ $vib_val -lt 100 ]
+        then
+            echo "close vib, val is OK !"
+            exit 0
+        else
+            echo "close vib, val is wrong !"
+            exit 1
+        fi
+    fi
+}
+
+
+vib_main $1

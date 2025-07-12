@@ -1,0 +1,7 @@
+#msglevel=0x3
+#sd_msglevel=0x3
+#android_msg_level=0x3
+#config_msg_level=0x3
+#wl_dbg_level=0x3
+#iw_msg_level=0x3
+

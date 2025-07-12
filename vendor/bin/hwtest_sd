@@ -1,0 +1,98 @@
+#!/system/bin/sh
+
+SD_DIR=/mnt/expand
+
+#default point
+SD_DEV=/dev/block/platform/soc/d4200000.axi/d4280000.sdh/mmcblk1
+SD_PART=${SD_DEV}p1
+
+check_part()
+{
+	#first check mmcblk1p1 device
+	if [ -e $SD_PART ];then
+		echo "$SD_PART exist"
+	else
+		#no logic partition
+		SD_PART=${SD_DEV}
+		if [ -e $SD_PART ];then
+			echo "$SD_PART  exist"
+		else
+			echo "${SD_DEV}p1 and ${SD_DEV} do not exist"
+			exit 3
+		fi
+	fi
+}
+
+mount_sd()
+{
+#	mkdir -p  $SD_DIR
+	if [ -e ${SD_PART} ];then
+		mount -t vfat -o rw $SD_PART $SD_DIR
+		if [ $? != 0 ];then
+			return 2
+		fi
+		return 0
+	fi
+	return 1
+}
+
+umount_sd()
+{
+	#if [ `mount |grep $SD_DIR` ];then
+	#	umount $SD_DIR
+	#fi
+	umount $SD_DIR
+	if [ $? != 0 ];then
+		return 2
+	fi
+
+#	rm -rf $SD_DIR
+}
+
+sd_main()
+{
+	check_part
+
+	test_content="hwtest sdcard item test"
+	echo "sd device node: $SD_PART,sd mount dir: $SD_DIR"
+
+	mount_sd
+	if [ $? != 0 ];then
+		exit 2
+	fi
+	if [ -e $SD_DIR/hwtest ];then
+		echo "$SD_DIR/hwtest exist"
+	else
+		echo "$test_content" >$SD_DIR/hwtest
+	fi
+	umount_sd
+	if [ $? != 0 ];then
+		exit 2
+	fi
+
+	mount_sd
+	read_content=`cat $SD_DIR/hwtest`
+#	rm $SD_DIR/hwtest
+	umount_sd
+
+	if [ "$test_content" = "$read_content" ];then
+		echo "Test OK"
+		exit 0
+	else
+		echo "Test Failed"
+		exit 1
+	fi
+}
+
+
+#mount -o remount rw /
+
+
+if [ -n "$1" ];then
+	SD_PART=/dev/block/$1
+fi
+
+echo "sd device node: $SD_PART"
+
+sd_main
+

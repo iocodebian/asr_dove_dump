@@ -1,0 +1,355 @@
+{
+    "P<=_V<=_C<=_S<=": {
+        "name": "Small Size",
+        "streams": {
+            "preview": {
+                "Online_SmallSize_PVCs": {
+                    "outputs": {
+                        "preview": "Sink_preview"
+                    }
+                }
+            },
+            "video": {
+                "Online_SmallSize_PVCs": {
+                    "outputs": {
+                        "video": "Sink_video"
+                    }
+                }
+            },
+            "callback": {
+                "Online_SmallSize_PVCs": {
+                    "outputs": {
+                        "callback": "Sink_callback",
+                        "fullSizeRaw": "Sink_fullSizeRaw"
+                    },
+                    "streamCondition": {
+                        "className": "FrameTypeCondition",
+                        "frameType": "Stream && !HDR && !NIGHT && !FLASH"
+                    }
+                },
+                "FlashOffline_LargeSize_CS": {
+                    "inputs": {
+                        "fullSizeRaw": "Source_fullSizeRaw"
+                    },
+                    "outputs": {
+                        "callback": "Sink_callback"
+                    },
+                    "pipeCondition": {
+                        "className": "ScenePipelineCondition",
+                        "sceneMode": "Flash"
+                    },
+                    "streamCondition": {
+                        "className": "FrameTypeCondition",
+                        "frameType": "Stall && FLASH"
+                    }
+                }
+            },
+            "snapshot": {
+                "Online_SmallSize_PVCs": {
+                    "outputs": {
+                        "1080pMax": "Sink_1080pMax",
+                        "fullSizeRaw": "Sink_fullSizeRaw",
+                        "snapshot_meta": "Sink_snapshot_meta",
+                        "thumbnail": "Sink_thumbnail"
+                    }
+                },
+                "FlashOffline_S": {
+                    "inputs": {
+                        "fullSizeRaw": "Source_fullSizeRaw",
+                        "snapshot_meta": "Source_snapshot_meta"
+                    },
+                    "outputs": {
+                        "snapshot": "Sink_snapshot"
+                    },
+                    "pipeCondition": {
+                        "className": "ScenePipelineCondition",
+                        "sceneMode": "Flash"
+                    }
+                },
+                "Offline_SmallSize_S": {
+                    "inputs": {
+                        "1080pMax": "Source_1080pMax",
+                        "snapshot_meta": "Source_snapshot_meta",
+                        "thumbnail": "Source_thumbnail"
+                    },
+                    "outputs": {
+                        "snapshot": "Sink_snapshot"
+                    },
+                    "pipeCondition": {
+                        "className": "ScenePipelineCondition",
+                        "sceneMode": "!HDR & !Night & !Flash"
+                    }
+                }
+            },
+            "meta": {
+                "Online_SmallSize_PVCs": {
+                    "outputs": {
+                        "meta": "Sink_meta"
+                    }
+                }
+            }
+        }
+    },
+    "P<=_V<=_C>_S>": {
+        "name": "Large Callback & Snapshot",
+        "streams": {
+            "preview": {
+                "Online_LargeSize_PV": {
+                    "outputs": {
+                        "preview": "Sink_preview"
+                    }
+                }
+            },
+            "video": {
+                "Online_LargeSize_PV": {
+                    "outputs": {
+                        "video": "Sink_video"
+                    }
+                }
+            },
+            "callback": {
+                "Online_LargeSize_PV": {
+                    "outputs": {
+                        "fullSizeRaw": "Sink_fullSizeRaw",
+                        "snapshot_meta": "Sink_snapshot_meta"
+                    }
+                },
+                "FlashOffline_LargeSize_CS": {
+                    "inputs": {
+                        "fullSizeRaw": "Source_fullSizeRaw",
+                        "snapshot_meta": "Source_snapshot_meta"
+                    },
+                    "outputs": {
+                        "callback": "Sink_callback"
+                    },
+                    "pipeCondition": {
+                        "className": "ScenePipelineCondition",
+                        "sceneMode": "Flash"
+                    }
+                },
+                "Offline_LargeSize_CS": {
+                    "inputs": {
+                        "fullSizeRaw": "Source_fullSizeRaw",
+                        "snapshot_meta": "Source_snapshot_meta"
+                    },
+                    "outputs": {
+                        "callback": "Sink_callback"
+                    },
+                    "pipeCondition": {
+                        "className": "ScenePipelineCondition",
+                        "sceneMode": "!HDR & !Night & !Flash"
+                    }
+                }
+            },
+            "snapshot": {
+                "Online_LargeSize_PV": {
+                    "outputs": {
+                        "fullSizeRaw": "Sink_fullSizeRaw",
+                        "snapshot_meta": "Sink_snapshot_meta",
+                        "thumbnail": "Sink_thumbnail"
+                    }
+                },
+                "FlashOffline_LargeSize_CS": {
+                    "inputs": {
+                        "fullSizeRaw": "Source_fullSizeRaw",
+                        "snapshot_meta": "Source_snapshot_meta"
+                    },
+                    "outputs": {
+                        "snapshot": "Sink_snapshot"
+                    },
+                    "pipeCondition": {
+                        "className": "ScenePipelineCondition",
+                        "sceneMode": "Flash"
+                    }
+                },
+                "Offline_LargeSize_CS": {
+                    "inputs": {
+                        "fullSizeRaw": "Source_fullSizeRaw",
+                        "snapshot_meta": "Source_snapshot_meta",
+                        "thumbnail": "Source_thumbnail"
+                    },
+                    "outputs": {
+                        "snapshot": "Sink_snapshot"
+                    },
+                    "pipeCondition": {
+                        "className": "ScenePipelineCondition",
+                        "sceneMode": "!HDR & !Night & !Flash"
+                    }
+                }
+            },
+            "meta": {
+                "Online_LargeSize_PV": {
+                    "outputs": {
+                        "meta": "Sink_meta"
+                    }
+                }
+            }
+        }
+    },
+    "P<=_V<=_C>_S<=": {
+        "name": "Large Callback",
+        "streams": {
+            "preview": {
+                "Online_LargeSize_PVs": {
+                    "outputs": {
+                        "preview": "Sink_preview"
+                    }
+                }
+            },
+            "video": {
+                "Online_LargeSize_PVs": {
+                    "outputs": {
+                        "video": "Sink_video"
+                    }
+                }
+            },
+            "callback": {
+                "Online_LargeSize_PVs": {
+                    "outputs": {
+                        "fullSizeRaw": "Sink_fullSizeRaw",
+                        "snapshot_meta": "Sink_snapshot_meta",
+                        "callback_meta": "Sink_callback_meta"
+                    }
+                },
+                "FlashOffline_LargeSize_CS": {
+                    "inputs": {
+                        "fullSizeRaw": "Source_fullSizeRaw",
+                        "snapshot_meta": "Source_snapshot_meta"
+                    },
+                    "outputs": {
+                        "callback": "Sink_callback"
+                    },
+                    "pipeCondition": {
+                        "className": "ScenePipelineCondition",
+                        "sceneMode": "Flash"
+                    }
+                },
+                "Offline_LargeSize_C": {
+                    "inputs": {
+                        "fullSizeRaw": "Source_fullSizeRaw"
+                    },
+                    "outputs": {
+                        "callback": "Sink_callback"
+                    },
+                    "pipeCondition": {
+                        "className": "ScenePipelineCondition",
+                        "sceneMode": "!HDR & !Night & !Flash"
+                    }
+                }
+            },
+            "snapshot": {
+                "Online_LargeSize_PVs": {
+                    "outputs": {
+                        "1080pMax": "Sink_1080pMax",
+                        "fullSizeRaw": "Sink_fullSizeRaw",
+                        "snapshot_meta": "Sink_snapshot_meta",
+                        "thumbnail": "Sink_thumbnail"
+                    }
+                },
+                "FlashOffline_LargeSize_CS": {
+                    "inputs": {
+                        "fullSizeRaw": "Source_fullSizeRaw",
+                        "snapshot_meta": "Source_snapshot_meta"
+                    },
+                    "outputs": {
+                        "snapshot": "Sink_snapshot"
+                    },
+                    "pipeCondition": {
+                        "className": "ScenePipelineCondition",
+                        "sceneMode": "Flash"
+                    }
+                },
+                "Offline_SmallSize_S": {
+                    "inputs": {
+                        "1080pMax": "Source_1080pMax",
+                        "snapshot_meta": "Source_snapshot_meta",
+                        "thumbnail": "Source_thumbnail"
+                    },
+                    "outputs": {
+                        "snapshot": "Sink_snapshot"
+                    },
+                    "pipeCondition": {
+                        "className": "ScenePipelineCondition",
+                        "sceneMode": "!HDR & !Night & !Flash"
+                    }
+                }
+            },
+            "meta": {
+                "Online_LargeSize_PVs": {
+                    "outputs": {
+                        "meta": "Sink_meta"
+                    }
+                }
+            }
+        }
+    },
+    "P<=_V<=_C<=_S>": {
+        "name": "Large Snapshot",
+        "streams": {
+            "preview": {
+                "Online_LargeSize_PVC": {
+                    "outputs": {
+                        "preview": "Sink_preview"
+                    }
+                }
+            },
+            "video": {
+                "Online_LargeSize_PVC": {
+                    "outputs": {
+                        "video": "Sink_video"
+                    }
+                }
+            },
+            "callback": {
+                "Online_LargeSize_PVC": {
+                    "outputs": {
+                        "callback": "Sink_callback"
+                    }
+                }
+            },
+            "snapshot": {
+                "Online_LargeSize_PVC": {
+                    "outputs": {
+                        "fullSizeRaw": "Sink_fullSizeRaw",
+                        "snapshot_meta": "Sink_snapshot_meta",
+                        "thumbnail": "Sink_thumbnail"
+                    }
+                },
+                "FlashOffline_LargeSize_CS": {
+                    "inputs": {
+                        "fullSizeRaw": "Source_fullSizeRaw",
+                        "snapshot_meta": "Source_snapshot_meta"
+                    },
+                    "outputs": {
+                        "snapshot": "Sink_snapshot"
+                    },
+                    "pipeCondition": {
+                        "className": "ScenePipelineCondition",
+                        "sceneMode": "Flash"
+                    }
+                },
+                "Offline_LargeSize_CS": {
+                    "inputs": {
+                        "fullSizeRaw": "Source_fullSizeRaw",
+                        "snapshot_meta": "Source_snapshot_meta",
+                        "thumbnail": "Source_thumbnail"
+                    },
+                    "outputs": {
+                        "snapshot": "Sink_snapshot"
+                    },
+                    "pipeCondition": {
+                        "className": "ScenePipelineCondition",
+                        "sceneMode": "!HDR & !Night & !Flash"
+                    }
+                }
+            },
+            "meta": {
+                "Online_LargeSize_PVC": {
+                    "outputs": {
+                        "meta": "Sink_meta"
+                    }
+                }
+            }
+        }
+    }
+}

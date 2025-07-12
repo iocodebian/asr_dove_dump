@@ -1,0 +1,15 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.secure=1
+security.perf_harden=1
+ro.adb.secure=1
+ro.allow.mock.location=0
+ro.debuggable=0
+#
+# BOOTIMAGE_BUILD_PROPERTIES
+#
+ro.bootimage.build.date=Wed Jun 19 11:03:34 CST 2024
+ro.bootimage.build.date.utc=1718766214
+ro.bootimage.build.fingerprint=ASR/dove_watch/dove_watch:8.1.0/ORWT.032.01.240530/lichan06191103:user/release-keys
+persist.sys.usb.config=none

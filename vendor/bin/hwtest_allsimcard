@@ -1,0 +1,15 @@
+#!/system/bin/sh
+
+if hwtest_simcard -1; then
+	echo "SIM card 1 is OK!"
+
+	if hwtest_simcard -2; then
+		echo "All SIM cards are OK!"
+		exit 0
+	fi
+
+	echo "SIM card 2 is NG!"
+fi
+
+exit 1
+

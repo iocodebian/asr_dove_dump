@@ -1,0 +1,49 @@
+{
+    "cpp_scene":1,
+    "cpp_mode":"offline",
+    "cpp_node":{
+            "cpp0_src_file":"/vendor/etc/camera/cpp_input.nv12",
+            "cpp0_size_width":1920,
+            "cpp0_size_height":1080,
+            "cpp0_format":"NV12",
+            "cpp0_work_mode":"frame",
+
+            "cpp1_src_file":"tmp1.nv12",
+            "cpp1_size_width":1920,
+            "cpp1_size_height":1080,
+            "cpp1_format":"NV12",
+            "cpp1_work_mode":"frame"
+    },
+    "ispfe_scene":1,
+    "ispfe_mode":"online",
+    "isp_node":{
+            "ispfe0_src_file":"/vendor/etc/camera/2560x1440_raw12_long.vrf",
+            "ispfe0_sensor_name":"ov13b10_asr",
+            "ispfe0_size_width":1920,
+            "ispfe0_size_height":1080,
+            "ispfe0_format":"NV12",
+            "ispfe0_work_mode":"single",
+            "ispfe0_sensor_work_mode":0,
+            "ispfe0_fps":30,
+            "ispfe0_capture_mode":"zsl_mode",
+            "ispfe0_capture_source_file":"capture.raw",
+
+            "ispfe1_src_file":"tmp.raw",
+            "ispfe1_sensor_name":"gc5035_asr",
+            "ispfe1_size_width":1920,
+            "ispfe1_size_height":1080,
+            "ispfe1_format":"NV12",
+            "ispfe1_work_mode":"single",
+            "ispfe1_sensor_work_mode":0,
+            "ispfe1_fps":30,
+            "ispfe1_capture_mode":"zsl_mode",
+            "ispfe1_capture_source_file":"capture.raw"
+    },
+    "display_scene":0,
+    "display_input_source":0,
+    "net_scene":0,
+    "tuning_server_scene":1,
+    "show_fps":1,
+    "dual_pipe":1,
+    "dual_cam":0
+}

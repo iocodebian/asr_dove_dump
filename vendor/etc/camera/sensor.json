@@ -1,0 +1,20 @@
+{
+    "sensor0":{
+        "moduleName":"gc030a_asr",
+        "deviceId":0,
+        "position":"back",
+        "orientation":90
+    },
+    "sensor1":{
+        "moduleName":"",
+        "deviceId":1,
+        "position":"back_aux",
+        "orientation":90
+    },
+    "sensor2":{
+        "moduleName":"",
+        "deviceId":2,
+        "position":"front",
+        "orientation":90
+    }
+}

@@ -1,0 +1,3 @@
+on boot
+    mkdir /data/vendor/gps 0770 system system
+    mkdir /data/vendor/adsp/sock 0770 system audio

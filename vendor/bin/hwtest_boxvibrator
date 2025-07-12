@@ -1,0 +1,21 @@
+#!/system/bin/sh
+
+
+if [ $1 = "on" ]
+then
+    echo "vibrator is on."
+    echo 1 > /sys/class/leds/vibrator/state
+    echo 30000 > /sys/class/leds/vibrator/duration
+    echo 1 > /sys/class/leds/vibrator/activate
+    exit $?
+fi
+
+if [ $1 = "off" ]
+then
+    echo "vibrator is off."
+    echo 0 > /sys/class/leds/vibrator/activate
+    exit $?
+fi
+
+exit 1
+

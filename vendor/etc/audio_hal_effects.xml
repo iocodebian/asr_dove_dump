@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+
+<audio>
+    <eqs>
+        <eq device="speaker" voice="music" enable="off">
+            <band>60,8</band>
+            <band>230,-8</band>
+            <band>910,13</band>
+            <band>3600,-1</band>
+            <band>14000,-5</band>
+        </eq>
+        <eq device="headphone" voice="music" enable="off">
+            <band>60,10</band>
+            <band>230,6</band>
+            <band>910,-4</band>
+            <band>3600,5</band>
+            <band>14000,8</band>
+        </eq>
+    </eqs>
+
+    <iireqs>
+        <!-- default all 0 to disable -->
+        <eq device="speaker">
+        <filter>1,-19560,7141,496,991,496</filter>
+        <filter>3,-7965,3875,1992,-3984,1992</filter>
+        <filter>0,0,0,0,0,0</filter>
+        <filter>0,0,0,0,0,0</filter>
+        <filter>0,0,0,0,0,0</filter>
+        </eq>
+        <eq device="headphone">
+            <filter>0,0,0,0,0,0</filter>
+            <filter>0,0,0,0,0,0</filter>
+            <filter>0,0,0,0,0,0</filter>
+            <filter>0,0,0,0,0,0</filter>
+            <filter>0,0,0,0,0,0</filter>
+        </eq>
+        <eq device="earpiece">
+            <filter>0,0,0,0,0,0</filter>
+            <filter>0,0,0,0,0,0</filter>
+            <filter>0,0,0,0,0,0</filter>
+            <filter>0,0,0,0,0,0</filter>
+            <filter>0,0,0,0,0,0</filter>
+        </eq>
+        <eq device="headset">
+            <filter>0,0,0,0,0,0</filter>
+            <filter>0,0,0,0,0,0</filter>
+            <filter>0,0,0,0,0,0</filter>
+            <filter>0,0,0,0,0,0</filter>
+            <filter>0,0,0,0,0,0</filter>
+        </eq>
+        <eq device="backmic">
+            <filter>0,0,0,0,0,0</filter>
+            <filter>0,0,0,0,0,0</filter>
+            <filter>0,0,0,0,0,0</filter>
+            <filter>0,0,0,0,0,0</filter>
+            <filter>0,0,0,0,0,0</filter>
+        </eq>
+        <eq device="buildmic">
+            <filter>0,0,0,0,0,0</filter>
+            <filter>0,0,0,0,0,0</filter>
+            <filter>0,0,0,0,0,0</filter>
+            <filter>0,0,0,0,0,0</filter>
+            <filter>0,0,0,0,0,0</filter>
+        </eq>
+        <eq device="headsetmic">
+            <filter>0,0,0,0,0,0</filter>
+            <filter>0,0,0,0,0,0</filter>
+            <filter>0,0,0,0,0,0</filter>
+            <filter>0,0,0,0,0,0</filter>
+            <filter>0,0,0,0,0,0</filter>
+        </eq>
+    </iireqs>
+
+    <drcs>
+        <drc device="speaker" enable="on">
+            <param>8,0</param>
+        </drc>
+        <drc device="headphone" enable="off">
+            <param>5,100</param>
+        </drc>
+        <drc device="earpiece" enable="off">
+            <param>5,100</param>
+        </drc>
+        <drc device="headset" enable="off">
+            <param>5,100</param>
+        </drc>
+        <drc device="backmic" enable="off">
+            <param>5,100</param>
+        </drc>
+        <drc device="buildmic" enable="off">
+            <param>5,100</param>
+        </drc>
+        <drc device="headsetmic" enable="off">
+            <param>5,100</param>
+        </drc>
+    </drcs>
+</audio>

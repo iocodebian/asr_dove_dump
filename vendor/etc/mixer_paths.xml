@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<mixer>
+    <!-- NOTE: For all the mixer controls added under usecases or sound devices -->
+    <!-- These are the initial mixer settings -->
+
+    <ctl name="PrimaryAudioMixer System" value="0" />
+    <ctl name="BTSCOAudioMixer System" value="0" />
+    <ctl name="PrimaryAudioMixer DeepBuffer" value="0" />
+    <ctl name="BTSCOAudioMixer DeepBuffer" value="0" />
+    <ctl name="PrimaryAudioMixer Voice" value="0" />
+
+    <ctl name="VoiceCaptureMixer CaptureSSPA0" value="0" />
+    <ctl name="BTSCOAudioMixer Voice" value="0" />
+    <ctl name="VoiceCaptureMixer CaptureSSPA1" value="0" />
+    <ctl name="PrimaryAudioMixer FM" value="0" />
+    <ctl name="PrimaryCaptureMixer CaptureSSPA0" value="0" />
+    <ctl name="PrimaryCaptureMixer CaptureSSPA2" value="0" />
+    <ctl name="PrimaryCaptureMixer CaptureSSPA1" value="0" />
+
+    <ctl name="DAC-1 Right Shift Bits" value="0" />
+    <ctl name="DAC-2 Right Shift Bits" value="0" />
+    <ctl name="ADC-1 Shift Bits" value="0" />
+    <ctl name="ADC-2 Shift Bits" value="0" />
+    <ctl name="Class-AB Enable Switch" value="0" />
+    <ctl name="Class-G Enable Switch" value="0" />
+
+    <ctl name="DAC-1 Digital Gain" value="1" />
+    <ctl name="DAC-2 Digital Gain" value="1" />
+
+    <ctl name="DAC Ana Gain" value="2" />
+
+    <ctl name="RCV Ana Gain" value="2" />
+
+    <ctl name="ADC-1 Ana Gain" value="0" />
+    <ctl name="ADC-2 Ana Gain" value="0" />
+    <ctl name="ADC-1 Digital Gain" value="1" />
+    <ctl name="ADC-2 Digital Gain" value="1" />
+
+    <!-- (FE to BE) mixer settings -->
+    <path name="low-latency-playback">
+        <ctl name="PrimaryAudioMixer System" value="1" />
+    </path>
+
+    <path name="low-latency-playback bt-sco">
+        <ctl name="BTSCOAudioMixer System" value="1" />
+    </path>
+
+    <path name="deep-buffer-playback">
+        <ctl name="PrimaryAudioMixer DeepBuffer" value="1" />
+    </path>
+
+    <path name="deep-buffer-playback bt-sco">
+        <ctl name="BTSCOAudioMixer DeepBuffer" value="1" />
+    </path>
+
+    <path name="voice-call">
+        <ctl name="PrimaryAudioMixer Voice" value="1" />
+        <ctl name="VoiceCaptureMixer CaptureSSPA0" value="1" />
+    </path>
+
+    <path name="voice-call bt-sco">
+        <ctl name="BTSCOAudioMixer Voice" value="1" />
+        <ctl name="VoiceCaptureMixer CaptureSSPA1" value="1" />
+    </path>
+
+    <path name="fm-playback fm">
+        <ctl name="PrimaryAudioMixer FM" value="1" />
+    </path>
+
+    <path name="capture">
+        <ctl name="PrimaryCaptureMixer CaptureSSPA0" value="1" />
+    </path>
+
+    <path name="capture fm-cap">
+    </path>
+
+    <path name="capture fm-rec">
+        <ctl name="PrimaryCaptureMixer CaptureSSPA2" value="1" />
+    </path>
+
+    <path name="capture bt-sco">
+        <ctl name="PrimaryCaptureMixer CaptureSSPA1" value="1" />
+    </path>
+
+    <path name="bt-sco-headset">
+    </path>
+
+    <path name="bt-sco-mic">
+    </path>
+
+    <path name="handset-volume">
+        <ctl name="DAC-1 Right Shift Bits" value="4" />
+        <ctl name="DAC-2 Right Shift Bits" value="4" />
+        <ctl name="DAC-1 Digital Gain" value="226" />
+        <ctl name="DAC-2 Digital Gain" value="226" />
+        <ctl name="DAC Ana Gain" value="1" />
+    </path>
+
+    <path name="speaker-volume">
+        <ctl name="DAC-1 Right Shift Bits" value="4" />
+        <ctl name="DAC-2 Right Shift Bits" value="4" />
+        <ctl name="DAC-1 Digital Gain" value="226" />
+        <ctl name="DAC-2 Digital Gain" value="226" />
+        <ctl name="DAC Ana Gain" value="2" />
+    </path>
+
+    <!-- normal AC_HANDSFREE Speaker -->
+    <path name="speaker">
+        <ctl name="Class-D Enable Switch" value="1" />
+        <path name="speaker-volume" />
+    </path>
+
+    <path name="receiver-class-AB">
+        <ctl name="RCV Ana Gain" value="3" />
+        <ctl name="Class-AB Enable Switch" value="1" />
+    </path>
+
+    <path name="receiver">
+        <path name="handset-volume" />
+        <path name="receiver-class-AB" />
+    </path>
+
+    <path name="headphones-volume">
+        <ctl name="DAC-1 Right Shift Bits" value="4" />
+        <ctl name="DAC-2 Right Shift Bits" value="4" />
+        <ctl name="DAC-1 Digital Gain" value="160" />
+        <ctl name="DAC-2 Digital Gain" value="160" />
+    </path>
+
+    <path name="headphone-class-G">
+        <ctl name="Class-G Enable Switch" value="1" />
+    </path>
+
+    <!--normal AC_HEADPHONE Headphone
+    normal AC_HEADSET Headset -->
+    <path name="headphones">
+        <path name="headphones-volume" />
+        <path name="headphone-class-G" />
+    </path>
+
+    <path name="speaker-and-headphones">
+        <path name="headphones" />
+        <path name="speaker" />
+    </path>
+
+    <path name="common_mic">
+       <ctl name="ADC-1 Shift Bits" value="4" />
+       <ctl name="ADC-2 Shift Bits" value="4" />
+       <ctl name="ADC-1 Ana Gain" value="6" />
+       <ctl name="ADC-2 Ana Gain" value="6" />
+       <ctl name="ADC-1 Digital Gain" value="28" />
+       <ctl name="ADC-2 Digital Gain" value="28" />
+    </path>
+
+    <!-- REC_HeadsetMic HeadsetMic -->
+    <path name="headset-mic">
+       <ctl name="ADC-1 Shift Bits" value="4" />
+       <ctl name="ADC-2 Shift Bits" value="4" />
+       <ctl name="ADC-1 Ana Gain" value="6" />
+       <ctl name="ADC-2 Ana Gain" value="6" />
+       <ctl name="ADC-1 Digital Gain" value="28" />
+       <ctl name="ADC-2 Digital Gain" value="28" />
+       <ctl name="ADC-1 Mux" value="Headset-Mic" />
+       <ctl name="ADC-2 Mux" value="Headset-Mic" />
+    </path>
+
+    <!-- REC_Mic1 Mic1 -->
+    <path name="handset-mic">
+       <ctl name="ADC-1 Shift Bits" value="4" />
+       <ctl name="ADC-2 Shift Bits" value="4" />
+       <ctl name="ADC-1 Ana Gain" value="2" />
+       <ctl name="ADC-2 Ana Gain" value="2" />
+       <ctl name="ADC-1 Digital Gain" value="28" />
+       <ctl name="ADC-2 Digital Gain" value="28" />
+       <ctl name="ADC-1 Mux" value="Build-In-Mic" />
+       <ctl name="ADC-2 Mux" value="Build-In-Mic" />
+    </path>
+
+    <path name="fm-headset">
+        <path name="headphones" />
+    </path>
+
+    <path name ="fm-tuner-rec">
+    </path>
+
+    <!-- voice path output -->
+
+    <!-- VC_HEADPHONE Headphone
+    VC_HEADSET Headset -->
+    <path name="voice-headphones">
+        <path name="headphones" />
+    </path>
+
+    <!-- VC_HANDSFREE Speaker -->
+    <path name="voice-speaker">
+        <ctl name="DAC-1 Right Shift Bits" value="4" />
+        <ctl name="DAC-2 Right Shift Bits" value="4" />
+        <ctl name="Class-D Enable Switch" value="1" />
+        <ctl name="DAC Ana Gain" value="1" />
+        <ctl name="DAC-1 Digital Gain" value="226" />
+        <ctl name="DAC-2 Digital Gain" value="226" />
+    </path>
+
+    <!-- VC_HANDSET Earpiece -->
+    <path name="handset">
+        <path name="receiver" />
+    </path>
+
+    <!-- voice path input -->
+
+    <!-- VC_HANDSET Mic1
+    VC_HEADPHONE Mic1 -->
+    <path name="voice-handset-mic">
+       <ctl name="ADC-1 Shift Bits" value="4" />
+       <ctl name="ADC-2 Shift Bits" value="4" />
+       <ctl name="ADC-1 Ana Gain" value="5" />
+       <ctl name="ADC-2 Ana Gain" value="5" />
+       <ctl name="ADC-1 Digital Gain" value="28" />
+       <ctl name="ADC-2 Digital Gain" value="28" />
+       <ctl name="ADC-1 Mux" value="Build-In-Mic" />
+       <ctl name="ADC-2 Mux" value="Build-In-Mic" />
+    </path>
+
+    <!-- VC_HANDSFREE Mic1 -->
+    <path name="voice-speaker-mic">
+       <ctl name="ADC-1 Shift Bits" value="4" />
+       <ctl name="ADC-2 Shift Bits" value="4" />
+       <ctl name="ADC-1 Ana Gain" value="2" />
+       <ctl name="ADC-2 Ana Gain" value="2" />
+       <ctl name="ADC-1 Digital Gain" value="28" />
+       <ctl name="ADC-2 Digital Gain" value="28" />
+       <ctl name="ADC-1 Mux" value="Build-In-Mic" />
+       <ctl name="ADC-2 Mux" value="Build-In-Mic" />
+    </path>
+
+    <!-- VC_HEADSET HeadsetMic -->
+    <path name="voice-headset-mic">
+        <path name="headset-mic" />
+    </path>
+
+    <!-- voip path input -->
+
+     <path name="voip-handset-mic">
+        <path name="handset-mic" />
+    </path>
+
+    <path name="voip-speaker-mic">
+        <path name="handset-mic" />
+    </path>
+
+    <path name="voip-headset-mic">
+        <path name="headset-mic" />
+    </path>
+
+    <path name="speaker-mic">
+       <path name="handset-mic" />
+    </path>
+    <path name="camcorder-mic">
+       <path name="handset-mic" />
+    </path>
+
+     <path name="voice-rec-mic">
+       <path name="handset-mic" />
+    </path>
+
+    <path name="voice-rec-headset-mic">
+       <path name="headset-mic" />
+    </path>
+
+</mixer>
+

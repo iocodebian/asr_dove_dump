@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<powerhints>
+    <hint name="first_launch" hintId="1" />
+    <hint name="activity_resume" hintId="2" />
+    <hint name="statusbar_expand" hintId="3" />
+    <hint name="scroll_boost" hintId="4" />
+    <hint name="install_boost" hintId="5" />
+    <hint name="drag_boost" hintId="6" />
+    <hint name="heavy_task_launch_boost" hintId="7" />
+    <hint name="first_boot_boost" hintId="8" />
+    <hint name="special_pkg_boost" hintId="10" />
+    <hint name="click_rotation_boost" hintId="11" />
+    <hint name="launcher_longclick_boost" hintId="12" />
+    <hint name="special_pkg_boost#com.sgtc.wechat2" hintId="13" />
+    <hint name="special_pkg_boost#com.kiloo.subwaysurf" hintId="17" />
+    <hint name="recent_clear_all_boost" hintId="14" />
+    <hint name="benchmark_boost" hintId="15" />
+    <hint name="install_step_boost" hintId="16" />
+    <hint name="game_boost" hintId="17" />
+    <hint name="tap_boost#com.tencent.mm/.plugin.account.ui.LoginPasswordUI" hintId="18" />
+    <hint name="special_pkg_boost#com.tencent.android.qqdownloader" hintId="19" />
+    <hint name="facedetect" hintId="20" />
+    <hint name="special_pkg_boost#com.huawei.appmarket" hintId="21" />
+    <hint name="com.tencent.mm.login" hintId="22" />
+</powerhints>

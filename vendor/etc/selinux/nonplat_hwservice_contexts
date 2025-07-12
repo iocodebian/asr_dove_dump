@@ -1,0 +1,5 @@
+vendor.asr.adaptivedisplay::IAdaptiveDisplay                                  u:object_r:vnd_adaptivedisplay_hwservice:s0
+vendor.nxp.nxpnfc::INxpNfc							u:object_r:hal_nfc_hwservice:s0
+vendor.asr.telephony.radio::IAsrRadio                                  u:object_r:hal_telephony_hwservice:s0
+vendor.fpsensor.hardware.fpsensorhidlsvc::IFpsensorHidlSvc             u:object_r:fp_ext_svc2_service:s0
+vendor.asr.streamingmediahw.proxy::IStreamingMediaServiceProxy                u:object_r:vnd_streamingmedia_proxy_hwservice:s0

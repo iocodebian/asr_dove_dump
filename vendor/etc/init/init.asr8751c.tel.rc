@@ -1,0 +1,8 @@
+service imsc /vendor/bin/imsd
+    class main
+    socket imsd0 stream 0666 root system
+    socket imsd1 stream 0666 root system
+    user root
+    group system net_admin inet net_raw
+    disabled
+

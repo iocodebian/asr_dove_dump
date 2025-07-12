@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AudioSWVolCalibrationConfig>
+	<PlaybackVolumeConfig>
+		<Stream identifier="AUDIO_STREAM_VOICE_CALL_HANDSET">
+			<Value index="0">4096</Value>
+			<Value index="1">2560</Value>
+			<Value index="2">1536</Value>
+			<Value index="3">896</Value>
+			<Value index="4">512</Value>
+			<Value index="5">0</Value>
+			<Value index="6">100</Value>
+			<Value index="7">120</Value>
+		</Stream>
+		<Stream identifier="AUDIO_STREAM_VOICE_CALL_HANDFREE">
+			<Value index="0">4096</Value>
+			<Value index="1">2844</Value>
+			<Value index="2">1920</Value>
+			<Value index="3">1376</Value>
+			<Value index="4">984</Value>
+			<Value index="5">0</Value>
+			<Value index="6">100</Value>
+			<Value index="7">120</Value>
+		</Stream>
+		<Stream identifier="AUDIO_STREAM_VOICE_CALL_HEADSET">
+			<Value index="0">4096</Value>
+			<Value index="1">2560</Value>
+			<Value index="2">1536</Value>
+			<Value index="3">896</Value>
+			<Value index="4">512</Value>
+			<Value index="5">0</Value>
+			<Value index="6">100</Value>
+			<Value index="7">120</Value>
+		</Stream>
+		<Stream identifier="AUDIO_STREAM_VOICE_CALL_BT">
+			<Value index="0">4096</Value>
+			<Value index="1">2560</Value>
+			<Value index="2">1536</Value>
+			<Value index="3">896</Value>
+			<Value index="4">512</Value>
+			<Value index="5">0</Value>
+			<Value index="6">100</Value>
+			<Value index="7">120</Value>
+		</Stream>
+	</PlaybackVolumeConfig>
+</AudioSWVolCalibrationConfig>

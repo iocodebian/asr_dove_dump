@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<AudioAPConfig>
+    <AudioGainConfig>
+        <VoicePath>
+            <AudioPath identifier="VC_HANDSET" component="CODEC">
+                <Earpiece>
+                    <Digital ctrlname="DAC-1 Digital Gain">226</Digital>
+                    <Digital ctrlname="DAC-2 Digital Gain">226</Digital>
+                    <Analog ctrlname="DAC Ana Gain">1</Analog>
+                    <Analog ctrlname="RCV Ana Gain">2</Analog>
+                </Earpiece>
+                <Mic1>
+                    <Digital ctrlname="ADC-1 Digital Gain">28</Digital>
+                    <Digital ctrlname="ADC-2 Digital Gain">28</Digital>
+                    <Analog ctrlname="ADC-1 Ana Gain">5</Analog>
+                    <Analog ctrlname="ADC-2 Ana Gain">5</Analog>
+                </Mic1>
+            </AudioPath>
+            <AudioPath identifier="VC_HANDSFREE" component="CODEC">
+                <Speaker>
+                    <Digital ctrlname="DAC-1 Digital Gain">226</Digital>
+                    <Digital ctrlname="DAC-2 Digital Gain">226</Digital>
+                    <Analog ctrlname="DAC Ana Gain">1</Analog>
+                </Speaker>
+                <Mic1>
+                    <Digital ctrlname="ADC-1 Digital Gain">28</Digital>
+                    <Digital ctrlname="ADC-2 Digital Gain">28</Digital>
+                    <Analog ctrlname="ADC-1 Ana Gain">2</Analog>
+                    <Analog ctrlname="ADC-2 Ana Gain">2</Analog>
+                </Mic1>
+            </AudioPath>
+            <AudioPath identifier="VC_HEADPHONE" component="CODEC">
+                <Headphone>
+                    <Digital ctrlname="DAC-1 Digital Gain">160</Digital>
+                    <Digital ctrlname="DAC-2 Digital Gain">160</Digital>
+                    <Analog ctrlname="DAC Ana Gain">2</Analog>
+                </Headphone>
+                <Mic1>
+                    <Digital ctrlname="ADC-1 Digital Gain">28</Digital>
+                    <Digital ctrlname="ADC-2 Digital Gain">28</Digital>
+                    <Analog ctrlname="ADC-1 Ana Gain">5</Analog>
+                    <Analog ctrlname="ADC-2 Ana Gain">5</Analog>
+                </Mic1>
+            </AudioPath>
+            <AudioPath identifier="VC_HEADSET" component="CODEC">
+                <Headset>
+                    <Digital ctrlname="DAC-1 Digital Gain">160</Digital>
+                    <Digital ctrlname="DAC-2 Digital Gain">160</Digital>
+                    <Analog ctrlname="DAC Ana Gain">2</Analog>
+                </Headset>
+                <HeadsetMic>
+                    <Digital ctrlname="ADC-1 Digital Gain">28</Digital>
+                    <Digital ctrlname="ADC-2 Digital Gain">28</Digital>
+                    <Analog ctrlname="ADC-1 Ana Gain">6</Analog>
+                    <Analog ctrlname="ADC-2 Ana Gain">6</Analog>
+                </HeadsetMic>
+            </AudioPath>
+        </VoicePath>
+        <NormalPath>
+            <AudioPath identifier="REC_Mic1" component="CODEC">
+                <Mic1>
+                    <Digital ctrlname="ADC-1 Digital Gain">28</Digital>
+                    <Digital ctrlname="ADC-2 Digital Gain">28</Digital>
+                    <Analog ctrlname="ADC-1 Ana Gain">2</Analog>
+                    <Analog ctrlname="ADC-2 Ana Gain">2</Analog>
+                </Mic1>
+            </AudioPath>
+            <AudioPath identifier="REC_HeadsetMic" component="CODEC">
+                <HeadsetMic>
+                    <Digital ctrlname="ADC-1 Digital Gain">28</Digital>
+                    <Digital ctrlname="ADC-2 Digital Gain">28</Digital>
+                    <Analog ctrlname="ADC-1 Ana Gain">6</Analog>
+                    <Analog ctrlname="ADC-2 Ana Gain">6</Analog>
+                </HeadsetMic>
+            </AudioPath>
+            <AudioPath identifier="AC_HANDSET" component="CODEC">
+                <Earpiece>
+                    <Digital ctrlname="DAC-1 Digital Gain">226</Digital>
+                    <Digital ctrlname="DAC-2 Digital Gain">226</Digital>
+                    <Analog ctrlname="DAC Ana Gain">2</Analog>
+                    <Analog ctrlname="RCV Ana Gain">2</Analog>
+                </Earpiece>
+            </AudioPath>
+            <AudioPath identifier="AC_HANDSFREE" component="CODEC">
+                <Speaker>
+                    <Digital ctrlname="DAC-1 Digital Gain">226</Digital>
+                    <Digital ctrlname="DAC-2 Digital Gain">226</Digital>
+                    <Analog ctrlname="DAC Ana Gain">2</Analog>
+                </Speaker>
+            </AudioPath>
+            <AudioPath identifier="AC_HEADPHONE" component="CODEC">
+                <Headphone>
+                    <Digital ctrlname="DAC-1 Digital Gain">160</Digital>
+                    <Digital ctrlname="DAC-2 Digital Gain">160</Digital>
+                    <Analog ctrlname="DAC Ana Gain">2</Analog>
+                </Headphone>
+            </AudioPath>
+            <AudioPath identifier="AC_HEADSET" component="CODEC">
+                <Headset>
+                    <Digital ctrlname="DAC-1 Digital Gain">160</Digital>
+                    <Digital ctrlname="DAC-2 Digital Gain">160</Digital>
+                    <Analog ctrlname="DAC Ana Gain">2</Analog>
+                </Headset>
+            </AudioPath>
+        </NormalPath>
+    </AudioGainConfig>
+
+    <AudioSWVolConfig>
+        <PlaybackVolumeConfig>
+            <Stream identifier="VC_HANDSET">
+                <Value index="0">4096</Value>
+                <Value index="1">2584</Value>
+                <Value index="2">1453</Value>
+                <Value index="3">916</Value>
+                <Value index="4">515</Value>
+                <Value index="5">0</Value>
+                <Value index="6">100</Value>
+                <Value index="7">120</Value>
+                <Value index="8">0</Value>
+                <Value index="9">0</Value>
+                <Value index="10">0</Value>
+                <Value index="11">0</Value>
+                <Value index="12">0</Value>
+                <Value index="13">0</Value>
+                <Value index="14">0</Value>
+                <Value index="15">0</Value>
+            </Stream>
+            <Stream identifier="VC_HANDSFREE">
+                <Value index="0">4096</Value>
+                <Value index="1">2899</Value>
+                <Value index="2">1829</Value>
+                <Value index="3">1295</Value>
+                <Value index="4">1028</Value>
+                <Value index="5">0</Value>
+                <Value index="6">100</Value>
+                <Value index="7">120</Value>
+                <Value index="8">0</Value>
+                <Value index="9">0</Value>
+                <Value index="10">0</Value>
+                <Value index="11">0</Value>
+                <Value index="12">0</Value>
+                <Value index="13">0</Value>
+                <Value index="14">0</Value>
+                <Value index="15">0</Value>
+            </Stream>
+            <Stream identifier="VC_HEADPHONE">
+                <Value index="0">4096</Value>
+                <Value index="1">2584</Value>
+                <Value index="2">1453</Value>
+                <Value index="3">916</Value>
+                <Value index="4">515</Value>
+                <Value index="5">0</Value>
+                <Value index="6">100</Value>
+                <Value index="7">120</Value>
+                <Value index="8">0</Value>
+                <Value index="9">0</Value>
+                <Value index="10">0</Value>
+                <Value index="11">0</Value>
+                <Value index="12">0</Value>
+                <Value index="13">0</Value>
+                <Value index="14">0</Value>
+                <Value index="15">0</Value>
+            </Stream>
+            <Stream identifier="VC_HEADSET">
+                <Value index="0">4096</Value>
+                <Value index="1">2584</Value>
+                <Value index="2">1453</Value>
+                <Value index="3">916</Value>
+                <Value index="4">515</Value>
+                <Value index="5">0</Value>
+                <Value index="6">100</Value>
+                <Value index="7">120</Value>
+                <Value index="8">0</Value>
+                <Value index="9">0</Value>
+                <Value index="10">0</Value>
+                <Value index="11">0</Value>
+                <Value index="12">0</Value>
+                <Value index="13">0</Value>
+                <Value index="14">0</Value>
+                <Value index="15">0</Value>
+            </Stream>
+            <Stream identifier="VC_BT">
+                <Value index="0">4096</Value>
+                <Value index="1">2584</Value>
+                <Value index="2">1453</Value>
+                <Value index="3">916</Value>
+                <Value index="4">515</Value>
+                <Value index="5">0</Value>
+                <Value index="6">100</Value>
+                <Value index="7">120</Value>
+                <Value index="8">0</Value>
+                <Value index="9">0</Value>
+                <Value index="10">0</Value>
+                <Value index="11">0</Value>
+                <Value index="12">0</Value>
+                <Value index="13">0</Value>
+                <Value index="14">0</Value>
+                <Value index="15">0</Value>
+            </Stream>
+        </PlaybackVolumeConfig>
+    </AudioSWVolConfig>
+
+    <AudioHeadphoneVoltageConfig>
+        <Voltage ctrlname="HeadPhone Voltage">0</Voltage>
+    </AudioHeadphoneVoltageConfig>
+</AudioAPConfig>

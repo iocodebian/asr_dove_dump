@@ -1,0 +1,2 @@
+dalvik.vm.foreground-heap-growth-multiplier=2.0
+dalvik.vm.dex2oat-threads=3

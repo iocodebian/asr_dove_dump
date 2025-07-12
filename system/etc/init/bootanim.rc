@@ -1,0 +1,7 @@
+service bootanim /system/bin/bootanimation
+    class core animation
+    user media
+    group graphics audio media
+    disabled
+    oneshot
+    writepid /dev/stune/top-app/tasks

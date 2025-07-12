@@ -1,0 +1,7 @@
+service stress /system/bin/stress -s
+    class core
+    seclabel u:r:su:s0
+    disabled
+    user root
+    group system
+

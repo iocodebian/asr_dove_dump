@@ -1,0 +1,51 @@
+#!/system/bin/sh
+
+get_battery_path()
+{
+    for file in /sys/class/power_supply/*
+    do
+        supply_type=`cat $file/type`
+        if [ "$supply_type" = "Battery" ]
+        then
+            break
+        fi
+    done
+    echo $file
+}
+
+check_dummy_battery()
+{
+    if [ -L /sys/class/power_supply/battery ]
+    then
+        link_path=`readlink /sys/class/power_supply/battery`
+        if [ "$link_path" = "../../devices/platform/dummy_battery/power_supply/battery" ]
+        then
+            return 1
+        fi
+    fi
+    return 0
+}
+
+battery_main()
+{
+    check_dummy_battery 
+    if [ $? -eq 1 ]
+    then
+        echo "dummy battery!"
+        exit 1
+    fi
+
+    bat_path=`get_battery_path`
+	status=`cat $bat_path/status`
+	if [ "$status" = "Charging" ]
+	then 
+		echo "now is charging !"
+		exit 0
+	else 
+		echo "now no charging !"
+		exit 1
+	fi
+}
+
+battery_main
+

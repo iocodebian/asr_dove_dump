@@ -1,0 +1,162 @@
+{202,	01,	"Costmote",	"internet"}
+{202,	05,	"Vodafone",	"internet.vodafone.gr"}
+{202,	10,	"Wind",			"gint.b-online.gr"}
+{204,	04,	"Vodafone",	"live.vodafone.com",	"0",	"PAP",	"vodafone",	"vodafone"}
+{204,	08,	"KPN",		"portalmmm.nl"}
+{204,	12,	"Telfort",	"internet"}
+{204,	16,	"T-Mobile",	"internet"}
+{204,	20,	"Rabo Mobiel",	"rabo.plus"}
+{206,	01,	"Proximus",		"internet.proximus.be"}
+{206,	05,	"Telenet",		"telenetwap.be"}
+{206,	10,	"Mobistar",		"mworld.be",	"0",	"PAP",	"mobistar",	"mobistar"}
+{206,	20,	"Base",		"gprs.base.be",	"0",	"PAP",	"base",	"base"}
+{208,	01,	"Orange",	"orange",	"0",	"PAP",	"orange",	"orange"}
+{208,	10,	"SFR Mobile",	"sl2sfr"}
+{208,	20,	"Bouygues Telecom",	"mmsbouygtel.com"}
+{208,	15,	"Free",	"free"}
+{214,	01,	"Vodafone",	"airtelwap.es",	"0",	"PAP",	"vodafone",	"vodafone"}
+{214,	03,	"Orange",		"orangeworld",	"0",	"PAP",	"orange",	"orange"}
+{214,	04,	"Yoigo",		"internet"}
+{214,	06,	"Vodafone",	"airtelnet.es",	"0",	"PAP",	"vodafone",	"vodafone"}
+{214,	07,	"Movistar",		"telefonica.es",	"0",	"PAP",	"telefonica",	"telefonica"}
+{214,	08,	"Euskaltel",	"internet.euskaltel.mobi",	"0",	"PAP",	"CLIENTE",	"CLIENTE"}
+{214,	16,	"TeleCable",	"internet.telecable.es",	"0",	"PAP",	"telecable",	"telecable"}
+{216,	01,	"Telenor Online",		"online"}
+{216,	30,	"T-Mobile",	"wnw"}
+{216,	70,	"Vodafone",	"internet.vodafone.net"}
+{216,	70,	"Vodafone VMAX",	"vitamax.internet.vodafone.net"}
+{218,	03,	"HT HT Eronet",	"wap.eronet.ba"}
+{218,	05,	"m:tel",	"3g1"}
+{218,	90,	"BH Mobile",	"active.bhmobile.ba"}
+{219,	01,	"T-Mobile",		"web.htgprs"}
+{219,	02,	"Tele2",		"internet.tele2.hr"}
+{219,	10,	"Vipnet",	"data.vip.hr",	"0",	"PAP",	"38591",	"38591"}
+{220,	01,	"Telenor",	"internet",		"0",	"PAP",	"telenor",	"gprs"}
+{220,	02,	"Telenor",	"internet",	"0",	"PAP",	"gprs",	"gprs"}
+{220,	03,	"Telekom",	"gprswap",	"0",	"PAP",	"mts",	"064"}
+{220,	04,	"T-Mobile",	"tmcg-wnw",	"0",	"PAP",	"38267",	"38267"}
+{220,	05,	"Vipnet",	"vipmobile",	"0",	"PAP",	"vipmobile",	"vipmobile"}
+{222,	01,	"TIM",		"wap.tim.it"}
+{222,	10,	"Vodafone",	"mobile.vodafone.it"}
+{222,	88,	"Wind WEB",	"internet.wind"}
+{222,	99,	"Fastweb",	"apn.fastweb.it"}
+{226,	01,	"Vodafone live!",	"live.vodafone.com",	"0",	"PAP",	"live",	"vodafone"}
+{226,	03,	"Cosmote",	"internet"}
+{226,	06,	"Cosmote",	"wnw",	"0",	"PAP",	"wnw",	"wnw"}
+{226,	10,	"Orange",	"net"}
+{228,	01,	"Swisscom",	"gprs.swisscom.ch"}
+{228,	02,	"Sunrise",	"internet"}
+{228,	03,	"Orange",		"internet"}
+{230,	01,	"T-Mobile",	"internet.t-mobile.cz",	"0",	"PAP",	"wap",	"wap"}
+{230,	02,	"O2",		"internet"}
+{230,	03,	"Vodafone",	"internet"}
+{231,	01,	"Orange",	"internet",	"0",	"PAP",	"wap",	"wap"}
+{231,	02,	"T-Mobile",	"internet"}
+{231,	06,	"O2",	"o2internet"	}
+{232,	01,	"A1",	"a1.net",	"0",	"PAP",	"ppp@a1plus.at",	"ppp"}
+{232,	03,	"T-Mobile",	"gprsinternet",	"0",	"PAP",	"t-mobile",	"tm"}
+{232,	05,	"Orange",	"orange.web",	"0",	"PAP",	"web",	"web"}
+{232,	07,	"T-Mobile",	"web",	"0",	"PAP",	"web@telering.at",	"web"}
+{232,	10,	"Planet3",	"drei.at"}
+{232,	11,	"A1",	"bob.at",	"0",	"PAP",	"data@bob.at",	"ppp"}
+{232,	12,	"YESSS!",	"web.yesss.at"}
+{234,	01,	"UBIQUISYS",	"internet"}
+{234,	02,	"O2",	"mobile.o2.co.uk",	"0",	"PAP",	"O2web",	"O2web"}
+{234,	10,	"O2",	"mobile.o2.co.uk",	"0",	"PAP",	"o2web",	"password"}
+{234,	11,	"O2",	"mobile.o2.co.uk",	"0",	"PAP",	"O2web",	"O2web"}
+{234,	15,	"Vodafone","wap.vodafone.co.uk"}
+{234,	15,	"Vodafone",	"pp.vodafone.co.uk"}
+{234,	20,	"Hutchison",	"three.co.uk"}
+{234,	30,	"virginmobile",	"goto.virginmobile.uk"}
+{234,	31,	"T-Mobile",	"general.t-mobile.uk",	"0",	"PAP",	"t-mobile",	"tm"}
+{234,	32,	"T-Mobile",	"general.t-mobile.uk",	"0",	"PAP",	"t-mobile",	"tm"}
+{234,	33,	"Orange",		"orangeinternet"}
+{234,	33,	"Consumer",	"consumerbroadband"}
+{234,	34,	"Orange",		"orangeinternet"}
+{234,	50,	"Jersey Telecom",	"pepper"}
+{234,	55,	"Guernsey",	"internet"}
+{234,	58,	"Manx Telecom",	"3gpronto",	"0",	"PAP",	"gprs",	"gprs"}
+{234,	86,	"Orange",	"orangeinternet"}
+{238,	01,	"TDC",		"internet"}
+{238,	02,	"Telenor",	"Internet"}
+{238,	06,	"Hi3G",	"data.tre.dk"}
+{238,	20,	"Telia",	"websp"}
+{238,	20,	"Telia",	"www.internet.mtelia.dk"}
+{238,	77,	"Telenor",	"Internet"}
+{240,	01,	"Telia",		"online.telia.se"}
+{240,	017,	"Telia",	"halebop.telia.se"}
+{240,	02,	"Hutchison",	"data.tre.se"}
+{240,	04,	"Telenor",		"services.telenor.se"}
+{240,	06,	"Telenor",		"services.telenor.se"}
+{240,	07,	"Tele2",	"4g.tele2.se"}
+{240,	08,	"Telenor",	"services.telenor.se"}
+{240,	09,	"Telenor",	"services.telenor.se"}
+{240,	10,	"Spring",		"data.springmobil.se"}
+{242,	01,	"Ventelo",	"telenor"}
+{242,	02,	"NetCom",	"wap"}
+{242,	04,	"Tele2",	"internet.tele2.no"}
+{242,	05,	"NWN",	"internet"}
+{244,	03,	"DNA",	"internet"}
+{244,	04,	"DNA",	"internet"}
+{244,	05,	"Elisa",	"internet"}
+{244,	10,	"TDC",	"internet.song.fi"}
+{244,	12,	"DNA",	"internet"}
+{244,	13,	"DNA",	"internet"}
+{244,	21,	"Saunalahti",	"internet.saunalahti"}
+{244,	91,	"SONERA",	"internet"}
+{246,	01,	"Omnitel",	"omnitel",	"0",	"PAP",	"omni",	"omni"}
+{246,	02,	"Bite",	"wap"}
+{246,	03,	"Tele2",	"internet.tele2.lt",	"0",	"PAP",	"wap",	"wap"}
+{247,	01,	"LMT",	"internet.lmt.lv"}
+{247,	02,	"Tele2",	"internet.tele2.lv",	"0",	"PAP",	"wap",	"wap"}
+{247,	05,	"Bite",	"internet"}
+{248,	01,	"EMT",	"internet.emt.ee"}
+{248,	02,	"Elisa",	"internet"} 
+{248,	03,	"Tele2",	"internet.tele2.ee"}
+{250,	01,	"MTS",	"internet.mts.ru",	"0",	"PAP",	"mts",	"mts"}
+{250,	02,	"Megafon",	"internet",	"0",	"PAP",	"gdata",	"gdata"}
+{250,	99,	"Beeline",	"internet.beeline.ru",	"0",	"PAP",	"beeline",	"beeline"}
+{250,	20,	"TELE2",	"internet.tele2.ru"}
+{255,	01,	"MTS",	"internet"}
+{255,	02,	"Beeline",	"internet.beeline.ua"}
+{255,	03,	"Kyivstar",	"www.kyivstar.net"}
+{255,	06,	"life:)",	"internet"}
+{255,	07,	"Utel",	"3g.utel.ua"}
+{260,	01,	"Plus",	"plus.mnc001.mcc260.gprs"}
+{260,	02,	"T-Mobile",	"internet"}
+{260,	03,	"Orange",	"Internet",	"0",	"PAP",	"internet",	"internet"}
+{260,	06,	"P4 Internet",	"internet"}
+{262,	01,	"T-Mobile",	"internet.telekom",	"0",	"PAP",	"telekom",	"telekom"}
+{262,	02,	"Vodafone",	"web.vodafone.de"}
+{262,	03,	"E-Plus",	"internet.eplus.de",	"0",	"PAP",	"eplus",	"internet"}
+{262,	07,	"O2",	"internet.debitel"}
+{268,	01,	"Vodafone",	"net2.vodafone.pt",	"0",	"PAP",	"vodafone",	"vodafone"}
+{268,	03,	"Optimus",	"umts"}
+{268,	06,	"TMN",	"internet"}
+{270,	01,	"LUXGSM",	"wap.pt.lu",	"0",	"PAP",	"wap",	"wap"}
+{270,	77,	"Tango",	"internet",	"0",	"PAP",	"tango",	"tango"}
+{270,	99,	"Vox Mobile",	"vox.lu"}
+{272,	01,	"Vodafone",	"live.vodafone.com"}
+{272,	02,	"O2",	"internet"}
+{272,	03,	"Meteor",	"data.mymeteor.ie"}
+{272,	05,	"Hutchison",	"3ireland.ie"}
+{272,	11,	"Tesco",	"tescomobile.liffeytelecom.com"}
+{274,	01,	"Siminn",	"internet"}
+{274,	02,	"Vodafone",	"gprs.is"}
+{274,	11,	"Nova",	"net.nova.is"}
+{278,	01,	"Vodafone",	"internet",	"0",	"PAP",	"internet",	"internet"}
+{280,	01,	"CYTA",	"cytamobile",	"0",	"PAP",	"user",	"pass"}
+{280,	10,	"MTN",	"wap",	"0",	"PAP",	"wap",	"wap"}
+{284,	01,	"M-Tel",	"wap-gprs.mtel.bg"}
+{284,	03,	"Vivacom",	"wap.vivacom.bg",	"0",	"PAP",	"wap",	"wap"}
+{284,	05,	"GLOBUL",	"globul"}
+{286,	01,	"Turkcell",	"internet",	,	"0",	"PAP",	"gprs",	"gprs"}
+{286,	02,	"Vodafone",	"internet",	"0",	"PAP",	"vodafone",	"vodafone"}
+{286,	03,	"Avea",	"internet",	"0",	"PAP",	"wap",	"wap"}
+{290,	01,	"Tele",	"internet"}
+{293,	40,	"Vodafone",	"internet.simobil.si",	"0",	"PAP",	"simobil",	"internet"}
+{293,	41,	"Planet",	"internet",	"0",	"PAP",	"mobitel",	"internet"}
+{294,	01,	"T-Mobile",	"internet",	"0",	"PAP",	"internet",	"t-mobile"}
+{294,	02,	"Cosmofon",	"Internet",	"0",	"PAP",	"Internet",	"Internet"}
+{294,	03,	"Vip MK",	"vipoperator",	"0",	"PAP",	"vipoperator",	"vipoperator"}
+{297,	02,	"T-Mobile",	"tmcg-wnw",	"0",	"PAP",	"38267",	"38267"}

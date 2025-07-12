@@ -1,0 +1,129 @@
+/dev/ion                0666    system  system
+/dev/adf*               0660    media   graphics
+/dev/asr_ad             0660    system  system
+/dev/mali0              0666    system  system
+/dev/pvr_sync           0666    system  system
+/dev/media*             0660    root    camera
+/dev/video*             0660    media   camera
+/dev/v4l-subdev*        0660    root    camera
+/dev/cam*               0660    camera   camera
+/dev/mars11*            0660    camera  camera
+/dev/v2d_dev            0666    system  system
+/dev/jpu*               0660    media   camera
+
+/dev/i2c*               0660    camera   camera
+/dev/tee0               0666    system    system
+/dev/teepriv0           0666    system    system
+/dev/nanohub            0666    system    system
+/dev/spidev*            0666    system    system
+/dev/ttyS2              0666    system    system
+/dev/alarm              0666    system    system
+/dev/rtc1               0640    system    system
+/dev/ttyGS0             0660    system    system
+/dev/ttyGS1             0660    system    system
+/dev/ttyGS2             0660    system    system
+/dev/asr_wifi_ctrl      0666    wifi      wifi
+
+# Add for Level1 oemcrypto ionmap dev
+/dev/drm_ionmap		0666	system	  system
+
+# Add for NXP NFC pn54x
+/dev/pn54x		0666	system	  system
+
+# BT
+/dev/ttyS1              0660   bluetooth  bluetooth
+/sys/devices/platform/bcm-bluetooth/rfkill/rfkill0  state  0660    bluetooth    bluetooth
+/sys/devices/platform/bcm-bluetooth/rfkill/rfkill0  type   0660    bluetooth    bluetooth
+
+# Backlight
+/sys/devices/platform/pwm_bl/backlight/pwm_bl	brightness	0660	system	system
+/sys/devices/platform/pwm_bl/backlight/pwm_bl   max_brightness      0444    system  system
+
+/sys/class/leds/led	brightness	0660	system	system
+/sys/class/leds/led	max_brightness	0444	system	system
+
+/sys/devices/platform/asr-backlight.0	brightness	0660	system	system
+/sys/devices/platform/asr-backlight.0	max_brightness	0444	system	system
+
+/sys/class/leds/red brightness   0660 system system
+/sys/class/leds/green brightness 0660 system system
+/sys/class/leds/blue brightness  0660 system system
+
+/sys/class/leds/red blink     0660 system system
+/sys/class/leds/red rgb_start 0660 system system
+/sys/class/leds/red on_off_ms 0660 system system
+
+/sys/class/leds/green blink     0660 system system
+/sys/class/leds/green rgb_start 0660 system system
+/sys/class/leds/green on_off_ms 0660 system system
+
+/sys/class/leds/blue blink     0660 system system
+/sys/class/leds/blue rgb_start 0660 system system
+/sys/class/leds/blue on_off_ms 0660 system system
+
+# Power HAL
+/sys/class/devfreq/c0000000.ddr_fc		polling_interval	0664	system	system
+/sys/class/devfreq/c0000000.ddr_fc		available_frequencies	0444	system	system
+/sys/class/devfreq/c0500000.gpu			available_frequencies	0444	system	system
+/sys/devices/platform/soc/c0000000.ddr_fc	ddr_qos_min		0664	system	system
+/sys/devices/platform/soc/c0000000.ddr_fc	ddr_qos_max		0664	system	system
+/sys/devices/platform/soc/c0000000.ddr_fc	combine_fc_en		0664	system	system
+/sys/class/devfreq/c0500000.gpu			min_freq		0664	system	system
+/sys/class/devfreq/c0500000.gpu			max_freq		0664	system	system
+/sys/devices/platform/soc/c0980000.linlon-v5	dvfs_min_freq		0664	system	system
+/sys/devices/platform/soc/c0980000.linlon-v5	dvfs_max_freq		0664	system	system
+
+#copied from pxa1936aloe
+/dev/snd/* 0660 system audio
+/dev/citty* 0660 radio system
+/dev/ccichar 0640 radio radio
+/dev/cctdatadev0 0640 system system
+/dev/cctdatadev1 0660 radio bluetooth
+/dev/cidatatty* 0640 radio radio
+/dev/cidatatty1 0660 radio bluetooth
+/dev/cidatatty2 0660 system system
+/dev/imldev0 0660 system system
+/dev/tzdd 0660 system drmrpc
+/dev/mdtv* 0660 system system
+/dev/radio0 0660 system system
+# telephony
+/dev/cctdev* 0660 system system
+/dev/umts_* 0660 system system
+/dev/msocket 0660 system system
+/dev/msocket_dump 0660 system system
+/dev/diag_dump 0660 system system
+/dev/ccidatastub 0660 system system
+/dev/psdatastub 0660 system system
+/dev/seh 0660 radio system
+/dev/audiostub_ctl 0666 media system
+/dev/audiostub_pcm 0666 media system
+/dev/ttymodem* 0660 system system
+/dev/ttydiag* 0660 system system
+/dev/cmsockdev* 0660 system system
+/dev/crmdev* 0660 system system
+/dev/amipc 0660 system system
+/dev/ttyGS0 0660 system system
+/dev/ppprd 0660 system system
+# MRD partition
+/dev/block/mmcblk0p1 0660 system system
+# MRD backup partition
+/dev/block/mmcblk0p2 0660 system system
+/dev/block/mmcblk0 0660 system system
+/dev/cpmem 0660 system root
+# radio partition
+/dev/block/mmcblk0p10 0600 system root
+/dev/mpu 0660 system system
+/dev/mpuirq 0660 system system
+/dev/accelirq 0660 system system
+/dev/timerirq 0660 system system
+# misc partition for sku-setting
+/dev/block/mmcblk0p9 0660 system root
+/dev/kmsg 0660 root system
+# audio encrypt
+/dev/encrypt_dev 0660 system system
+# TF encrypt
+/dev/sdio_sdt0 0660 system system
+
+#flash
+/sys/class/leds/torch  brightness	0664	system  camera
+/sys/class/leds/flash  brightness	0664	system  camera

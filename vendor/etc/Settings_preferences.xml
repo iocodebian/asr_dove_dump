@@ -1,0 +1,1882 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map version="20240323">
+<o id="default">
+</o>
+<o id="vendor">
+<s n="CBNR">1</s>
+</o>
+<o c="374130">
+<s n="XDM">0</s>
+</o>
+<o c="37412">
+<s n="XDM">0</s>
+</o>
+<o c="70604">
+<s n="XDM">0</s>
+</o>
+<o c="338180">
+<s n="XDM">0</s>
+</o>
+<o c="338050">
+<s n="XDM">0</s>
+</o>
+<o c="70602">
+<s n="XDM">0</s>
+</o>
+<o c="37004">
+<s n="XDM">0</s>
+</o>
+<o c="64009">
+<s n="XDM">0</s>
+</o>
+<o c="64005">
+<s n="XDM">0</s>
+</o>
+<o c="64002">
+<s n="XDM">0</s>
+</o>
+<o c="41003">
+<s n="MTU">1300</s>
+<t n="TR">60</t>
+<t n="TRB">60</t>
+<s n="EPR">4</s>
+</o>
+<o c="41001" c1="41007">
+<s n="MTU">1300</s>
+<s n="SCO">1</s>
+<s n="CURI">sip:mmtel@conf-factory.ims.mnc001.mcc410.3gppnetwork.org</s>
+<s n="EPR">4</s>
+</o>
+<o c="41004">
+<s n="APN">zongims</s>
+<s n="SCO">1</s>
+<t n="TR">40</t>
+<t n="TRB">45</t>
+<s n="GRU">1</s>
+</o>
+<o c="73401" c1="73402" c2="73403">
+<s n="SO">0</s>
+<s n="XDM">0</s>
+</o>
+<o c="73404">
+<s n="SO">0</s>
+<s n="XDM">0</s>
+</o>
+<o c="73406">
+<s n="SO">0</s>
+<s n="XDM">0</s>
+</o>
+<o c="73840">
+<s n="APN">ims</s>
+<s n="XAPN">enet</s>
+<s n="MTU">1380</s>
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="XGP">80</s>
+<s n="GRU">1</s>
+<s n="TSR">1800</s>
+</o>
+<o c="310320">
+<s n="XAPN">xcap</s>
+<s n="EAPN">sos</s>
+<s n="MTU">1300</s>
+<t n="TR">90</t>
+<t n="TRB">90</t>
+<s n="XURL">xcap.epc.mnc320.mcc310.pub.3gppnetwork.org</s>
+<s n="BSF">bsf.epc.mnc320.mcc310.pub.3gppnetwork.org</s>
+<s n="XGP">80</s>
+<s n="TSR">1800</s>
+</o>
+<o c="313640">
+<t n="TR">120</t>
+<t n="TRB">120</t>
+<s n="GRU">1</s>
+<s n="TSR">1800</s>
+</o>
+<o c="311040">
+<s n="XAPN">hos</s>
+<s n="XGP">80</s>
+<t n="TR">90</t>
+<t n="TRB">90</t>
+<s n="GRU">1</s>
+<s n="TSR">1800</s>
+</o>
+<o c="34403">
+<s n="APN">ims</s>
+</o>
+<o c="36449">
+<s n="USI">1</s>
+<s n="CURI">conf_uri@ims.mnc049.mcc364.3gppnetwork.org</s>
+<s n="SCO">1</s>
+<s n="XP">8090</s>
+</o>
+<o c="60202">
+<s n="RSPT">3</s>
+<s n="RIDE">0</s>
+<s n="ISPT">4856</s>
+<s n="AEAC">1</s>
+<s n="XDM">0</s>
+</o>
+<o c="60203">
+<s n="MTU">1230</s>
+<s n="TRTB">30</s>
+<s n="TRTM">1800</s>
+<t n="T2">4</t>
+<t n="T4">5</t>
+<s n="RSPT">3</s>
+<s n="RIDE">0</s>
+<s n="ISPT">4856</s>
+<s n="TSR">1800</s>
+<s n="SRF">2</s>
+<t n="TR">90</t>
+<t n="TRB">90</t>
+<s n="AEAC">1</s>
+<s n="XDM">0</s>
+</o>
+<o c="64004">
+<s n="MTU">1500</s>
+<s n="SCO">1</s>
+<s n="CWR">0</s>
+<s n="XDM">0</s>
+<s n="XAPN">xcap</s>
+</o>
+<o c="50502">
+<s n="SRF">2</s>
+<t n="TR">45</t>
+<t n="TRB">90</t>
+<s n="XAPN">hos</s>
+</o>
+<o c="60309">
+<s n="URI">sip:%N;phone-context=%d@%d;user=phone</s>
+<s n="CURI">sip:mmtel@3pty-factoryims.mnc009mcc603.3gppnetwork.org</s>
+<s n="SUF">sip:%N;phone-context=%d@%d;user=phone</s>
+<s n="MMIE">1</s>
+</o>
+<o c="63903" c1="63905">
+<s n="XDM">0</s>
+<s n="PT">1</s>
+<s n="USI">1</s>
+</o>
+<o c="63907">
+<s n="SO">0</s>
+<s n="XDM">0</s>
+</o>
+<o c="63910">
+<s n="XDM">0</s>
+<s n="PT">1</s>
+<s n="SHS">1</s>
+<s n="USI">1</s>
+</o>
+<o c="65507">
+<s n="XDM">0</s>
+<s n="LOC">1</s>
+</o>
+<o c="62160">
+<s n="SO">0</s>
+<s n="XDM">0</s>
+</o>
+<o c="62150">
+<s n="SO">0</s>
+<s n="XDM">0</s>
+</o>
+<o c="62120">
+<s n="SO">0</s>
+<s n="XDM">0</s>
+</o>
+<o c="62130">
+<s n="O">23</s>
+<s n="APN">ims</s>
+<s n="MTU">1280</s>
+<s n="USUB">1</s>
+<s n="TSR">1800</s>
+<s n="PANIE">1</s>
+<s n="TMS">1800</s>
+<t n="TR">90</t>
+<t n="TRB">90</t>
+<t n="TFR">5</t>
+<s n="XDM">0</s>
+<s n="XAPN">hos</s>
+<s n="SMS">4</s>
+<s n="XP">8080</s>
+<s n="XGP">8090</s>
+<s n="EAPN">sos</s>
+<s n="ECC">0</s>
+</o>
+<o c="60204">
+<s n="MTU">1500</s>
+<s n="RSPT">3</s>
+<s n="ISPT">760</s>
+<s n="URI">sip:%N;phone-context=%d@%d;user=phone</s>
+<t n="TR">45</t>
+<t n="TRB">90</t>
+<s n="RIDE">0</s>
+<s n="AFP">0</s>
+<s n="AWFP">0</s>
+<s n="AEAC">1</s>
+<s n="TSR">1800</s>
+<s n="EPT">1</s>
+<s n="EAPN">sos</s>
+<s n="IAT">1</s>
+<s n="XDM">0</s>
+</o>
+<o c="53001">
+<s n="MTU">1500</s>
+<t n="T1">2</t>
+<t n="T2">16</t>
+<t n="T4">17</t>
+<t n="TR">50</t>
+<t n="TRB">50</t>
+<s n="TSR">1800</s>
+<s n="SCO">1</s>
+<s n="GRU">1</s>
+<s n="USI">1</s>
+</o>
+<o c="53005" c1="53099">
+<s n="APN">ims</s>
+<s n="PT">2</s>
+<s n="IIPS">6</s>
+<s n="CIPS">5</s>
+<t n="TRE">7200</t>
+<t n="T1">2</t>
+<t n="T2">16</t>
+<t n="T4">17</t>
+<t n="TF">32</t>
+<t n="TJ">32</t>
+<s n="EAPN">sos</s>
+<s n="EPT">2</s>
+<s n="VCC">2</s>
+<t n="TR">30</t>
+<s n="TSR">1800</s>
+<s n="RBI">0</s>
+<s n="XAPN">xcap</s>
+<s n="XP">8443</s>
+<s n="XGP">8444</s>
+<s n="UOT">1</s>
+<s n="GOT">1</s>
+<s n="SMS">4</s>
+</o>
+<o c="65574" c1="65573" c2="65538" c3="65519">
+<t n="TR">90</t>
+<t n="TRB">90</t>
+<s n="TSR">1800</s>
+<s n="GRU">1</s>
+<s n="MTU">1500</s>
+<s n="IPS">1300</s>
+<s n="XAPN">xcap</s>
+<s n="XGP">80</s>
+</o>
+<o c="45008">
+<s n="O">21</s>
+<s n="SPT">5080</s>
+<s n="RP">0</s>
+<s n="RK">0</s>
+<s n="UA">TTA-VoLTE/2.0 SHV-E330L/ASR383W0627 Device_Type/Android_Phone KT</s>
+<s n="TSR">360</s>
+<s n="TMS">90</s>
+<s n="SRF">2</s>
+<s n="QPR">1</s>
+<s n="IIPS">4</s>
+<s n="CIPS">4</s>
+<s n="IAT">1</s>
+<s n="MTU">8192</s>
+<s n="IPS">1300</s>
+</o>
+<o c="45006">
+<s n="IMPU">1</s>
+<s n="ISF">1</s>
+<s n="SRF">2</s>
+<s n="TMS">90</s>
+<s n="IIPS">4</s>
+<s n="CIPS">4</s>
+<s n="UA">TTA-VoLTE/1.011.074 IMS_Client/ASR383W0627 Device_Type/Android_Phone LGU</s>
+<s n="PLAY_EM">1</s>
+</o>
+<o c="72234">
+<s n="XDM">0</s>
+<t n="TR">60</t>
+<t n="TRB">60</t>
+<s n="GRU">1</s>
+</o>
+<o c="46015">
+<s n="APN">ims</s>
+<s n="PT">2</s>
+<s n="XAPN">cbnet</s>
+<s n="XGP">80</s>
+<s n="INVCXL">1</s>
+</o>
+<o ic="63001">
+<s n="O">7</s>
+<s n="XAPN">xcap</s>
+<s n="XGP">80</s>
+<s n="TSR">900</s>
+<t n="TR">120</t>
+<t n="TRB">120</t>
+<s n="GRU">1</s>
+</o>
+<o c="50501">
+<s n="UA">Telstra Brand Model RTOS ASR_IMS_N1.057.024</s>
+<s n="SRF">2</s>
+<s n="SMS">4</s>
+<t n="TR">45</t>
+<t n="TRB">90</t>
+<s n="XAPN">hos</s>
+</o>
+<o c="40481" c1="40434" c2="40438" c3="40451" c4="40453" c5="40454" c6="40455" c7="40457" c8="40458" c9="40459" ca="40462" cb="40464" cc="40466" cd="40468" ce="40469" cf="40471" cg="40472" ch="40473" ci="40474" cj="40475" ck="40476" cl="40477" cm="40479" cn="40476" co="40479" cp="40480">
+<t n="TR">45</t>
+<t n="TRB">90</t>
+<s n="EPR">4</s>
+<s n="XDM">0</s>
+<s n="USI">1</s>
+</o>
+<o c="22601">
+<s n="O">7</s>
+<s n="XAPN">live.vodafone.com</s>
+<s n="XGP">80</s>
+</o>
+<o c="22603" c1="22606">
+<s n="XDM">0</s>
+</o>
+<o c="22605">
+<s n="XDM">0</s>
+<s n="CUSD">0</s>
+</o>
+<o c="311270" c1="311480" c2="311770" c3="310004" c4="310010" c5="310012" c6="310590" c7="310890" c8="310910" c9="311110" ca="311270" cb="311390" cc="311480">
+<s n="O">3</s>
+<t n="TR">55</t>
+<t n="TRB">60</t>
+<s n="TSR">300</s>
+</o>
+<o c="310260" c1="310160" c2="310200" c3="310210" c4="310220" c5="310230" c6="310240" c7="310250" c8="310270" c9="310300" ca="310310" cb="310490" cc="310530" ce="310640" cf="310660" cg="310800" ch="311660" ci="311880" cj="312250" ck="311490" cl="31031" cm="310330" cn="310800" co="310280">
+<s n="O">12</s>
+<s n="MTU">1230</s>
+<t n="TR">450</t>
+<t n="TRB">120</t>
+<s n="TRTB">30</s>
+<s n="TRTM">1800</s>
+<s n="CURI">sip:8881112663@msg.pc.t-mobile.com</s>
+<s n="SCO">1</s>
+<t n="TF">128</t>
+<s n="XAPN">fast.t-mobile.com</s>
+<s n="XP">443</s>
+<s n="XGP">443</s>
+<s n="UOT">1</s>
+<s n="GOT">1</s>
+<s n="USI">1</s>
+<s n="NTP">2</s>
+<s n="BTP">2</s>
+<s n="NPE">1</s>
+</o>
+<o c="46689">
+<s n="APN">ims</s>
+<s n="PT">1</s>
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="EPR">4</s>
+<s n="XDM">0</s>
+<s n="SMS">4</s>
+<s n="CURI">sip:TSTAR_CONF@ims.mnc089.mcc466.3gppnetwork.org</s>
+</o>
+<o c="46697">
+<s n="APN">ims</s>
+<t n="TR">120</t>
+<t n="TRB">120</t>
+<s n="USSD">4</s>
+<s n="XP">8090</s>
+<s n="SMS">4</s>
+<s n="SCO">1</s>
+<s n="CURI">sip:conf-factory@ims.taiwanmobile.com</s>
+</o>
+<o c="45503" c1="45505">
+<s n="APN">mobile.three.com.mo</s>
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="EPR">4</s>
+<s n="USSD">4</s>
+<s n="XDM">0</s>
+<s n="CURI">sip:conference@ims.mnc003.mcc455.3gppnetwork.org</s>
+</o>
+<o c="45501" c1="45504">
+<s n="APN">ims</s>
+<t n="TR">120</t>
+<t n="TRB">120</t>
+<s n="EPR">4</s>
+<s n="USSD">4</s>
+<s n="XDM">0</s>
+<s n="SCO">1</s>
+<s n="CURI">sip:conf-factory.ics.mnc001.mcc455.3gppnetwork.org</s>
+</o>
+<o c="45406" c1="45415" c2="45417">
+<s n="APN">ims</s>
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="EPR">4</s>
+<s n="USSD">4</s>
+<s n="SMS">4</s>
+<s n="XDM">0</s>
+<s n="CURI">sip:conference@ims.mnc006.mcc454.3gppnetwork.org</s>
+</o>
+<o c="45403" c1="45404" c2="45405" c3="45414">
+<s n="APN">ims.lte.three.com.hk</s>
+<s n="EPR">4</s>
+<s n="USSD">4</s>
+<s n="XDM">0</s>
+<s n="SCO">1</s>
+<s n="CURI">sip:19099@ims.mnc003.mcc454.3gppnetwork.org</s>
+</o>
+<o c="45416" c1="45419" c2="45420" c3="45429">
+<s n="APN">ims</s>
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="EPR">4</s>
+<s n="USSD">4</s>
+<s n="XDM">0</s>
+<s n="SCO">1</s>
+<s n="CURI">sip:conf-factory.ics.mnc019.mcc454.3gppnetwork.org</s>
+</o>
+<o c="45400" c1="45402" c2="45410" c3="45418">
+<s n="APN">ims</s>
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="EPR">4</s>
+<s n="USSD">4</s>
+<s n="XDM">0</s>
+<s n="SCO">1</s>
+<s n="CURI">sip:conference-factory@ims.mnc000.mcc454.3gppnetwork.org</s>
+</o>
+<o c="45412" c1="45413">
+<s n="APN">ims</s>
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="SMS">4</s>
+<s n="EPR">4</s>
+<s n="USSD">4</s>
+<s n="XDM">0</s>
+<s n="CURI">sip:conference@conference.ims.cmhk.net</s>
+</o>
+<o c="20601">
+<s n="APN">ims</s>
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="EPR">4</s>
+<s n="USSD">4</s>
+<s n="SCO">1</s>
+<s n="XAPN">hos</s>
+</o>
+<o c="28405">
+<t n="TR">90</t>
+<t n="TRB">90</t>
+<s n="EPR">4</s>
+<s n="USSD">4</s>
+<s n="SMS">4</s>
+<s n="XDM">0</s>
+</o>
+<o c="20402">
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="EPR">4</s>
+<s n="USSD">4</s>
+<s n="SCO">1</s>
+<s n="XDM">0</s>
+<s n="CURI">sip:conf-factory@ims.mnc002.mcc204.3gppnetwork.org</s>
+</o>
+<o c="22802">
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="EPR">4</s>
+<s n="USSD">4</s>
+<s n="SCO">1</s>
+<s n="XDM">0</s>
+</o>
+<o c="27001">
+<s n="APN">ims</s>
+<t n="TR">90</t>
+<t n="TRB">90</t>
+<s n="EPR">4</s>
+<s n="USSD">4</s>
+<s n="SCO">1</s>
+<s n="SMS">4</s>
+<s n="XAPN">hos</s>
+<s n="XGP">10080</s>
+<s n="CURI">sip:mmtel@conf-factory.ims.mnc001.mcc270.3gppnetwork.org</s>
+</o>
+<o c="24001">
+<s n="APN">ims</s>
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="USSD">4</s>
+<s n="XAPN">hos</s>
+</o>
+<o c="24491">
+<s n="APN">ims</s>
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="USSD">4</s>
+<s n="XAPN">hos</s>
+</o>
+<o c="24801">
+<s n="APN">ims</s>
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="USSD">4</s>
+<s n="XDM">0</s>
+</o>
+<o c="24202" c1="24205">
+<s n="APN">ims</s>
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="USSD">4</s>
+<s n="XAPN">hos</s>
+</o>
+<o c="24201">
+<s n="APN">ims</s>
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="USSD">4</s>
+<s n="XAPN">hos</s>
+</o>
+<o c="24008">
+<s n="APN">ims</s>
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="USSD">4</s>
+<s n="EPR">4</s>
+<s n="SCO">1</s>
+</o>
+<o c="24007">
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="SMS">4</s>
+<s n="XDM">0</s>
+<s n="SCO">1</s>
+</o>
+<o c="23802">
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="XAPN">xcap</s>
+<s n="APN">ims</s>
+<s n="USSD">4</s>
+<s n="APN">ims</s>
+<s n="SCO">1</s>
+<s n="PT">1</s>
+<s n="EPR">3</s>
+<s n="XGP">80</s>
+<s n="CURI">sip:conf-factory@ims.mnc002.mcc238.3gppnetwork.org</s>
+<t n="T4">20</t>
+</o>
+<o c="23801" c1="23810">
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="XP">8090</s>
+<s n="XGP">9001</s>
+<s n="XAPN">xcap</s>
+<s n="USSD">4</s>
+<s n="SMS">4</s>
+</o>
+<o c="24405">
+<t n="TR">90</t>
+<t n="TRB">90</t>
+<s n="XP">8090</s>
+<s n="XGP">9001</s>
+<s n="SCO">1</s>
+<s n="XAPN">xcap</s>
+<s n="CURI">sip:7888@ims.mnc005.mcc244.3gppnetwork.org</s>
+</o>
+<o c="24802">
+<s n="PT">1</s>
+<t n="TR">90</t>
+<t n="TRB">90</t>
+<s n="EPR">4</s>
+<s n="SCO">1</s>
+<s n="XDM">0</s>
+</o>
+<o c="24412" c1="24413" c2="24436">
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="USSD">4</s>
+<s n="XAPN">hos</s>
+<s n="EPR">4</s>
+</o>
+<o c="27201">
+<s n="O">7</s>
+<t n="TR">240</t>
+<t n="TRB">240</t>
+<s n="PT">1</s>
+<s n="USSD">4</s>
+<s n="XAPN">xcap</s>
+<s n="SMS">4</s>
+<s n="EPR">4</s>
+<s n="CURI">sip:teleconferenceuri-factory@ims.vodafone.ie</s>
+<s n="XP">443</s>
+<s n="XGP">443</s>
+</o>
+<o c="23003">
+<s n="O">7</s>
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="APN">ims</s>
+<s n="PT">1</s>
+<s n="USSD">4</s>
+<s n="XAPN">internet</s>
+<s n="EPR">4</s>
+</o>
+<o c="22801">
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="APN">ims</s>
+<s n="USSD">4</s>
+<s n="XAPN">hos</s>
+<s n="XP">8080</s>
+<s n="XGP">8081</s>
+</o>
+<o c="23201">
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="APN">ims</s>
+<s n="EPR">4</s>
+<s n="SCO">1</s>
+<s n="CURI">sip:*28@ims.mnc001.mcc232.3gppnetwork.org</s>
+<s n="USSD">4</s>
+<s n="XDM">0</s>
+</o>
+<o c="21901">
+<s n="XAPN">hos</s>
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="SCO">1</s>
+<s n="APN">ims</s>
+</o>
+<o c="20416" c1="20420">
+<s n="O">12</s>
+<s n="XAPN">hos</s>
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="SCO">1</s>
+<s n="APN">ims</s>
+<s n="SMS">4</s>
+<s n="USSD">4</s>
+<s n="XGP">80</s>
+<s n="XTDP">1</s>
+<s n="MTU">1500</s>
+</o>
+<o c="21630">
+<s n="O">12</s>
+<s n="XAPN">internet.telekom</s>
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="SCO">1</s>
+<s n="APN">ims</s>
+<s n="SMS">4</s>
+<s n="USSD">4</s>
+</o>
+<o c="26201">
+<s n="O">12</s>
+<s n="XAPN">hos</s>
+<s n="SCO">1</s>
+<s n="APN">ims</s>
+<s n="MTU">1200</s>
+<t n="TR">130</t>
+<t n="TRB">130</t>
+<s n="TRTB">30</s>
+<s n="TRTM">1800</s>
+<t n="TF">128</t>
+<s n="XGP">80</s>
+<s n="NPE">1</s>
+</o>
+<o c="23001">
+<s n="O">12</s>
+<s n="XAPN">internet.t-mobile.cz</s>
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="SCO">1</s>
+</o>
+<o c="23420" c1="23494">
+<s n="XAPN">three.co.uk</s>
+<s n="CURI">sip:Conf-Factory@three.co.uk</s>
+<s n="USSD">4</s>
+</o>
+<o c="24002">
+<s n="XAPN">services</s>
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="USSD">4</s>
+</o>
+<o c="23806">
+<s n="XAPN">services</s>
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="USSD">4</s>
+</o>
+<o c="23205" c1="23210">
+<s n="XAPN">drei.at</s>
+<t n="TR">90</t>
+<t n="TRB">90</t>
+</o>
+<o c="42503">
+<s n="APN">ims</s>
+<s n="XAPN">hos</s>
+<s n="SMS">4</s>
+<s n="PT">2</s>
+<s n="SCO">1</s>
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="USSD">4</s>
+<s n="EPR">4</s>
+</o>
+<o c="42501">
+<s n="XAPN">hos</s>
+<s n="SMS">4</s>
+<s n="XP">8080</s>
+<t n="TR">90</t>
+<t n="TRB">90</t>
+<s n="USSD">4</s>
+</o>
+<o c="42502">
+<s n="XAPN">xcap</s>
+<s n="GRU">1</s>
+<s n="CURI">sip:mmtel@conf-factory.ims.mnc002.mcc427.3gppnetwork.org</s>
+<s n="XP">8090</s>
+<s n="XGP">80</s>
+</o>
+<o c="65502">
+<s n="EPR">4</s>
+<s n="SMS">4</s>
+<s n="XAPN">Ut</s>
+<s n="XGP">80</s>
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="USSD">4</s>
+<s n="BSF">bsf.ims.mnc002.mcc655.pub.3gppnetwork.org</s>
+</o>
+<o c="74001">
+<t n="T1">2</t>
+<t n="T2">16</t>
+<t n="T4">17</t>
+<t n="TRTCP">8</t>
+<t n="TR">30</t>
+<t n="TRB">30</t>
+<s n="TSR">1800</s>
+<s n="XAPN">internet.claro.com.ec</s>
+<s n="XP">8080</s>
+<s n="USI">1</s>
+</o>
+<o c="330110">
+<s n="XP">8080</s>
+<s n="XAPN">LTE.CLAROPR.COM</s>
+</o>
+<o c="74810">
+<s n="XDM">0</s>
+<s n="USSD">4</s>
+<s n="EPR">4</s>
+<s n="SMS">4</s>
+<t n="TRTP">30</t>
+</o>
+<o c="74402">
+<s n="XDM">0</s>
+<s n="USSD">4</s>
+<s n="EPR">4</s>
+<s n="SMS">4</s>
+<t n="TRTP">30</t>
+</o>
+<o c="722310">
+<s n="XDM">0</s>
+<s n="USSD">4</s>
+<s n="EPR">4</s>
+<s n="XP">8080</s>
+</o>
+<o c="72405">
+<s n="XAPN">xcap</s>
+<t n="TRTP">30</t>
+<s n="USSD">4</s>
+<s n="XP">8090</s>
+</o>
+<o c="26803">
+<s n="XDM">0</s>
+<s n="USUB">1</s>
+<s n="MTU">1400</s>
+<s n="IPS">1300</s>
+</o>
+<o c="26801">
+<s n="O">7</s>
+<s n="GRU">1</s>
+<s n="PT">1</s>
+<s n="XAPN">net2.vodafone.pt</s>
+<s n="XGP">80</s>
+</o>
+<o c="46692">
+<s n="APN">ims</s>
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="EPR">4</s>
+<s n="SMS">4</s>
+<s n="USSD">4</s>
+<s n="XAPN">hos</s>
+<s n="XGP">8088</s>
+<s n="LOC">1</s>
+<s n="URI">sip:%N;phone-context=%d@%d;user=phone</s>
+</o>
+<o c="46605" c1="46612">
+<s n="APN">ims</s>
+<t n="TR">60</t>
+<t n="TRB">90</t>
+<s n="EPR">4</s>
+<s n="URI">sip:%N;phone-context=%d@%d;user=phone</s>
+<s n="CURI">sip:APT_CONF@volte.aptg.com.tw</s>
+<s n="CSB">0</s>
+<s n="SEC">0</s>
+</o>
+<o c="20815" c1="20816">
+<s n="XDM">0</s>
+<s n="SCO">1</s>
+</o>
+<o c="37001">
+<s n="XDM">0</s>
+<s n="GRU">1</s>
+<s n="QPR">1</s>
+</o>
+<o c="23415">
+<s n="O">7</s>
+<s n="XAPN">xcap</s>
+<s n="XGP">80</s>
+<s n="ISF">1</s>
+</o>
+<o c="22201">
+<s n="XAPN">xcap.tim.it</s>
+<s n="XP">8080</s>
+<s n="XURI">mtasxdms</s>
+<s n="PT">1</s>
+<s n="XTDP">1</s>
+<s n="SMS">4</s>
+</o>
+<o c="64604">
+<s n="SMS">4</s>
+<s n="USSD">4</s>
+<s n="EPR">4</s>
+<s n="PT">1</s>
+<s n="XAPN">HOS</s>
+<s n="XGP">80</s>
+<s n="CSB">0</s>
+<t n="TR">55</t>
+<t n="TRB">120</t>
+</o>
+<o c="74807">
+<s n="XAPN">apnwap.movistar.com.uy</s>
+<s n="SMS">4</s>
+<s n="EPR">4</s>
+<s n="XP">8080</s>
+<t n="TR">90</t>
+<t n="TRB">90</t>
+</o>
+<o c="74000">
+<s n="SMS">4</s>
+<s n="USSD">4</s>
+<s n="EPR">4</s>
+<t n="TR">20</t>
+<t n="TRB">32</t>
+</o>
+<o c="42001">
+<s n="PT">1</s>
+<s n="XAPN">jawalnet.com.sa</s>
+<s n="XGP">80</s>
+<s n="SMS">4</s>
+<s n="CURI">sip:confuri@fmc.stc.com.sa</s>
+<t n="TR">90</t>
+<t n="TRB">90</t>
+<s n="TSR">900</s>
+<t n="IPS">1</t>
+</o>
+<o c="72207">
+<s n="XDM">0</s>
+<s n="SMS">4</s>
+<s n="USSD">4</s>
+<s n="EPR">4</s>
+</o>
+<o c="23410">
+<s n="O">22</s>
+<s n="XAPN">mobile.o2.co.uk</s>
+<s n="XGP">80</s>
+<s n="SMS">4</s>
+<s n="USSD">4</s>
+<s n="EPR">4</s>
+<s n="PRR">1</s>
+<s n="PRRM">2</s>
+</o>
+<o c="72406">
+<s n="XAPN">xcap.ims</s>
+<s n="SMS">4</s>
+<s n="USSD">4</s>
+<s n="EPR">4</s>
+<t n="TR">90</t>
+<t n="TRB">90</t>
+</o>
+<o c="732123">
+<s n="XDM">0</s>
+<s n="XAPN">wap.movistar.com.co</s>
+<s n="XP">9001</s>
+<s n="CURI">sip:conference@ims.mnc123.mcc732.3gppnetwork.org</s>
+<s n="SMS">4</s>
+</o>
+<o c="37002">
+<s n="XP">8080</s>
+<s n="XAPN">internet.ideasclaro.com.do</s>
+<s n="TPX">1</s>
+<t n="TR">30</t>
+<t n="TRB">30</t>
+</o>
+<o c="60201">
+<s n="RSPT">3</s>
+<s n="RIDE">0</s>
+<s n="ISPT">4856</s>
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="IMEIE">1</s>
+<s n="AEAC">1</s>
+<s n="AFP">0</s>
+<s n="TSR">1800</s>
+<s n="SRF">2</s>
+<s n="TRTB">1</s>
+<s n="TRTM">1024</s>
+<s n="SMS">4</s>
+<s n="EPR">4</s>
+<s n="XAPN">orange</s>
+<s n="XDM">0</s>
+</o>
+<o c="27099">
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="TRTB">1</s>
+<s n="TRTM">1024</s>
+<s n="XDM">0</s>
+<s n="SMS">4</s>
+<s n="EPR">4</s>
+</o>
+<o c="20610">
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="TRTB">1</s>
+<s n="TRTM">1024</s>
+<s n="XDM">0</s>
+<s n="SMS">4</s>
+<s n="EPR">4</s>
+</o>
+<o c="22610">
+<s n="PT">2</s>
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="TRTB">1</s>
+<s n="TRTM">1024</s>
+<s n="XDM">0</s>
+<s n="SMS">4</s>
+<s n="EPR">3</s>
+<s n="MTU">1400</s>
+<s n="IPS">1300</s>
+</o>
+<o c="23101">
+<t n="TR">90</t>
+<t n="TRB">95</t>
+<s n="TRTB">1</s>
+<s n="TRTM">1024</s>
+<s n="XDM">0</s>
+</o>
+<o c="23002">
+<s n="PT">2</s>
+<s n="XGP">80</s>
+<s n="XPT">2</s>
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="GRU">1</s>
+<s n="SCR">1</s>
+<s n="SCO">1</s>
+<s n="XAPN">xcap</s>
+<s n="APN">ims</s>
+</o>
+<o c="23106">
+<s n="PT">2</s>
+<s n="XGP">80</s>
+<s n="XPT">2</s>
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="GRU">1</s>
+<s n="SCR">1</s>
+<s n="SCO">1</s>
+</o>
+<o c="21910">
+<s n="XAPN">hos</s>
+<s n="XGP">80</s>
+<s n="SMS">4</s>
+<s n="USSD">4</s>
+<s n="EPR">3</s>
+<t n="TRB">90</t>
+<s n="TRTB">30</s>
+<s n="TRTM">300</s>
+</o>
+<o c="20826">
+<s n="USSD">4</s>
+</o>
+<o c="26001">
+<s n="XDM">0</s>
+<s n="XAPN">hos</s>
+<s n="XURI">MyServices</s>
+<s n="XP">8090</s>
+<s n="GRU">1</s>
+<s n="TSR">1800</s>
+<t n="TR">90</t>
+<t n="TRB">90</t>
+<s n="EPR">3</s>
+<s n="SCO">1</s>
+<s n="SCR">1</s>
+</o>
+<o c="26003" c1="26005">
+<s n="PT">2</s>
+<s n="SMS">4</s>
+<s n="XDM">0</s>
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="TRTB">1</s>
+<s n="TRTM">1024</s>
+<s n="CSB">0</s>
+</o>
+<o c="26006" c1="26007" c2="26098">
+<s n="QPR">1</s>
+<s n="SMSC">1</s>
+<s n="XDM">0</s>
+<s n="XAPN">xcap</s>
+<t n="TR">90</t>
+<t n="TRB">90</t>
+<s n="XP">443</s>
+<s n="XGP">443</s>
+<s n="UOT">1</s>
+<s n="GOT">1</s>
+<s n="USI">1</s>
+<t n="TRTP">60</t>
+<t n="TRTCP">60</t>
+</o>
+<o c="42507" c1="42577">
+<s n="QRO">1</s>
+</o>
+<o c="26002" c1="26034">
+<s n="O">12</s>
+<s n="XAPN">hos</s>
+<s n="XGP">80</s>
+<s n="USI">1</s>
+</o>
+<o c="71617" c1="71607">
+<s n="XDM">0</s>
+<s n="XAPN">entel.pe</s>
+<s n="USSD">4</s>
+<s n="MTU">1200</s>
+<t n="IPS">1</t>
+<t n="TR">90</t>
+<t n="TRB">90</t>
+</o>
+<o c="33450" c1="334050">
+<s n="O">2</s>
+<s n="XAPN">wap.attmex.mx</s>
+<s n="MTU">1500</s>
+<s n="USSD">4</s>
+<s n="CURI">sip:ALU_CONF@ims.attmex.mx</s>
+<s n="XDM">0</s>
+</o>
+<o c="334140">
+<s n="CSB">0</s>
+<s n="XDM">0</s>
+</o>
+<o c="71610">
+<s n="EPR">3</s>
+<s n="EAPN">sos</s>
+<s n="XAPN">claro.pe</s>
+<s n="XP">8080</s>
+</o>
+<o c="732360" c1="732130">
+<s n="XAPN">XCAP</s>
+<s n="MTU">1500</s>
+<s n="XGP">80</s>
+<s n="USI">1</s>
+</o>
+<o c="732103" c1="732111">
+<s n="XAPN">web.colombiamovil.com.co</s>
+<s n="XGP">80</s>
+<s n="XURL">xcap.ims.mnc111.mcc732.pub.3gppnetwork.org</s>
+<s n="BSF">bsf.mnc111.mcc732.pub.3gppnetwork.org</s>
+<s n="EPR">3</s>
+<s n="USSD">4</s>
+<s n="CURI">sip:mmtel@conf-factory.ims.tigo.com.co</s>
+</o>
+<o c="24601">
+<s n="XAPN">hos</s>
+<s n="XGP">80</s>
+<s n="URI">sip:%N;phone-context=%d@%d;user=phone</s>
+<s n="SRF">2</s>
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="APN">ims</s>
+<s n="USSD">4</s>
+<s n="EPR">4</s>
+<s n="SMS">4</s>
+</o>
+<o c="20404">
+<s n="O">7</s>
+<s n="MTU">1100</s>
+<t n="IPS">1</t>
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="CURI">sip:conference@conference.ims.mnc004.mcc204.3gppnetwork.org</s>
+<s n="XP">8080</s>
+<s n="XGP">10080</s>
+<s n="XAPN">live.vodafone.com</s>
+<s n="SMS">4</s>
+</o>
+<o c="23430" c1="23431" c2="23432" c3="23433" c4="23434">
+<s n="XAPN">eezone</s>
+<s n="XGP">80</s>
+<t n="TR">60</t>
+<t n="TRB">130</t>
+<s n="MTU">1200</s>
+<t n="TC">20</t>
+<s n="USUB">1</s>
+</o>
+<o c="20408" c1="20412" c2="20469" c3="20410">
+<s n="UOT">1</s>
+<s n="GOT">1</s>
+<s n="XAPN">ut</s>
+<s n="XP">443</s>
+<s n="XGP">443</s>
+<t n="TR">90</t>
+<t n="TRB">90</t>
+<s n="MTU">1500</s>
+</o>
+<o c="22288" c1="22244" c2="22299">
+<s n="XAPN">xcap</s>
+<s n="MTU">1200</s>
+<s n="TSR">900</s>
+</o>
+<o c="22210" c1="22206">
+<s n="O">7</s>
+<s n="XDM">0</s>
+<s n="IIPS">4</s>
+<s n="CIPS">5</s>
+<s n="MTU">1200</s>
+<t n="IPS">1</t>
+<s n="TSR">900</s>
+<s n="URI">sip:%N;phone-context=%d@%d;user=phone</s>
+</o>
+<o c="71403">
+<t n="TRTP">25</t>
+<t n="TRTCP">30</t>
+<s n="USSD">4</s>
+<s n="SMS">4</s>
+<s n="XP">8080</s>
+</o>
+<o c="71201" c1="71202">
+<s n="SO">0</s>
+<s n="XDM">0</s>
+</o>
+<o c="71203">
+<t n="TRTP">25</t>
+<t n="TRTCP">30</t>
+<s n="USSD">4</s>
+<s n="SMS">4</s>
+<s n="XP">8080</s>
+</o>
+<o c="71204">
+<s n="SO">0</s>
+<s n="XDM">0</s>
+</o>
+<o c="71021">
+<t n="TRTP">25</t>
+<t n="TRTCP">30</t>
+<s n="USSD">4</s>
+<s n="SMS">4</s>
+<s n="XP">8080</s>
+</o>
+<o c="70801">
+<t n="TRTP">25</t>
+<t n="TRTCP">30</t>
+<s n="USSD">4</s>
+<s n="SMS">4</s>
+<s n="XP">8080</s>
+</o>
+<o c="70601">
+<t n="TRTP">25</t>
+<t n="TRTCP">30</t>
+<s n="USSD">4</s>
+<s n="SMS">4</s>
+<s n="XDM">0</s>
+</o>
+<o c="70401">
+<t n="TRTP">25</t>
+<t n="TRTCP">30</t>
+<s n="USSD">4</s>
+<s n="SMS">4</s>
+<s n="XP">8080</s>
+</o>
+<o c="310410" c1="310680" c2="31070" c3="310560" c4="310380" c5="310170" c6="310150" c7="310980" cd="311180" ce="310950" cf="31030">
+<s n="O">2</s>
+<s n="APN">ims</s>
+<s n="CPR">1</s>
+<s n="TSR">0</s>
+<t n="T1">2</t>
+<t n="T2">16</t>
+<t n="T4">17</t>
+<t n="TF">32</t>
+<t n="TJ">32</t>
+<t n="TRTB">120</t>
+<t n="TRTM">7200</t>
+<s n="MTU">1200</s>
+<t n="TC">45</t>
+<t n="TR">45</t>
+<t n="TRB">180</t>
+<s n="LOC">1</s>
+<s n="USI">1</s>
+<s n="CURI">sip:n-way_voice@one.att.net</s>
+<s n="UCO">1</s>
+<s n="URI">sip:%N;phone-context=%d@%d;user=phone</s>
+<s n="IURI">sip:%N@%d;user=phone</s>
+<s n="XAPN">nxtgenphone</s>
+<s n="EAPN">sos</s>
+<s n="TEA">0</s>
+<s n="IAT">1</s>
+<s n="ACR">1</s>
+</o>
+<o c="41902">
+<s n="PT">1</s>
+<s n="QPR">1</s>
+<s n="CURI">sip:1234@ims.mnc002.mcc419.3gppnetwork.org</s>
+<s n="XDM">0</s>
+<s n="SMS">4</s>
+<s n="EPR">3</s>
+<s n="TSR">1800</s>
+<t n="TR">40</t>
+<t n="TRB">40</t>
+<s n="GRU">1</s>
+</o>
+<o c="42004">
+<s n="MTU">1200</s>
+<s n="EPR">3</s>
+<s n="CURI">sip:conf.mnc004.mcc420.3gppnetwork.org</s>
+<s n="SCO">1</s>
+<s n="XGP">80</s>
+</o>
+<o c="28602">
+<s n="O">7</s>
+<s n="PT">1</s>
+<s n="XAPN">HOS</s>
+<s n="XP">443</s>
+<s n="BSF">bsf.ims.mnc002.mcc286.pub.3gppnetwork.org</s>
+<s n="XGP">80</s>
+<s n="TSR">1800</s>
+<s n="EPR">3</s>
+</o>
+<o c="65501">
+<s n="PT">1</s>
+<s n="EPR">3</s>
+<s n="SMS">4</s>
+<s n="URI">sip:%N;phone-context=%d@%d;user=phone</s>
+<s n="DM">ims.vodacom.co.za</s>
+<s n="CURI">sip:1428@ims.vodacom.co.za</s>
+<s n="XAPN">xcap</s>
+<s n="XGP">8090</s>
+<s n="XP">8090</s>
+<s n="XURI">MyService</s>
+<s n="TSR">1800</s>
+<s n="XUIMSISDN">1</s>
+<s n="XUISPEDMN">ims.vodacom.co.za</s>
+</o>
+<o c="28403">
+<s n="XAPN">hos</s>
+<s n="XP">8090</s>
+<s n="BSF">bsf.ims.mnc003.mcc284.pub.3gppnetwork.org</s>
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="EPR">3</s>
+</o>
+<o c="54705">
+<s n="PT">1</s>
+<s n="EPT">1</s>
+<s n="SCO">1</s>
+<s n="XP">9002</s>
+<s n="XGP">9001</s>
+<t n="TR">35</t>
+<t n="TRB">35</t>
+<s n="TSR">1800</s>
+</o>
+<o c="52510">
+<s n="XAPN">HOS</s>
+<s n="XGP">80</s>
+<s n="SCO">1</s>
+</o>
+<o c="23102">
+<s n="XAPN">hos</s>
+<s n="XGP">80</s>
+<s n="EPR">3</s>
+<s n="SMS">4</s>
+</o>
+<o c="41866">
+<t n="TR">90</t>
+<t n="TRB">90</t>
+</o>
+<o c="25001">
+<s n="XDM">0</s>
+<s n="XAPN">ims</s>
+<s n="MTU">1500</s>
+<t n="T4">20</t>
+<t n="TR">90</t>
+<t n="TRB">90</t>
+</o>
+<o c="25002">
+<s n="EPR">4</s>
+<s n="USSD">4</s>
+<s n="XDM">0</s>
+<s n="SMS">4</s>
+<t n="TR">90</t>
+<t n="TRB">90</t>
+<s n="SCO">1</s>
+</o>
+<o c="25020">
+<s n="XP">8085</s>
+<s n="XAPN">internet.tele2.ru</s>
+<s n="XPT">2</s>
+<s n="CURI">sip:conference@ims.mnc020.mcc250.3gppnetwork.org</s>
+<t n="TR">90</t>
+<t n="TRB">90</t>
+</o>
+<o c="25099">
+<s n="PT">1</s>
+<s n="XAPN">xcap.beeline.ru</s>
+<s n="XP">81</s>
+<s n="XGP">80</s>
+<t n="TR">90</t>
+<t n="TRB">90</t>
+</o>
+<o c="47002" id1="Airtel-BGD_BD" c1="47007">
+<s n="O">6</s>
+<s n="XDM">0</s>
+<s n="EPR">4</s>
+<s n="USSD">4</s>
+<s n="CURI">sip:mmtel@conf-factory.ims.mnc002.mcc470.3gppnetwork.org</s>
+<s n="XGP">80</s>
+<s n="XURL">xcap.ims.mnc002.mcc419.pub.3gppnetwork.org</s>
+<s n="BSF">bsf.mnc002.mcc419.pub.3gppnetwork.org</s>
+<t n="TR">30</t>
+<t n="TRB">30</t>
+</o>
+<o c="47001">
+<s n="EPR">3</s>
+<s n="USSD">3</s>
+<s n="XGP">80</s>
+</o>
+<o c="42402">
+<s n="MTU">1500</s>
+<s n="PT">2</s>
+<s n="XP">8080</s>
+<s n="XPT">2</s>
+<s n="SMS">4</s>
+<s n="EPR">4</s>
+<s n="CURI">sip:atsconf@ims.mnc002.mcc424.3gppnetwork.org</s>
+</o>
+<o c="208500">
+<s n="MTU">1500</s>
+<s n="XDM">0</s>
+</o>
+<o c="502153">
+<s n="MTU">1500</s>
+<s n="USSD">4</s>
+<s n="XGP">80</s>
+<t n="TR">90</t>
+<t n="TRB">90</t>
+</o>
+<o c="50216">
+<s n="MTU">1500</s>
+<s n="USSD">4</s>
+<t n="TR">60</t>
+<t n="TRB">60</t>
+<s n="EPR">4</s>
+</o>
+<o c="50218">
+<s n="XDM">0</s>
+<s n="USSD">4</s>
+<t n="404">180</t>
+</o>
+<o c="50219">
+<s n="XDM">0</s>
+<s n="CURI">sip:conference@ims.mnc019.mcc502.3gppnetwork.org</s>
+<s n="USSD">4</s>
+</o>
+<o c="42601">
+<s n="PT">1</s>
+<s n="XAPN">hos</s>
+<s n="XGP">80</s>
+<s n="USSD">4</s>
+<s n="EPR">4</s>
+<t n="TRB">60</t>
+</o>
+<o c="23103">
+<s n="MTU">1500</s>
+<s n="USSD">4</s>
+</o>
+<o c="405854" c1="405855" c2="405856" c3="405857" c4="405858" c5="405859" c6="405860" c7="405861" c8="405862" c9="405863" ca="405864" cb="405865" cc="405866" cd="405867" ce="405868" cf="405869" cg="405870" ch="405871" ci="405872" cj="405873" ck="405874" cl="405840" cm="40436">
+<s n="O">19</s>
+<t n="TR">45</t>
+<t n="TRB">90</t>
+<s n="XAPN">jionet</s>
+<s n="XP">7077</s>
+<s n="XGP">7080</s>
+<s n="QPR">1</s>
+<s n="SRF">2</s>
+<s n="TSR">1800</s>
+<s n="SCO">1</s>
+<s n="VCC">0</s>
+<s n="USI">1</s>
+<s n="LOC">1</s>
+</o>
+<o c="40402" c1="40403" c2="40410" c3="40416" c4="40431" c5="40440" c6="40445" c7="40449" c8="40470" c9="40490" ca="40492" cb="40493" cc="40494" cd="40495" ce="40496" cf="40497" cg="40598" ch="40551" ci="40552" cj="40553" ck="40555" cl="40554" cm="40556">
+<s n="O">6</s>
+<t n="TR">35</t>
+<t n="TRB">90</t>
+<s n="EPR">4</s>
+<s n="XDM">0</s>
+<s n="USI">1</s>
+<s n="SCO">1</s>
+</o>
+<o c="40401" c1="40404" c2="40405" c3="40407" c4="40411" c5="40412" c6="40413" c7="40414" c8="40415" c9="40419" ca="40420" cb="40422" cc="40424" cd="40427" ce="40430" cf="40443" cg="40444" ch="40446" ci="40456" cj="40460" ck="40478" cl="40482" cm="40484" cn="40486" co="40487" cp="40488" cq="40489" cr="40566" cs="40567" ct="40570" cu="405750" cv="405751" cw="405752" cx="405753" cy="405754" cz="405755" d1="405756" d2="405799" d3="405845" d4="405846" d5="405848" d6="405849" d7="405850" d8="405852" d9="405853">
+<s n="O">7</s>
+<s n="XAPN">xcap</s>
+<s n="XP">8090</s>
+<t n="TR">60</t>
+<t n="TRB">60</t>
+<s n="EPR">4</s>
+<s n="TSR">1800</s>
+<s n="SMS">4</s>
+<s n="XDM">0</s>
+<s n="USI">1</s>
+<s n="SCO">1</s>
+</o>
+<o c="45204">
+<s n="MTU">1280</s>
+<t n="T1">2</t>
+<t n="T2">16</t>
+<t n="T4">17</t>
+<t n="TF">32</t>
+<t n="TJ">32</t>
+<s n="XAPN">xcap</s>
+<s n="XPT">0</s>
+<s n="SMS">4</s>
+<s n="XURL">http://xcap.ims.mnc004.mcc452.3gppnetwork.org</s>
+<s n="BSF">bsf.ims.mnc004.mcc452.3gppnetwork.org</s>
+<s n="XDM">0</s>
+</o>
+<o c="45202">
+<t n="TR">60</t>
+<t n="TRB">90</t>
+<s n="CUSD">1</s>
+<s n="USI">1</s>
+<s n="XAPN">xcap</s>
+<s n="XGP">8090</s>
+<s n="ISIM">0</s>
+<s n="XDM">0</s>
+</o>
+<o c="45205">
+<s n="SO">0</s>
+<s n="XDM">0</s>
+</o>
+<o c="45201">
+<s n="SO">0</s>
+<s n="XDM">0</s>
+</o>
+<o c="51009" c1="51028">
+<s n="CUSD">1</s>
+<s n="USI">1</s>
+<s n="MTU">1240</s>
+<s n="XAPN">IMS</s>
+<s n="EAPN">sos</s>
+<s n="XP">7077</s>
+<s n="XGP">7080</s>
+<s n="XPT">0</s>
+<s n="QPR">1</s>
+<t n="TR">90</t>
+<t n="TRB">90</t>
+<s n="TSR">1800</s>
+<s n="TMS">90</s>
+<s n="XURL">http://nafxjktm001.ims.mnc009.mcc510.pub.3gppnetwork.org</s>
+<s n="BSF">bsf.ims.mnc009.mcc510.pub.3gppnetwork.org</s>
+<s n="CURI">sip:mmtel@conf-factory.ims.mnc009.mcc510.3gppnetwork.org</s>
+</o>
+<o c="51089">
+<s n="XDM">0</s>
+</o>
+<o c="51011">
+<s n="O">13</s>
+<s n="ISIM">0</s>
+<s n="XAPN">xcap</s>
+<s n="XGP">80</s>
+<s n="IPS">1100</s>
+<t n="TR">90</t>
+<t n="TRB">90</t>
+<s n="TSR">1800</s>
+<s n="TMS">900</s>
+<s n="EPR">4</s>
+<s n="XCFT">4</s>
+<s n="XDM">0</s>
+<s n="QPR">1</s>
+</o>
+<o c="52005" c1="52018"  c2="52047">
+<s n="XDM">0</s>
+<s n="XAPN">xcap</s>
+<s n="XPT">0</s>
+<s n="XGP">80</s>
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="USSD">4</s>
+<s n="EPR">4</s>
+<s n="CURI">sip:mmtel@conf-factory.ims.mnc005.mcc520.3gppnetwork.org</s>
+</o>
+<o c="52004" c1="52000">
+<s n="XAPN">xcap</s>
+<s n="XPT">0</s>
+<s n="XGP">80</s>
+<t n="TR">90</t>
+<t n="TRB">90</t>
+<s n="TSR">900</s>
+<s n="EPR">4</s>
+<s n="XURL">xcap.ims.mnc004.mcc520.pub.3gppnetwork.org</s>
+<s n="BSF">bsf.ims.mnc004.mcc520.pub.3gppnetwork.org</s>
+<s n="CURI">sip:conf-factory.ics.mnc004.mcc520.3gppnetwork.org</s>
+</o>
+<o c="52003">
+<s n="XAPN">xcap</s>
+<s n="XPT">2</s>
+<s n="XGP">80</s>
+<s n="TSR">1800</s>
+<s n="TMS">600</s>
+<s n="USSD">4</s>
+<s n="CURI">sip:conf@ims.mnc003.mcc520.3gppnetwork.org</s>
+<s n="USI">1</s>
+</o>
+<o c="45606">
+<s n="ISIM">0</s>
+<s n="PT">1</s>
+<s n="XAPN">smart</s>
+<s n="XP">8080</s>
+<t n="TR">90</t>
+<t n="TRB">90</t>
+</o>
+<o c="51010">
+<s n="ISIM">0</s>
+<s n="PT">1</s>
+<s n="XAPN">xcap</s>
+<s n="XGP">80</s>
+<s n="TSR">900</s>
+<s n="TMS">90</s>
+<s n="SMS">4</s>
+<s n="EPR">4</s>
+</o>
+<o c="51001">
+<s n="ISIM">0</s>
+<s n="XAPN">xcap</s>
+<s n="XGP">80</s>
+<s n="TSR">900</s>
+<s n="TMS">90</s>
+<s n="EPR">4</s>
+</o>
+<o c="73002" c1="73007">
+<s n="SMS">4</s>
+<s n="XAPN">wap.tmovil.cl</s>
+<s n="CURI">sip:conference@ims.mnc002.mcc730.3gppnetwork.org</s>
+<s n="XURL">xcap.ims.mnc002.mcc730.pub.3gppnetwork.org</s>
+<s n="BSF">bsf.ims.mnc002.mcc730.pub.3gppnetwork.org</s>
+<s n="XP">8090</s>
+<s n="GRU">1</s>
+<t n="TR">60</t>
+<t n="TRB">60</t>
+<s n="XDM">0</s>
+</o>
+<o c="73003">
+<s n="APN">ims</s>
+<s n="XAPN">bam.clarochile.cl</s>
+<s n="EPR">4</s>
+<s n="XP">8090</s>
+<s n="XCFT">4</s>
+<s n="XDM">0</s>
+</o>
+<o c="73009">
+<s n="EPR">4</s>
+<s n="USSD">4</s>
+<s n="XDM">0</s>
+</o>
+<o c="73001">
+<s n="XAPN">hos</s>
+<s n="XP">8080</s>
+<s n="XGP">10080</s>
+</o>
+<o c="44010">
+<s n="MTU">65535</s>
+<s n="SMS">4</s>
+<s n="URI">sip:%N;phone-context=%d@%d;user=phone</s>
+</o>
+<o c="20801" c1="20802" c2="20829" c3="20891">
+<s n="O">18</s>
+<t n="MTU">1</t>
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="403">0</s>
+<s n="TRTB">30</s>
+<s n="TRTM">1800</s>
+<s n="PRR">1</s>
+<s n="PRRM">20</s>
+<s n="XAPN">orange</s>
+<s n="XGP">80</s>
+<s n="TPX">1</s>
+<s n="NPE">1</s>
+<s n="403">0</s>
+</o>
+<o c="20820" c1="20821" c2="20888">
+<s n="URI">sip:%N;phone-context=%d@%d;user=phone</s>
+<s n="IMEIE">1</s>
+<s n="INVDIR">1</s>
+<s n="XAPN">objcobytel.com</s>
+<s n="TSR">1800</s>
+<s n="MTU">1354</s>
+<s n="IPS">1300</s>
+<t n="T1">2</t>
+<t n="T2">16</t>
+<t n="T4">17</t>
+<t n="TF">128</t>
+<s n="TMS">900</s>
+<s n="XGP">4001</s>
+<t n="XP">4</t>
+<t n="TR">40</t>
+<t n="TRB">40</t>
+</o>
+<o c="62124">
+<s n="O">6</s>
+<s n="QPR">1</s>
+<s n="URI">sip:%N@%d</s>
+<s n="XURL">xcap.ims.mnc024.mcc621.pub.3gppnetwork.org</s>
+<s n="BSF">bsf.mnc024.mcc621.pub.3gppnetwork.org</s>
+<s n="XPT">0</s>
+<s n="USI">1</s>
+<s n="XAPN">spectranet</s>
+</o>
+<o c="65510">
+<s n="O">15</s>
+<s n="PT">1</s>
+<s n="XAPN">hos</s>
+<s n="APN">ims</s>
+<s n="EPT">1</s>
+<s n="EAPN">sos</s>
+<t n="TR">120</t>
+<t n="TRB">120</t>
+<s n="MTU">1450</s>
+<s n="CIPS">5</s>
+<s n="IAT">1</s>
+<s n="SMSC">1</s>
+<s n="TSR">1800</s>
+<s n="TMS">900</s>
+<s n="URI">sip:%N;phone-context=%d@%d;user=phone</s>
+<s n="XURL">xcap.ims.mnc010.mcc655.pub.3gppnetwork.org</s>
+<s n="BSF">bsf.mnc010.mcc655.pub.3gppnetwork.org</s>
+<s n="XGP">8090</s>
+<s n="XP">8080</s>
+<s n="USI">1</s>
+<s n="WCN">1</s>
+</o>
+<o c="90128">
+<s n="O">7</s>
+<s n="APN">ims.iot</s>
+<s n="PT">1</s>
+<s n="TSR">1800</s>
+</o>
+<o c="21401">
+<s n="O">7</s>
+<t n="TR">45</t>
+<t n="TRB">60</t>
+<s n="TSR">900</s>
+<s n="ISF">1</s>
+</o>
+<o c="21403" c1="21409" c2="21411">
+<s n="XAPN">ims</s>
+<t n="TR">60</t>
+<t n="TRB">60</t>
+<s n="TRTB">1</s>
+<s n="TRTM">1024</s>
+<s n="XDM">0</s>
+<s n="SMS">4</s>
+<s n="EPR">4</s>
+</o>
+<o c="21407">
+<s n="SMS">4</s>
+</o>
+<o c="70402">
+<s n="MTU">1300</s>
+</o>
+<o c="71606">
+<s n="XDM">0</s>
+<s n="XAPN">movistar.pe</s>
+<s n="XP">8080</s>
+<s n="USSD">4</s>
+<s n="MTU">1380</s>
+<t n="TR">90</t>
+<t n="TRB">90</t>
+</o>
+<o c="33430" c1="33403" c2="334030">
+<s n="XDM">0</s>
+<s n="CURI">sip:conference@factory.ims.movistar.mx</s>
+<s n="USSD">4</s>
+<s n="URI">sip:%N;phone-context=%d@%d;user=phone</s>
+<t n="TR">90</t>
+<t n="TRB">90</t>
+<s n="TSR">1800</s>
+<s n="TMS">1800</s>
+</o>
+<o c="33420" c1="334020">
+<s n="O">20</s>
+<s n="MTU">1080</s>
+<t n="IPS">1</t>
+<s n="XAPN">internet.itelcel.com</s>
+<s n="AFP">2</s>
+</o>
+<o c="46601"  c1="46602">
+<s n="PT">1</s>
+<s n="MTU">1280</s>
+<s n="ISIM">0</s>
+<s n="APN">ims</s>
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="SMS">4</s>
+<s n="USSD">4</s>
+<s n="XDM">0</s>
+</o>
+<o c="63102">
+<s n="ISIM">0</s>
+<s n="MTU">1500</s>
+<s n="APN">ims.unitel.co.ao</s>
+<s n="PT">1</s>
+<s n="XP">443</s>
+<s n="XGP">443</s>
+</o>
+<o c="20810" c1="20809" c2="20811" c3="20813">
+<s n="O">16</s>
+<t n="TR">45</t>
+<t n="TRB">90</t>
+<s n="TRTB">30</s>
+<s n="TRTM">1800</s>
+<s n="MTU">1230</s>
+<s n="PMTU">1300</s>
+<s n="SUF">sip:%N;phone-context=%d@%d;user=phone</s>
+<s n="EPR">4</s>
+<s n="TSR">1800</s>
+<s n="SRF">2</s>
+<s n="NPE">1</s>
+<s n="403">0</s>
+<s n="XAPN">sl2sfr</s>
+<s n="XGP">80</s>
+</o>
+<o c="732101">
+<s n="XDM">0</s>
+<s n="CWRC">480</s>
+<s n="SE">259200</s>
+<s n="MTU">1280</s>
+<t n="TR">90</t>
+<t n="TRB">90</t>
+<t n="TRTP">30</t>
+<t n="TRTCP">25</t>
+<s n="SUF">tel:%N;phone-context=%d</s>
+<s n="SCO">1</s>
+<s n="XP">8080</s>
+<s n="XAPN">Ut</s>
+<s n="EPR">3</s>
+<s n="USSD">4</s>
+</o>
+<o c="26806">
+<s n="O">7</s>
+<s n="TSR">1800</s>
+<s n="TRTB">30</s>
+<s n="TRTM">1800</s>
+<t n="TR">180</t>
+<t n="TRB">190</t>
+<s n="EPR">3</s>
+<s n="USSD">4</s>
+<s n="SMS">4</s>
+<s n="XAPN">hos</s>
+<s n="XDM">0</s>
+<s n="XGP">443</s>
+<s n="XP">443</s>
+<s n="UOT">1</s>
+<s n="GOT">1</s>
+<s n="NPE">1</s>
+<s n="403">0</s>
+</o>
+<o c="20201">
+<s n="O">14</s>
+<s n="TSR">1800</s>
+<s n="SRF">2</s>
+<s n="UA"></s>
+<s n="CIU">1</s>
+<s n="TIR">1</s>
+<s n="QPR">1</s>
+<s n="URI">sip:%N;phone-context=%d@%d;user=phone</s>
+</o>
+<o c="63902" c1="63901">
+<s n="ISIM">0</s>
+<s n="XDM">0</s>
+<s n="ACR">1</s>
+<s n="PT">1</s>
+<s n="STTR">1</s>
+<s n="IRFWA">1</s>
+</o>
+<o c="23203" c1="23204" c2="23207" c3="90140">
+<s n="O">12</s>
+<s n="MTU">1200</s>
+<t n="TR">130</t>
+<t n="TRB">130</t>
+<s n="TRTB">30</s>
+<s n="TRTM">1800</s>
+<t n="TF">128</t>
+<s n="XAPN">hos</s>
+<s n="XGP">80</s>
+<s n="NPE">1</s>
+</o>
+<o c="26203" c1="26207" c2="26208" c3="26211"  c4="26277">
+<s n="XAPN">internet</s>
+<s n="XGP">80</s>
+<s n="XCFT">7</s>
+<t n="TR">180</t>
+<t n="TRB">180</t>
+<s n="CURI">sip:teleconferenceuri-factory@telefonica.de</s>
+<s n="SMS">4</s>
+</o>
+<o c="26202" c1="26204" c2="26209" c3="26242">
+<s n="O">7</s>
+<s n="XAPN">web.vodafone.de</s>
+<s n="XGP">80</s>
+<s n="SCO">1</s>
+</o>
+<o c="40177" c1="40107">
+<s n="PT">1</s>
+<s n="CIU">1</s>
+<s n="USI">1</s>
+</o>
+<o c="46000" c1="46002" c2="46004" c3="46007" c4="46008" c5="46013" c6="46024">
+<s n="O">1</s>
+<s n="GRU">0</s>
+<s n="CURI">sip:mmtel@conf-factory.ims.mnc000.mcc460.3gppnetwork.org</s>
+<s n="INVCXL">1</s>
+</o>
+<o c="46003" c1="46011" c2="46012">
+<s n="O">10</s>
+<s n="XAPN">ctnet</s>
+<s n="TSR">1800</s>
+<s n="TMS">1800</s>
+<s n="ACR">1</s>
+<s n="INVCXL">1</s>
+</o>
+<o c="46001" c1="46006" c2="46009" c3="46010">
+<s n="O">11</s>
+<s n="XAPN">3gnet</s>
+<s n="CPR">1</s>
+<s n="IPS">1280</s>
+<s n="XAE">1</s>
+<s n="404">15</s>
+<s n="CBCL">1</s>
+<s n="INVCXL">1</s>
+</o>
+</map>

@@ -1,0 +1,5 @@
+service seh_dumper /system/bin/seh_dumper
+    class main
+    socket seh_dumper stream 0666 root system
+    user root
+    disabled

@@ -1,0 +1,14 @@
+
+on post-fs-data
+    mkdir /data/vendor/wifi 0776 root wifi
+    mkdir /data/vendor/wifi/wpa 0770 wifi wifi
+    mkdir /data/vendor/wifi/wpa/sockets 0770 wifi wifi
+    mkdir /data/vendor/wifi/fw_dump 0776 wifi system
+
+on boot
+    setprop wifi.interface wlan0
+    setprop ro.boot.wificountrycode 00
+    setprop persist.vendor.wifi.fw_dump 0
+
+on property:persist.vendor.wifi.fw_dump=1
+    write /sys/module/asr5803/parameters/fw_dump 1

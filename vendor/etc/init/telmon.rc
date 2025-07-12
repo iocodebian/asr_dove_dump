@@ -1,0 +1,2 @@
+on property:init.svc.diag=stopped
+    exec /vendor/bin/telmon diag

@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<!-- When giving IPv6 address with port, the address needs to be enclosed in Square brackets
+     For Example ::1 and 4060 can be given as [::1]:4060 -->
+<map>
+<access type="cellular">
+    <string name="KEY_PCSCF_DISCOVERY_PREFERENCE">signaling</string> <!--auto, signaling, dhcp, none -->
+</access>
+<string name="KEY_DOMAIN_PREFERENCE">PS_ONLY</string> <!-- PS_PREF, PS_ONLY, CS_PREF, CS_ONLY -->
+<!-- string name="KEY_HOME_NETWORK_DOMAIN">ims.local.pub</string -->
+<!-- string name="KEY_PUBLIC_IDENTITY">sip:1111@ims.local.pub</string -->
+<!-- string name="KEY_PRIVATE_IDENTITY">1111@ims.local.pub</string -->
+<!-- string name="KEY_PASSWORD">1111</string -->
+<boolean name="KEY_AUTH_TYPE_AKA" value="true"/>
+<boolean name="KEY_AUTH_TYPE_AKAV2" value="false"/>
+<boolean name="KEY_AUTH_TYPE_MD5" value="false"/>
+<boolean name="KEY_IMS_SUPPORT" value="true" />
+<integer name="KEY_MTU_SIZE" value="1350" />
+<integer name="KEY_IMS_CLIENT_PORT" value="5060" />
+<!-- string name="KEY_PCSCF_SERVER_ADDRESS">10.28.230.152:4060</string -->
+<!-- string name="KEY_DNS_SERVER">192.168.1.102</string-->
+<boolean name="KEY_FORMAT_PLAIN_TEXT" value="true" />
+<integer name="KEY_RETRY_BASE_TIME" value="5" /> <!-- In seconds -->
+<integer name="KEY_RETRY_MAX_TIME" value="5" /> <!-- In seconds -->
+<string name="KEY_IMS_PDP_TYPE">IPv4v6</string><!-- IPv4,IPv6,IPv4v6 -->
+<string name="KEY_IMS_PDP_APN">IMS</string>
+<boolean name="KEY_SEC_AGREE" value="true" />
+<!--integer name="KEY_IMS_PDP_CID" value="4" /-->
+<boolean name="KEY_SOFT_SIM" value="false" />
+<!-- string name="KEY_SOFT_SIM_K">465b5ce8b199b49faa5f0a2ee238a6bc</string -->
+<!-- string name="KEY_SOFT_SIM_OP">63bfa50ee6523365ff14c1f45f88737d</string -->
+<!--- string name="KEY_SOFT_SIM_OP">cdc202d5123e20f62b6d676ac72cb318</string -->
+<!-- Attention!!! Make the below true for AKAv1 -->
+<!-- string name="KEY_SMSC_NUMBER">+9880000001</string -->
+<!-- string name="KEY_SMSC_URI">sip:ims.bnglr.marvell</string -->
+<string name="KEY_MO_SMS_FORMAT">3gpp</string>
+<string name="KEY_MO_SMS_ENCODING">ascii7</string>
+<string name="KEY_SMS_PREFERENCE">PS_ONLY</string>
+<string name="KEY_IMS_RAT">lteonly</string>
+<integer name="KEY_IMS_SMS_PS_MAX_RETRY" value="1"/>
+<integer name="KEY_IMS_ATCMD_TCP_PORT" value="0" />
+<string name="KEY_SMSC_URI_TYPE_PREFERENCE">tel</string><!-- tel, sip -->
+<string name="KEY_PDP_BEARER_MODE">nw</string><!-- auto, ue, nw -->
+<string name="KEY_QOS_PREFERENCE">none</string><!-- auto, none -->
+<boolean name="KEY_VERIZON_MODE" value="false" />
+<integer name="KEY_SIP_TIMER_T1" value="2000" /> <!-- 3000 for Verizon -->
+<integer name="KEY_SIP_TIMER_T2" value="16000" />
+<integer name="KEY_SIP_TIMER_T4" value="17000" />
+<integer name="KEY_SIP_TIMER_TF" value="30000" /> <!-- 30000 for Verizon 32000 for AT&T-->
+<integer name="KEY_REG_EXPIRES" value="600000" />
+<integer name="KEY_MAX_REG_EXPIRES" value="800000" />
+<boolean name="KEY_UNSUB_REG_EVENT" value="false" /> <!-- true for Verizon -->
+<boolean name="KEY_PCSCF_BACKOFF_PREFERENCE" value="list" /> <!-- list or individual, "individual" for AT&T -->
+<boolean name="KEY_ATNT_MODE" value="false" /> <!-- true for AT&T -->
+<boolean name="PROPERTY_IMS_SET_TCP_MAXSEG" value="true" /> 
+<boolean name="PROPERTY_IMS_AKA_ERTCA" value="true" /> 
+<boolean name="KEY_IMS_MWI_SUPPORT" value="false" /> <!-- true to enable MWI -->
+<boolean name="KEY_BARRED_ID_CHECKING" value="false" /> <!-- true to enable checking during registration -->
+<boolean name="KEY_CONF_IGNORE_VOPS_IND" value="false" /> <!-- true to ignore VOPS indication from Network -->
+<!--string name="KEY_LOCAL_URI_FORMAT">tel:%n;phone-context=%d</string--><!-- '?' will be replaced by number -->
+<string name="KEY_LOCAL_URI_FORMAT">sip:%n@%d;user=phone</string><!-- '?' will be replaced by number -->
+<string name="KEY_VIDEO_RESOLUTION">VGA</string><!-- '?' will be replaced by number -->
+<string name="KEY_INTERNATIONAL_URI_FORMAT">tel:%N</string><!-- '?' will be replaced by number -->
+<boolean name="KEY_IMS_SHORT_ENCODING" value="true" /> <!-- true to enable short encoding of IMS headers as per RFC 3261 -->
+<!--string name="KEY_CONF_FACTORY_URI">sip:conference@ims.mnc874.mcc405.3gppnetwork.org</string -->
+<boolean name="KEY_IMS_VOICE_SUPPORT" value="true" /> <!-- false to disable support for voice calls in SCC. Same as Voice_Capability_Mode in NVM -->
+<boolean name="KEY_MO_SMS_OVER_IMS" value="true" /> <!-- true to enable SMS Over IMS. Default is true-->
+<boolean name="KEY_IMS_DISABLE_PRECOND_FOR_UPGRADE" value="true" /> <!-- true to ignore VOPS indication from Network -->
+<!--string name="KEY_IMS_ATCMD_TTY">/dev/citty8</string-->
+<integer name="KEY_IMS_BOOTUP_POWER_STATE" value="0"/>
+<integer name="KEY_IMS_MEDIA_CVO_SUPPORT" value="0"/>
+<boolean name="KEY_IMS_GRUU_SUPPORT" value="false" />
+<boolean name="KEY_IMS_INITIAL_SDP_ANSWER" value="true" />
+<boolean name="KEY_IMS_OFFER_ALL_CODECS_IN_REINVITE" value="true" />
+<string name="KEY_IMS_EARLY_MEDIA_SUPPORT">pearlymedia</string> <!--auto(default), pearlymedia, none-->
+<string name="KEY_IMS_AUDIOCODEC">AMR-WB</string>
+<string name="KEY_IMS_AUDIOCODEC">AMR</string>
+<!--integer name="KEY_IMS_AMRWB_MODE" value="0"/-->
+<!--integer name="KEY_IMS_AMRWB_MODE" value="2"/-->
+<!--integer name="KEY_IMS_AMRWB_MODE" value="4"/-->
+<!--integer name="KEY_IMS_AMRWB_MODE" value="7"/-->
+<boolean name="KEY_XDM_SUPPORT" value="true" />
+<string name="KEY_XCAP_PDP_APN">jionet</string>
+<integer name="KEY_VIDEO_FRAMERATE" value="20"/> <!-- Video Frames per second. Default leave it to 15. -->
+<string name="KEY_IMS_OPERATOR">ril</string>
+<boolean name="KEY_IMS_SUBSCRIBE_CONF_OUT_DIALOG" value="true" />
+<string name="KEY_IMS_AMRWB_FRAMING_PREF">octet-aligned</string>
+<string name="KEY_IMS_AMR_FRAMING_PREF">octet-aligned</string>
+</map>

@@ -1,0 +1,14 @@
+
+on early-boot
+    mkdir /data/vendor/adsp 0775 root audio
+    mkdir /data/vendor/audiohal 0770 audioserver audio
+    restorecon_recursive /data/vendor/adsp
+    restorecon_recursive /sys/devices/platform/soc/d401d100.adsp
+    start adspd
+
+service adspd /vendor/bin/adspd -n /sys/devices/platform/soc/d401d100.adsp -e -f
+    class main
+    user root
+    group audio
+    writepid /dev/cpuset/system-background/tasks
+

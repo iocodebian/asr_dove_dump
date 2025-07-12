@@ -1,0 +1,74 @@
+{302,	220,	"TELUS","isp.telus.com"}
+{302,	320,	"DOVE",	"wap.davewireless.com"}
+{302,	370,	"Fido",	"ltedata.apn"}
+{302,	490,	"Wind",	"internet.windmobile.ca"}
+{302,	500,	"Videotron",	"media.videotron"}
+{302,	610,	"Bell",	"pda.bell.ca"}
+{302,	720,	"ltedata.apn"}
+{302,	720,	"Rogers",	"ltemobile.apn"}
+{302,	780,	"SaskTel",	"pda.stm.sk.ca"}
+{310,	030,	"Centennial",	"private.centennialwireless.com",	"0",	"PAP",	"privuser",	"priv"}
+{310,	090,	"AT&T",	"isp"}
+{310,	100,	"Plateau",	"plateauweb"}
+{310,	160,	"T-Mobile",	"epc.tmobile.com"}
+{310,	170,	"AT&T",	"isp.cingular"}
+{310,	200,	"T-Mobile",	"epc.tmobile.com"}
+{310,	210,	"T-Mobile",	"epc.tmobile.com"}
+{310,	220,	"T-Mobile",	"epc.tmobile.com"}
+{310,	230,	"T-Mobile",	"epc.tmobile.com"}
+{310,	240,	"T-Mobile",	"epc.tmobile.com"}
+{310,	250,	"T-Mobile",	"epc.tmobile.com"}
+{310,	260,	"T-Mobile",	"epc.tmobile.com"}
+{310,	270,	"T-Mobile",	"epc.tmobile.com"}
+{310,	310,	"T-Mobile",	"epc.tmobile.com"}
+{310,	380,	"AT&T",	"proxy"}
+{310,	410,	"AT&T",	"wap.cingular",	"0",	"PAP",	"WAP@CINGULARGPRS.COM",	"CINGULAR1"}
+{310,	470,	"DOCOMOPA",	"isp.cingular",	"0",	"PAP",	"WAP@CINGULARGPRS.COM",	"CINGULAR1"}
+{310,	480,	"DataConnect",	"isp.cingular",	"0",	"PAP",	"WAP@CINGULARGPRS.COM",	"CINGULAR1"}
+{310,	490,	"T-Mobile",	"epc.tmobile.com"}
+{310,	580,	"T-Mobile",	"epc.tmobile.com"}
+{310,	610,	"Epic Touch",	"internet.epictouch"}
+{310,	660,	"T-Mobile",	"epc.tmobile.com"}
+{310,	770,	"I Wireless",	"i2.iwireless.com"}
+{310,	800,	"T-Mobile",	"epc.tmobile.com"}
+{310,	840,	"Telna",	"isp"}
+{310,	910,	"First Cellular",	"wap.firstcellular.com"}
+{311,	210,	"Farmers",	"internet.farmerswireless.com"}
+{330,	110,	"Claro",	"internet.claropr.com"}
+{334,	020,	"Telcel",	"internet.itelcel.com",	"0",	"PAP",	"webgprs",	"webgprs2002"}
+{334,	030,	"Movistar",	"internet.movistar.mx",	"0",	"PAP",	"movistar",	"movistar"}
+{334,	050,	"Iusacell",	"web.iusacellgsm.mx"}
+{338,	050,	"Digicel",	"web",	"0",	"PAP",	"Iusacellgsm",	"Iusacellgsm"}
+{338,	180,		"Lime",			"internet"}
+{338,	070,	"Claro",		"internet.ideasclaro.com.jm"}
+{340,	01,		"Orange",	"orangewap",	"0",	"PAP",	"orange",	"wap"}
+{340,	20,	"Digicel FR",	"wap.digicelfr.com",	"0",	"PAP",	"wap",	"wap"}
+{342,	60,	"Lime",	"internet"}
+{342,	92,	"Lime",	"internet"}
+{346,	14,	"Lime",	"internet"}
+{348,	17,	"Lime",	"internet"}
+{352,	11,	"Lime",	"internet"}
+{354,	86,	"Lime",	"internet"}
+{356,	11,	"Lime",	"internet"}
+{358,	11,	"Lime",	"internet"}
+{360,	11,	"Lime",	"internet"}
+{363,	02,	"Digicel",	"web"}
+{365,	84,	"Lime",	"internet"}
+{366,	11,	"CubaCel",	"internet"}
+{370,	01,	"Orange",	"orangenet.com.do",	"0",	"PAP",	"orange",	"orange"}
+{370,	02,	"CLARO",	"internet.ideasclaro.com.do"}
+{370,	04,	"Viva",	"edge.viva.net.do",	"0",	"PAP",	"viva",	"viva"}
+{372,	01,	"Voila",	"internet.voila.ht"}
+{374,	12,	"Bmobile",	"internet"}
+{374,	121,	"Bmobile",	"internet"}
+{374,	122,	"Bmobile",	"internet"}
+{374,	123,	"Bmobile",	"internet"}
+{374,	124,	"Bmobile",	"internet"}
+{374,	125,	"Bmobile",	"internet"}
+{374,	126,	"Bmobile",	"internet"}
+{374,	127,	"Bmobile",	"internet"}
+{374,	128,	"Bmobile",	"internet"}
+{374,	129,	"Bmobile",	"internet"}
+{374,	13,	"Digicel",	"web.digiceltt.com",	"0",	"PAP",	"wap",	"wap"}
+{376,	35,	"Lime",	"internet"}
+{310,	120,	"Sprint",	"Sprint"}

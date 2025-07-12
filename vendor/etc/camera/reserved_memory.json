@@ -1,0 +1,30 @@
+{
+    "ispMem0":{
+        "bufferNum":2,
+        "size":272000,
+        "cached":1,
+        "continuous":0,
+        "poolName":"ispPipeRegMem"
+    },
+    "ispMem1":{
+        "bufferNum":4,
+        "size":14764,
+        "cached":1,
+        "continuous":0,
+        "poolName":"ispStat3A"
+    },
+    "ispMem2":{
+        "bufferNum":4,
+        "size":1048576,
+        "cached":1,
+        "continuous":1,
+        "poolName":"ispStatPdc"
+    },
+    "ispMem3":{
+        "bufferNum":4,
+        "size":6000,
+        "cached":1,
+        "continuous":1,
+        "poolName":"ispStatEis"
+    }
+}

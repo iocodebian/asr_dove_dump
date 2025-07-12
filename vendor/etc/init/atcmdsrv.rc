@@ -1,0 +1,11 @@
+on property:init.svc.atcmdsrv=stopped
+    exec /vendor/bin/telmon atcmdsrv
+
+service atcmdsrv /vendor/bin/atcmdsrv
+    disabled
+    oneshot
+    group root system net_admin
+
+service atcmdsrv-aponly /vendor/bin/atcmdsrv -A
+    disabled
+    group system

@@ -1,0 +1,68 @@
+#!/system/bin/sh
+
+
+/vendor/bin/hwtest_audio -f5
+
+usleep 10000
+
+n=0
+while [ $n -lt 10 ]
+do
+    name=$(getevent -i /dev/input/event$n|/vendor/bin/toybox_vendor grep Headset)
+    if [ $? -eq 0 ]
+    then
+        echo event$n, $name
+        break
+    fi
+    n=`expr $n + 1`
+done
+
+if [ $1 = "is_key" ]; then
+    value=$(/vendor/bin/toybox_vendor timeout 3 getevent -c1 -l /dev/input/event$n|/vendor/bin/toybox_vendor grep EV_KEY)
+else
+    value=$(getevent -S /dev/input/event$n)
+fi
+
+if [ $? -ne 0 ]; then
+    echo "headset test fail"
+    /vendor/bin/hwtest_audio -f6
+    exit 1
+fi
+
+/vendor/bin/hwtest_audio -f6
+
+if [ $1 = "is_in" ]; then
+    echo "test headset in"
+    if [ $value = "0000" ]; then
+	echo "headset is off"
+	exit 1
+    else
+	echo "headset is in"
+	exit 0
+    fi
+fi
+
+if [ $1 = "is_off" ]; then
+    echo "test headset off"
+    if [ $value = "0000" ]; then
+	echo "headset is off"
+	exit 0
+    else
+	echo "headset is in"
+	exit 1
+    fi
+fi
+
+if [ $1 = "is_key" ]; then
+    echo "test headset key"
+    if [ ! "$value" ]; then
+        exit 1
+    fi
+    echo "$value"
+    exit 0
+fi
+
+echo "Please use is_in or is_off or is_key to test headset status!"
+
+exit 1
+

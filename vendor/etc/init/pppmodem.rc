@@ -1,0 +1,5 @@
+service pppmodem /vendor/bin/pppmodem
+    disabled
+    oneshot
+    group system
+    user system

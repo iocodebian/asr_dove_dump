@@ -1,0 +1,115 @@
+#!/system/bin/sh
+
+get_battery_path()
+{
+    for file in /sys/class/power_supply/*
+    do
+        supply_type=`cat $file/type`
+        if [ "$supply_type" = "Battery" ]
+        then
+            break
+        fi
+    done
+    echo $file
+}
+
+check_dummy_battery()
+{
+    if [ -L /sys/class/power_supply/battery ]
+    then
+        link_path=`readlink /sys/class/power_supply/battery`
+        if [ "$link_path" = "../../devices/platform/dummy_battery/power_supply/battery" ]
+        then
+            return 1
+        fi
+    fi
+    return 0
+}
+
+check_dummy_battery
+if [ $? -eq 1 ]
+then
+    echo "dummy battery!"
+    exit 1
+fi
+
+bat_path=`get_battery_path`
+
+if [ $1 == "checkvbus" ]; then
+    vbus=`cat $bat_path/device/vbus_volt`
+    echo "vbus voltage = $vbus"
+    if [[ $vbus -gt 3900 ]]; then
+        exit 0
+    else
+        exit 1
+    fi
+fi
+
+if [ $1 == "checktemp" ]; then
+    temp=`cat $bat_path/temp`
+    echo "battery temperature = $temp"
+    if [ $temp -ge 150 -a $temp -le 350 ]
+    then
+        echo "BATTERYTEMP=1 battery temperature=$temp" > /mnt/media_rw/ata_test_result
+        exit 0
+    fi
+    echo "battery temperature = $temp" > /mnt/media_rw/ata_test_result
+    echo "ATA:The battery temperature is not within normal value!"
+    exit 1
+fi
+
+if [ $1 == "readvol" -o $1 == "checkvol" ]; then
+    voltage=`cat $bat_path/voltage_now`
+    echo "battery voltage = $voltage"
+    if [ ! $voltage ]; then
+        exit 1
+    fi
+fi
+
+if [ $1 == "readvol" ]; then
+    vol=`expr $voltage / 1000`
+    echo "BATTERYVOLTAGE=$vol" > /mnt/media_rw/ata_test_result
+    exit $?
+fi
+
+if [ $1 == "checkvol" ]; then
+    if [ $voltage -lt 3300000 ]
+    then
+        echo "battery voltage is too low!"
+        exit 1
+    fi
+
+    if [ $voltage -gt 4400000 ]
+    then
+        echo "battery voltage is too high!"
+        exit 1
+    fi
+
+    echo "battery voltage is OK!"
+    exit 0
+fi
+
+if [ $1 == "checkcurrent" ]; then
+    test_count=1
+    while [ $test_count -le 8 ]
+    do
+        echo "test_count  = $test_count"
+        current=`cat $bat_path/current_now`
+        echo "battery current = $current"
+        if [ $current -ge 150 ]
+        then
+            echo "CHARGERCUR=1 current=$current" > /mnt/media_rw/ata_test_result
+            exit 0
+        fi
+        let test_count++
+        if [ $test_count -le 8 ]
+        then
+            sleep 3
+        fi
+    done
+    echo "charge current = $current" > /mnt/media_rw/ata_test_result
+    echo "charge current less than 150mA!"
+    exit 1
+fi
+
+exit 1

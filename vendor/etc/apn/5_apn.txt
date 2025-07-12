@@ -1,0 +1,42 @@
+{502,	12,	"Maxis 3G",	"unet",	"0",	"PAP",	"maxis",	"wap"}
+{502,	12,	"Maxis Internet",	"net"}
+{502,	16,	"DiGi",	"diginet"}
+{502,	18,	"U Mobile",	"my3g"}
+{502,	19,	"Celcom 3G",	"celcom3g"}
+{502,	19,	"Celcom Internet",	"celcom.net.my"}
+{505,	02,	"Optus Yes",	"yesinternet"}
+{505,	02,	"Optus Internet",	"internet"}
+{505,	02,	"Optus Business",	"yesbusiness"}
+{505,	03,	"Vodafone",	"live.vodafone.com"}
+{505,	06,	"Vodafone",	"live.vodafone.com"}
+{505,	07,	"Vodafone",	"live.vodafone.com"}
+{505,	07,	"VF Internet",	"vfinternet.au"}
+{505,	11,	"Telstra",	"Telstra.wap"}
+{505,	12,	"Vfinternet",	"3netaccess"}
+{505,	71,	"Telstra",	"Telstra.wap"}
+{505,	72,	"Telstra",	"Telstra.wap"}
+{505,	88,	"Vfinternet",	"vfinternet.au"}
+{505,	90,	"Optus",	"internet"}
+{510,	01,	"Indosat",	"indosat3g",	"0",	"PAP",	"indosat",	"indosat"}
+{510,	08,	"AXIS",	"AXIS",	"0",	"PAP",	"AXIS",	"AXIS"}
+{510,	10,	"Telkomsel",	"internet",	"0",	"PAP",	"wap",	"wap123"}
+{510,	11,	"XL GPRS",	"www.xlgprs.net",	"0",	"PAP",	"xlgprs",	"proxl"}
+{510,	11,	"XL Unlimited",	"xlunlimited"}
+{510,	21,	"Indosat",	"indosatgprs",	"0",	"PAP",	"indosat",	"indosat"}
+{510,	89,	"3 GPRS",	"3gprs",	"0",	"PAP",	"3gprs",	"3gprs"}
+{515,	02,	"Globe Postpaid",	"internet.globe.com.ph"}
+{515,	02,	"Globe Prepaid",	"http.globe.com.ph"}
+{515,	03,	"Smart",	"internet"}
+{515,	05,	"SUN",	"minternet"}
+{515,	08,	"RED",	"redinternet"}
+{520,	01,	"AIS",	"internet"}
+{520,	18,	"DTAC",	"www.dtac.co.th"}
+{520,	99,	"True",	"internet",	"0",	"PAP",	"true",	"true"}
+{525,	01,	"IDEAS",	"e-ideas"}
+{525,	02,	"IDEAS",	"e-ideas"}
+{525,	03,	"M1",	"sunsurf"}
+{525,	05,	"StarHub",	"internet"}
+{525,	05,	"Gee!",	"shwap",	"0",	"PAP",	"star",	"hub"}
+{530,	01,	"Vodafone!",	"www.vodafone.net.nz"}
+{530,	05,	"Telecom!",	"http://lsmmsc.xtra.co.nz"}
+{530,	24,	"2degrees",	"internet"}

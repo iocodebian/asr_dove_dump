@@ -1,0 +1,71 @@
+{704,	01,	"CLARO",	"internet.ideasclaro"}
+{704,	02,	"TIGO",	"broadband.tigo.gt"}
+{704,	03,	"movistar",	"internet.movistar.gt",	"0",	"PAP",	"movistargt",	"movistargt"}
+{706,	01,	"CLARO",	"internet.ideasclaro"}
+{706,	02,	"Digicel",	"web.digicelsv.com"}
+{706,	03,	"TIGO",	"internet.tigo.sv"}
+{706,	04,	"movistar",	"internet.movistar.sv",	"0",	"PAP",	"movistarsv",	"movistarsv"}
+{708,	01,	"Claro",	"internet.ideasclaro"}
+{708,	02,	"TIGO",	"internet.tigo.hn"}
+{710,	300,	"movistar",	"internet.movistar.ni",	"0",	"PAP",	"movistarni",	"movistarni"}
+{710,	21,	"INTERNET",	"web.emovil",	"0",	"PAP",	"webemovil",	"webemovil"}
+{710,	730,	"INTERNET",	"web.emovil",	"0",	"PAP",	"webemovil",	"webemovil"}
+{712,	01,	"Kolbi",	"kolbi3g"}
+{712,	02,	"Kolbi",	"kolbi3g"}
+{712,	03,	"CLARO",	"internet.ideasclaro"}
+{712,	04,	"movistar",	"internet.movistar.cr",	"0",	"PAP",	"movistarcr",	"movistarcr"}
+{714,	01,	"Cable",	"apn01.cwpanama.com.pa"}
+{714,	020,	"movistar",	"internet.movistar.pa",	"0",	"PAP",	"movistarpa",	"movistarpa"}
+{714,	03,	"CLARO",	"web.claro.com.pa",	"0",	"PAP",	"CLAROWEB",	"CLAROWEB"}
+{714,	04,	"Digicel",	"web.digicelpanama.com"}
+{716,	06,	"movistar",	"movistar.pe",	"0",	"PAP",	"movistar@datos",	"movistar"}
+{716,	10,	"CLARO",	"claro.pe",	"0",	"PAP",	"claro",	"claro"}
+{722,	07,	"movistar",	"wap.gprs.unifon.com.ar"}
+{722,	31,	"Claro",	"igprs.claro.com.ar",	"0",	"PAP",	"ctigprs",	"ctigprs999"}
+{722,	310,	"Claro",	"igprs.claro.com.ar",	"0",	"PAP",	"ctigprs",	"ctigprs999"}
+{722,	34,	"Personal Datos",	"igprs.claro.com.ar",	"0",	"PAP",	"datos",	"datos"}
+{724,	02,	"TIM",	"timbrasil.br",	"0",	"PAP",	"tim",	"tim"}
+{724,	03,	"TIM",	"timbrasil.br",		"0",	"PAP",	"tim",	"tim"}
+{724,	04,	"TIM",	"timbrasil.br",		"0",	"PAP",	"tim",	"tim"}
+{724,	05,	"claro",	"java.claro.com.br",	"0",	"PAP",	"claro",	"claro"}
+{724,	06,	"Vivo",	"zap.vivo.com.br",	"0",	"PAP",	"vivo",	"vivo"}
+{724,	07,	"SCTL",	"sercomtel.com.br",	"0",	"PAP",	"sercomtel",	"sercomtel"}
+{724,	10,	"Vivo",	"zap.vivo.com.br",	"0",	"PAP",	"vivo",	"vivo"}
+{724,	11,	"Vivo",	"zap.vivo.com.br"	,"0",		"PAP",	"vivo",	"vivo"}
+{724,	16,	"BRA SCTL",	"gprs.oi.com.br"}
+{724,	19,	"TelemigC",	"gprs.telemigcelular.com.br",	"0",	"PAP",	"celular",	"celular"}
+{724,	23,	"Vivo",	"zap.vivo.com.br",	"0",	"PAP",	"vivo",	"vivo"}
+{724,	23,	"BRA SCTL",	"gprs.oi.com.br"}
+{724,	31,	"BRA SCTL",	"gprs.oi.com.br"}
+{730,	01,	"entel",	"bam.entelpcs.cl",	"0",	"PAP",	"entelpcs",	"entelpcs"}
+{730,	10,	"entel",	"bam.entelpcs.cl",	"0",	"PAP",	"entelpcs",	"entelpcs"}
+{730,	02,	"movistar",	"wap.tmovil.cl"}
+{730,	03,	"BAM",	"bam.clarochile.cl",	"0",	"PAP",	"clarochile",	"clarochile"}
+{730,	07,	"gtdmovil",	"web.gtdmovil.cl"}
+{730,	07,	"Gtel",	"gtel.netline.net",	"0",	"PAP",	"webgtd",	"webgtd"}
+{730,	08,	"movil",	"movil.vtr.com",	"0",	"PAP",	"vtrmovil",	"vtrmovil"}
+{732,	101,	"Comcel",	"internet.comcel.com.co",	"0",	"PAP",	"COMCELWEB",	"COMCELWEB"}
+{732,	103,	"TIGO",	"web.colombiamovil.com.co"}
+{732,	111,	"TIGO",	"web.colombiamovil.com.co"}
+{732,	123,	"movistar",	"internet.movistar.com.co",	"0",	"PAP",	"movistar",	"movistar"}
+{734,	01,	"Digitel",	"gprsweb.digitel.ve"}
+{734,	02,	"Digitel",	"gprsweb.digitel.ve"}
+{734,	03,	"Digitel",	"gprsweb.digitel.ve"}
+{734,	04,	"movistar",	"internet.movistar.ve"}
+{734,	04,	"movil",	"int.movilnet.com.ve"}
+{736,	01,	"nuevatel",	"3g.nuevatel.com"}
+{736,	02,	"ENTEL",	"wap.movil.com.bo"}
+{736,	02,	"ENTEL",	"4g.entel"}
+{736,	04,	"tigo",	"internet.tigo.bo"}
+{736,	03,	"tigo",	"internet.tigo.bo"}
+{740,	00,	"movistar",	"internet.movistar.com.ec",	"0",	"PAP",	"movistar",	"movistar"}
+{740,	01,	"Claro",	"internet.claro.com.ec"}
+{740,	010,	"Claro",	"internet.claro.com.ec"}
+{740,	02,	"CNT",	"internet3gsp.alegro.net.ec"}
+{744,	01,	"VOX",	"vox.internet"}
+{744,	02,	"Claro",	"igprs.claro.com.py",	"0",	"PAP",	"ctigprs",	"ctigprs999"}
+{744,	04,	"TIGO",	"internet.tigo.py"}
+{744,	05,	"Personal",	"internet",	"0",	"PAP",	"personal",	"personal"}
+{748,	01,	"ancel",	"gprs.ancel"}
+{748,	07,	"movistar",	"webapn.movistar.com.uy",	"0",	"PAP",	"movistar",	"movistar"}
+{748,	10,	"Claro",	"igprs.claro.com.uy",	"0",	"PAP",	"ctigprs",	"ctigprs999"}

@@ -1,0 +1,21 @@
+{602,	01,	"Mobinil",	"MobinilWeb"}
+{602,	02,	"Vodafone",	"internet.vodafone.net",	"0",	"PAP",	"internet",	"internet"}
+{602,	03,	"Etisalat",	"Etisalat"}
+{605,	01,	"Orange",	"weborange"}
+{605,	02,	"Tunisie",	"gprs.tn",	"0",	"PAP",	"gprs",	"gprs"}
+{605,	03,	"Tunisiana",	"internet.tunisiana.com",	"0",	"PAP",	"internet",	"internet"}
+{621,	20,	"Zain",	"internet.ng.Zain.com"}
+{621,	30,	"MTN",	"web.gprs.mtnnigeria.net",	"0",	"PAP",	"web",	"web"}
+{621,	50,	"Glo",	"glosecure",	"0",	"PAP",	"gprs",	"gprs"}
+{621,	20,	"Etisalat",	"etisalat"}
+{639,	02,	"Safaricom",	"Safaricom",	"0",	"PAP",	"saf",	"data"}
+{639,	03,	"Zain",	"wap.ke.celtel.com",	"0",	"PAP",	"wap",	"wap"}
+{639,	07,	"Orange",	"wap.orange.co.ke"}
+{639,	04,	"Vodacom",	"Wap"}
+{647,	00,	"Orange",	"orangerun",	"0",	"PAP",	"orange",	"orange"}
+{647,	10,	"SFR",	"wapsfr",	"0",	"PAP",	"wap",	"wap"}
+{651,	01,	"VCL",	"internet"}
+{655,	01,	"Vodacom",	"internet"}
+{655,	02,	"8.ta",	"internet"}
+{655,	07,	"Cell C",	"internet"}
+{655,	10,	"MTN",	"myMTN"}

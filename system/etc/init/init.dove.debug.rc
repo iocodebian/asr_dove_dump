@@ -1,0 +1,8 @@
+on property:sys.boot_completed=1 && property:sys.asr_monkey=1
+   start asrmonkey
+
+service asrmonkey /system/bin/init.dove.debug.sh
+    class main
+    seclabel u:r:shell:s0
+    disabled
+    oneshot

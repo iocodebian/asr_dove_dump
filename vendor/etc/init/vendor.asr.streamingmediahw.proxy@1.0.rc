@@ -1,0 +1,7 @@
+service streamingmedia.proxy  /vendor/bin/hw/vendor.asr.streamingmediahw.proxy@1.0-service
+    class main
+    user media
+    group system audio camera media inet net_bt net_bt_admin net_bw_acct drmrpc mediadrm
+    ioprio rt 4
+    writepid /dev/cpuset/foreground/tasks /dev/stune/foreground/tasks
+

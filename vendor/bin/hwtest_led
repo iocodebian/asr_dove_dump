@@ -1,0 +1,77 @@
+#!/system/bin/sh
+
+
+led_cam()
+{
+if [ "$1" = "open" ];then
+        echo "open led !"
+        # value 10 is determined according to camera flash driver
+        brightness=10
+        echo $brightness > /sys/class/leds/torch/brightness
+    else
+        echo "close led !"
+        echo 0 > /sys/class/leds/torch/brightness
+fi
+}
+
+led_bl()
+{
+if [ "$3" = "mipi" ];then
+    echo "mipi panel backlight"
+elif [ "$3" = "dc" ];then
+    echo "dc panel backlight"
+fi
+
+if [ "$1" = "open" ];then
+    echo "open led !"
+    brightness=64
+
+    if [ -e "/sys/class/backlight/pwm_bl/brightness" ];then
+        echo $brightness > /sys/class/backlight/pwm_bl/brightness
+    fi
+
+    if [ -e "/sys/class/leds/led/brightness" ];then
+        echo $brightness > /sys/class/leds/led/brightness
+    fi
+
+    if [ -e "/sys/devices/platform/asr-backlight.0/brightness" ];then
+        echo $brightness > /sys/devices/platform/asr-backlight.0/brightness
+    fi
+else
+    echo "close led !"
+
+    if [ -e "/sys/class/backlight/pwm_bl/brightness" ];then
+        echo 0 > /sys/class/backlight/pwm_bl/brightness
+    fi
+
+    if [ -e "/sys/class/leds/led/brightness" ];then
+        echo 0 > /sys/class/leds/led/brightness
+    fi
+
+    if [ -e "/sys/devices/platform/asr-backlight.0/brightness" ];then
+        echo 0 > /sys/devices/platform/asr-backlight.0/brightness
+    fi
+fi
+}
+
+led_main()
+{
+
+echo "para is $1 $2 $3"
+
+if [ "$2" = "lcd" ];then
+    led_bl $1 $2 $3
+    exit $?
+fi
+
+if [ "$2" = "cam" ];then
+    led_cam $1
+    exit $?
+fi
+
+exit 1
+}
+
+
+led_main $1 $2 $3
+

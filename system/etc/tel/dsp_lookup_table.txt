@@ -1,0 +1,7 @@
+0x807F,UlPath modem Assert
+0x80FF,ICS modem Assert
+0x817F,FLC modem Assert
+0x81FF,DLPath modem Assert
+0x827F,RF modem Assert
+0x82FF,Meas modem Assert
+0x26F1,Unknown Assert
